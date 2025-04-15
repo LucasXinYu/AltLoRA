@@ -1,7 +1,0 @@
-
-  File "/data/home/yjw5427/aslora_new/main_lora.py", line 806, in <module> | 0/1000 [00:00<?, ?it/s]
-    main()
-  File "/data/home/yjw5427/aslora_new/main_lora.py", line 719, in main
-    train_result = trainer.train(resume_from_checkpoint=checkpoint)
-  File "/home/yjw5427/miniconda3/envs/aslora/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
-    return inner_training_loop(
