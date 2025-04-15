@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████| 21/21 [00:56<00:00,  2.69s/it]
+{'train_runtime': 69.883, 'train_samples_per_second': 1.202, 'train_steps_per_second': 0.301, 'train_loss': 1.4638446626209078, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  train_loss               =     1.4638
+  train_runtime            = 0:01:09.88
+  train_samples            =        350
+  train_samples_per_second =      1.202
+  train_steps_per_second   =      0.301
+11
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+ 91%|████████████████████████████████████████████████████████████████████████▋       | 10/11 [00:26<00:02,  2.69s/it]
+{'train_runtime': 29.6701, 'train_samples_per_second': 1.483, 'train_steps_per_second': 0.371, 'train_loss': 1.483290585604581, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  train_loss               =     1.4833
+  train_runtime            = 0:00:29.67
+  train_samples            =        177
+  train_samples_per_second =      1.483
+100%|████████████████████████████████████████████████████████████████████████████████| 11/11 [00:29<00:00,  2.70s/it]
+  0%|                                                                                          | 0/7 [00:00<?, ?it/s]
+7
+
+
+
+
+
+
+ 86%|██████████████████████████████████████████████████████████████████████▎           | 6/7 [00:16<00:02,  2.71s/it]
+100%|██████████████████████████████████████████████████████████████████████████████████| 7/7 [00:18<00:00,  2.71s/it]
+  0%|                                                                                          | 0/7 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =        1.0
+  train_loss               =     1.4671
+  train_runtime            = 0:00:18.98
+  train_samples            =        119
+  train_samples_per_second =      1.475
+  train_steps_per_second   =      0.369
+7
+  File "fed_lora.py", line 920, in <module>                                                    | 0/7 [00:00<?, ?it/s]
+    main()
+  File "fed_lora.py", line 777, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/lib/python3.8/site-packages/transformers/trainer.py", line 1591, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/lib/python3.8/site-packages/transformers/trainer.py", line 1894, in _inner_training_loop
+    if (
+KeyboardInterrupt

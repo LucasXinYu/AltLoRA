@@ -1,0 +1,138 @@
+                                                                                   /home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py:1073: UserWarning: compute_loss is only implemented for DPODataCollatorWithPadding, and you passed a datacollator that is different than DPODataCollatorWithPadding - you might see unexpected behavior. Alternatively, you can implement your own prediction_step method if you are using a custom data collator
+  warnings.warn(                                           | 0/125 [00:00<?, ?it/s]
+[WARNING|logging.py:328] 2025-03-18 01:55:18,502 >> Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+[WARNING|modeling_utils.py:1279] 2025-03-18 01:55:18,972 >> Could not estimate the number of tokens of the input, floating-point operations will not be computed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in checkpoints_moe/Meta-Llama-3-8B/TIGER-Lab/MathInstruct/3e-6_noniid_lora_full - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 306.8482, 'train_samples_per_second': 1.629, 'train_steps_per_second': 0.407, 'train_loss': 0.6929255981445313, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =        0GF
+  train_loss               =     0.6929
+  train_runtime            = 0:05:06.84
+  train_samples            =          5
+  train_samples_per_second =      1.629
+  train_steps_per_second   =      0.407

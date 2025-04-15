@@ -1,0 +1,959 @@
+2025-03-17 23:26:51,682 INFO    StreamThr :1688616 [internal.py:wandb_internal():86] W&B internal server running at pid: 1688616, started at: 2025-03-17 23:26:51.681183
+2025-03-17 23:26:51,685 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status
+2025-03-17 23:26:51,691 INFO    WriterThread:1688616 [datastore.py:open_for_write():87] open: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/run-u72e2p7z.wandb
+2025-03-17 23:26:51,692 DEBUG   SenderThread:1688616 [sender.py:send():379] send: header
+2025-03-17 23:26:51,692 DEBUG   SenderThread:1688616 [sender.py:send():379] send: run
+2025-03-17 23:26:51,930 INFO    SenderThread:1688616 [dir_watcher.py:__init__():211] watching files in: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files
+2025-03-17 23:26:51,931 INFO    SenderThread:1688616 [sender.py:_start_run_threads():1124] run started: u72e2p7z with start time 1742268411.680515
+2025-03-17 23:26:51,936 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: check_version
+2025-03-17 23:26:51,937 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: check_version
+2025-03-17 23:26:52,030 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: run_start
+2025-03-17 23:26:52,061 DEBUG   HandlerThread:1688616 [system_info.py:__init__():26] System info init
+2025-03-17 23:26:52,061 DEBUG   HandlerThread:1688616 [system_info.py:__init__():41] System info init done
+2025-03-17 23:26:52,061 INFO    HandlerThread:1688616 [system_monitor.py:start():194] Starting system monitor
+2025-03-17 23:26:52,061 INFO    SystemMonitor:1688616 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-03-17 23:26:52,061 INFO    HandlerThread:1688616 [system_monitor.py:probe():214] Collecting system info
+2025-03-17 23:26:52,062 INFO    SystemMonitor:1688616 [interfaces.py:start():190] Started cpu monitoring
+2025-03-17 23:26:52,062 INFO    SystemMonitor:1688616 [interfaces.py:start():190] Started disk monitoring
+2025-03-17 23:26:52,063 INFO    SystemMonitor:1688616 [interfaces.py:start():190] Started gpu monitoring
+2025-03-17 23:26:52,063 INFO    SystemMonitor:1688616 [interfaces.py:start():190] Started memory monitoring
+2025-03-17 23:26:52,064 INFO    SystemMonitor:1688616 [interfaces.py:start():190] Started network monitoring
+2025-03-17 23:26:52,093 DEBUG   HandlerThread:1688616 [system_info.py:probe():150] Probing system
+2025-03-17 23:26:52,095 DEBUG   HandlerThread:1688616 [gitlib.py:_init_repo():56] git repository is invalid
+2025-03-17 23:26:52,095 DEBUG   HandlerThread:1688616 [system_info.py:probe():198] Probing system done
+2025-03-17 23:26:52,095 DEBUG   HandlerThread:1688616 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-134-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2025-03-18T03:26:52.093273', 'startedAt': '2025-03-18T03:26:51.668857', 'docker': None, 'cuda': None, 'args': ('--model_name_or_path', 'meta-llama/Meta-Llama-3-8B', '--output_dir', '/data/yujia_wang/translora/checkpoints_moe/Meta-Llama-3-8B/TIGER-Lab/MathInstruct/1e-6_iid_dpo', '--dataset_name', 'TIGER-Lab/MathInstruct', '--dataset_config_name', 'default', '--per_device_train_batch_size', '1', '--per_device_eval_batch_size', '1', '--num_train_epochs', '3', '--overwrite_output_dir', '--do_train', 'True', '--do_eval', 'False', '--seed', '42', '--dataloader_num_workers', '16', '--disable_tqdm', 'False', '--save_strategy', 'no', '--evaluation_strategy', 'epoch', '--learning_rate', '1e-6', '--notes', 'dpo', '--split_strategy', 'iid', '--num_rounds', '1', '--num_clients', '1', '--sample_clients', '1', '--max_gate_samples', '1', '--max_train_samples', '5', '--gradient_accumulation_steps', '4'), 'state': 'running', 'program': '/data/home/yjw5427/translora/fed_distill_dpo.py', 'codePathLocal': 'fed_distill_dpo.py', 'codePath': 'fed_distill_dpo.py', 'host': 'i4-l-jzc5917-01', 'username': 'yjw5427', 'executable': '/home/yjw5427/miniconda3/envs/trans/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2076.121333333333, 'min': 800.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.003, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 1890.765, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 1163.056, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}], 'disk': {'/': {'total': 1640.1212921142578, 'used': 26.04159164428711}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 503.5231742858887}}
+2025-03-17 23:26:52,095 INFO    HandlerThread:1688616 [system_monitor.py:probe():224] Finished collecting system info
+2025-03-17 23:26:52,095 INFO    HandlerThread:1688616 [system_monitor.py:probe():227] Publishing system info
+2025-03-17 23:26:52,095 DEBUG   HandlerThread:1688616 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-03-17 23:26:52,934 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/conda-environment.yaml
+2025-03-17 23:26:57,626 DEBUG   HandlerThread:1688616 [system_info.py:_save_conda():222] Saving conda packages done
+2025-03-17 23:26:57,628 INFO    HandlerThread:1688616 [system_monitor.py:probe():229] Finished publishing system info
+2025-03-17 23:26:57,638 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:26:57,639 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: keepalive
+2025-03-17 23:26:57,640 DEBUG   SenderThread:1688616 [sender.py:send():379] send: files
+2025-03-17 23:26:57,640 INFO    SenderThread:1688616 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2025-03-17 23:26:57,863 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: python_packages
+2025-03-17 23:26:57,863 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: python_packages
+2025-03-17 23:26:57,864 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:26:57,866 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:26:57,871 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:26:57,919 INFO    wandb-upload_0:1688616 [upload_job.py:push():131] Uploaded file /tmp/tmprre6szaywandb/kxvaddne-wandb-metadata.json
+2025-03-17 23:26:57,933 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/conda-environment.yaml
+2025-03-17 23:26:57,934 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/requirements.txt
+2025-03-17 23:26:57,934 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/wandb-metadata.json
+2025-03-17 23:26:58,014 DEBUG   SenderThread:1688616 [sender.py:send():379] send: telemetry
+2025-03-17 23:26:58,014 DEBUG   SenderThread:1688616 [sender.py:send():379] send: config
+2025-03-17 23:26:58,017 DEBUG   SenderThread:1688616 [sender.py:send():379] send: metric
+2025-03-17 23:26:58,017 DEBUG   SenderThread:1688616 [sender.py:send():379] send: telemetry
+2025-03-17 23:26:58,017 DEBUG   SenderThread:1688616 [sender.py:send():379] send: metric
+2025-03-17 23:26:58,017 WARNING SenderThread:1688616 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2025-03-17 23:26:58,017 DEBUG   SenderThread:1688616 [sender.py:send():379] send: telemetry
+2025-03-17 23:26:58,017 DEBUG   SenderThread:1688616 [sender.py:send():379] send: telemetry
+2025-03-17 23:26:58,017 DEBUG   SenderThread:1688616 [sender.py:send():379] send: config
+2025-03-17 23:26:58,934 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:00,935 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:02,730 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:02,936 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:04,937 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:06,938 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:08,083 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:10,941 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:12,866 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:27:12,867 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:27:12,868 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:27:12,942 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:13,978 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:14,943 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:16,944 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:18,945 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:19,857 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:20,946 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:22,948 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:24,949 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:25,401 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:25,949 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/config.yaml
+2025-03-17 23:27:26,950 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:27,865 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:27:27,866 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:27:27,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:27:28,951 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:30,919 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:30,953 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:32,954 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:36,293 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:36,956 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:38,957 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:40,958 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:41,340 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:42,864 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:27:42,866 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:27:42,867 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:27:42,961 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:44,963 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:46,389 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:48,965 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:50,966 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:52,065 DEBUG   SystemMonitor:1688616 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-03-17 23:27:52,067 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:27:52,068 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:52,967 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:54,969 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:27:57,171 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:27:57,866 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:27:57,867 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:27:57,869 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:27:58,971 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:00,972 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:02,974 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:02,980 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:04,975 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:06,976 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:08,558 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:08,977 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:12,865 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:28:12,866 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:28:12,871 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:28:12,979 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:14,219 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:14,981 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:16,982 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:18,983 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:20,167 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:22,069 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:28:22,985 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:24,987 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:25,473 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:26,988 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:27,865 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:28:27,867 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:28:27,873 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:28:28,989 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:30,990 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:31,051 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:34,992 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:36,894 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:36,993 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:38,994 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:40,995 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:42,663 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:42,866 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:28:42,867 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:28:42,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:28:42,996 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:44,998 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:46,999 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:47,937 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:49,000 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:51,001 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:52,070 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:28:53,617 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:55,004 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:57,005 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:28:57,865 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:28:57,867 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:28:57,868 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:28:58,975 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:28:59,008 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:01,009 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:03,010 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:04,262 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:07,012 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:09,014 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:10,206 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:11,014 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:12,866 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:29:12,867 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:29:12,868 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:29:13,015 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:15,017 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:15,348 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:17,017 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:19,019 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:20,550 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:22,072 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:29:23,021 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:25,022 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:25,604 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:27,023 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:27,866 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:29:27,868 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:29:27,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:29:29,024 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:30,931 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:33,039 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:35,040 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:36,859 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:37,041 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:39,043 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:42,469 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:42,866 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:29:42,867 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:29:42,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:29:43,045 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:45,046 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:47,046 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:47,996 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:49,047 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:52,073 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:29:53,022 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:53,049 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:55,050 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:57,051 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:29:57,867 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:29:57,868 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:29:57,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:29:58,037 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:29:59,053 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:03,054 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:03,132 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:05,055 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:07,056 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:09,057 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:09,128 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:11,058 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:12,866 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:30:12,868 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:30:12,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:30:13,059 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:14,851 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:15,060 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:17,062 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:20,752 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:21,064 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:22,075 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:30:23,065 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:25,066 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:25,939 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:27,067 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:27,867 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:30:27,869 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:30:27,869 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:30:31,069 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:31,419 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:33,070 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:35,071 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:36,944 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:37,072 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:39,073 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:42,518 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:42,867 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:30:42,868 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:30:42,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:30:43,075 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:45,077 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:47,078 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:48,034 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:51,080 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:52,148 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:30:53,081 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:53,150 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:55,082 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:30:57,867 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:30:57,869 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:30:57,869 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:30:58,820 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:30:59,084 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:01,085 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:03,086 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:04,717 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:05,088 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:07,089 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:09,821 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:11,091 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:12,867 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:31:12,868 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:31:12,869 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:31:13,092 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:14,975 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:15,093 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:17,095 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:20,038 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:21,097 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:22,078 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:31:23,098 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:25,099 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:25,570 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:27,100 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:27,868 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:31:27,870 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:31:27,871 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:31:29,101 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:30,803 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:33,104 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:35,105 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:35,877 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:37,106 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:39,107 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:40,907 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:42,868 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:31:42,869 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:31:42,873 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:31:43,109 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:45,110 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:46,617 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:47,112 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:49,113 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:51,671 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:52,080 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:31:53,114 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:55,116 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:56,935 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:31:57,117 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:31:57,868 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:31:57,869 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:31:57,874 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:32:01,119 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:02,811 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:03,120 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:05,121 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:07,122 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:07,944 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:09,123 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:11,124 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:12,868 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:32:12,870 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:32:12,874 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:32:12,981 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:13,125 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:17,128 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:18,835 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:19,129 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:21,130 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:22,082 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:32:23,131 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:24,083 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:25,132 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:27,133 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:27,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:32:27,872 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:32:27,914 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:32:29,095 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:31,135 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:33,136 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:34,806 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:35,137 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:37,139 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:40,670 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:41,141 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:42,869 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:32:42,870 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:32:42,874 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:32:43,142 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:45,143 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:46,083 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:47,144 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:51,146 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:51,205 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:52,131 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:32:53,147 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:55,148 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:56,225 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:32:57,150 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:32:57,870 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:32:57,872 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:32:57,878 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:33:01,152 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:01,241 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:03,153 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:05,154 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:06,418 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:07,155 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:11,157 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:12,279 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:12,869 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:33:12,871 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:33:12,878 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:33:13,158 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:15,159 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:17,161 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:17,981 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:19,162 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:21,163 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:22,085 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:33:23,783 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:25,165 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:27,166 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:27,870 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:33:27,871 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:33:27,875 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:33:28,971 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:29,167 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:31,168 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:33,169 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:34,189 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:35,170 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:39,172 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:39,544 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:41,173 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:42,870 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:33:42,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:33:42,873 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:33:43,174 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:45,176 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:45,435 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:47,177 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:50,987 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:51,179 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:52,086 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:33:53,180 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:55,181 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:56,259 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:33:57,183 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:33:57,870 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:33:57,872 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:33:57,876 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:34:01,185 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:01,452 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:03,186 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:05,187 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:07,188 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:07,261 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:09,190 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:12,283 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:12,870 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:34:12,871 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:34:12,876 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:34:13,192 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:15,193 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:17,194 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:17,728 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:19,195 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:21,196 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:22,087 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:34:22,964 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:25,198 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:27,199 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:27,870 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:34:27,871 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:34:27,876 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:34:28,286 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:29,201 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:33,203 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:33,957 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:35,204 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:37,205 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:39,206 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:39,741 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:41,207 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:42,871 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:34:42,873 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:34:42,877 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:34:43,208 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:44,976 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:47,211 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:49,212 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:50,183 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:51,212 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:52,090 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:34:53,214 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:55,215 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:34:55,860 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:34:57,871 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:34:57,871 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:34:57,876 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:34:59,217 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:01,218 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:01,455 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:03,220 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:05,221 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:06,858 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:09,223 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:11,224 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:11,859 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:12,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:35:12,873 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:35:12,875 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:35:13,226 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:17,071 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:17,228 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:19,229 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:21,230 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:22,091 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:35:22,092 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:23,231 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:25,232 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:27,411 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:27,871 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:35:27,872 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:35:27,873 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:35:29,235 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:31,236 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:32,551 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:33,237 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:37,239 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:38,524 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:39,240 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:41,241 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:42,872 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:35:42,873 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:35:42,878 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:35:43,242 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:44,026 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:45,243 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:47,244 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:49,246 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:49,757 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:52,094 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:35:53,248 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:54,801 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:35:55,249 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:57,250 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:35:57,871 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:35:57,872 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:35:57,877 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:36:00,091 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:01,253 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:03,254 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:05,256 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:06,058 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:08,258 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:10,258 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:11,659 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:12,260 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:12,881 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:36:12,882 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:36:12,884 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:36:14,261 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:17,059 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:18,263 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:20,264 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:22,096 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:36:22,097 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:22,265 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:24,267 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:26,268 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:27,873 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:36:27,873 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:36:27,878 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:36:27,985 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:30,270 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:32,271 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:33,888 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:34,272 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:36,273 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:38,274 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:39,036 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:42,277 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:42,873 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:36:42,874 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:36:42,878 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:36:44,075 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:44,278 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:46,279 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:48,280 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:49,516 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:50,281 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:52,129 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:36:54,283 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:54,820 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:36:56,284 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:36:57,873 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:36:57,874 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:36:57,878 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:36:58,285 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:00,286 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:00,723 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:02,287 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:06,290 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:06,435 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:08,291 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:10,293 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:12,016 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:12,294 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:12,873 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:37:12,874 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:37:12,879 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:37:14,295 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:17,167 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:18,297 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:20,298 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:22,099 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:37:22,299 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:22,927 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:24,301 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:27,873 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:37:27,874 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:37:27,879 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:37:27,991 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:28,303 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:30,304 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:32,305 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:33,268 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:34,306 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:36,307 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:39,195 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:40,310 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:42,311 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:42,874 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:37:42,875 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:37:42,879 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:37:44,312 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:45,071 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:46,313 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:48,314 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:50,251 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:50,315 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:52,101 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:37:52,317 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:55,495 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:37:56,319 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:37:57,874 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:37:57,875 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:37:57,879 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:37:58,320 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:00,323 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:01,414 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:02,324 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:04,325 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:06,568 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:08,327 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:10,329 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:11,699 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:12,330 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:12,874 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:38:12,875 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:38:12,883 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:38:14,331 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:17,643 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:18,333 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:20,334 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:22,103 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:38:22,336 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:22,680 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:24,337 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:26,338 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:27,874 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:38:27,875 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:38:27,880 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:38:28,002 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:28,339 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:32,341 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:33,064 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:34,342 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:36,343 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:38,345 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:39,008 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:42,347 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:42,882 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:38:42,887 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:38:42,887 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:38:44,154 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:44,348 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:46,349 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:48,350 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:49,683 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:50,351 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:52,105 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:38:52,353 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:55,620 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:38:56,355 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:38:57,880 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:38:57,880 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:38:57,882 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:38:58,356 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:00,357 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:00,700 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:02,358 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:05,871 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:06,361 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:08,362 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:10,363 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:11,254 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:12,364 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:12,880 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:39:12,880 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:39:12,882 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:39:16,367 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:17,118 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:18,368 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:20,369 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:22,107 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:39:22,370 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:23,108 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:24,371 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:27,880 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:39:27,881 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:39:27,885 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:39:28,374 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:28,533 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:30,375 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:32,376 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:34,325 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:34,377 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:38,380 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:39,383 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:40,381 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:42,382 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:42,880 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:39:42,881 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:39:42,885 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:39:44,383 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:45,015 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:46,384 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:50,386 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:50,451 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:52,109 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:39:52,388 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:54,389 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:56,031 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:39:56,390 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:39:57,880 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:39:57,881 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:39:57,882 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:39:58,391 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:01,920 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:02,393 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:04,394 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:06,396 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:06,950 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:08,397 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:12,399 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:12,853 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:12,881 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:40:12,882 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:40:12,883 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:40:14,400 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:16,401 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:17,882 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:18,403 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:20,404 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:22,111 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:40:22,405 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:23,040 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:24,406 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:26,407 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:27,880 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:40:27,882 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:40:27,883 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:40:28,978 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:30,409 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:32,411 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:34,158 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:34,412 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:38,414 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:39,473 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:40,415 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:42,416 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:42,881 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:40:42,881 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:40:42,883 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:40:44,417 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:45,013 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:46,418 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:50,420 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:50,805 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:52,114 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:40:52,421 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:54,422 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:56,424 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:40:56,459 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:40:57,881 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:40:57,881 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:40:57,883 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:40:58,425 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:00,426 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:01,479 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:04,428 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:06,429 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:06,551 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:08,430 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:10,431 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:12,108 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:12,881 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:41:12,882 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:41:12,883 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:41:14,434 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:16,435 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:17,971 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:18,436 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:20,437 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:22,117 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:41:23,119 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:24,439 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:26,440 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:27,881 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:41:27,882 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:41:27,898 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:41:28,441 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:28,462 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:30,443 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:32,444 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:34,126 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:34,445 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:36,446 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:38,447 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:39,216 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:40,448 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:42,882 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:41:42,882 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:41:42,892 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:41:44,450 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:44,479 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:46,451 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:48,452 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:49,740 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:52,200 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:41:52,455 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:54,456 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:55,608 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:41:56,457 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:41:57,882 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: stop_status
+2025-03-17 23:41:57,882 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: stop_status
+2025-03-17 23:41:57,892 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:41:58,458 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:42:00,459 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:42:01,387 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:42:02,077 DEBUG   SenderThread:1688616 [sender.py:send():379] send: telemetry
+2025-03-17 23:42:02,078 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: summary_record
+2025-03-17 23:42:02,079 INFO    SenderThread:1688616 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-03-17 23:42:02,079 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: summary_record
+2025-03-17 23:42:02,081 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: partial_history
+2025-03-17 23:42:02,099 INFO    SenderThread:1688616 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-03-17 23:42:02,099 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: summary_record
+2025-03-17 23:42:02,100 INFO    SenderThread:1688616 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-03-17 23:42:02,100 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: summary_record
+2025-03-17 23:42:02,133 INFO    SenderThread:1688616 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-03-17 23:42:02,134 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: summary_record
+2025-03-17 23:42:02,135 INFO    SenderThread:1688616 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-03-17 23:42:02,135 DEBUG   SenderThread:1688616 [sender.py:send():379] send: metric
+2025-03-17 23:42:02,136 DEBUG   SenderThread:1688616 [sender.py:send():379] send: history
+2025-03-17 23:42:02,136 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: summary_record
+2025-03-17 23:42:02,137 INFO    SenderThread:1688616 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-03-17 23:42:02,460 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/wandb-summary.json
+2025-03-17 23:42:02,532 DEBUG   SenderThread:1688616 [sender.py:send():379] send: exit
+2025-03-17 23:42:02,532 INFO    SenderThread:1688616 [sender.py:send_exit():586] handling exit code: 1
+2025-03-17 23:42:02,533 INFO    SenderThread:1688616 [sender.py:send_exit():588] handling runtime: 910
+2025-03-17 23:42:02,538 INFO    SenderThread:1688616 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-03-17 23:42:02,539 INFO    SenderThread:1688616 [sender.py:send_exit():594] send defer
+2025-03-17 23:42:02,539 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:02,540 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 0
+2025-03-17 23:42:02,540 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:02,540 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-03-17 23:42:02,541 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 1
+2025-03-17 23:42:02,541 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:02,541 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 1
+2025-03-17 23:42:02,542 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:02,542 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-03-17 23:42:02,542 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 2
+2025-03-17 23:42:02,542 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:02,542 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 2
+2025-03-17 23:42:02,543 INFO    HandlerThread:1688616 [system_monitor.py:finish():203] Stopping system monitor
+2025-03-17 23:42:02,543 DEBUG   SystemMonitor:1688616 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-03-17 23:42:02,544 DEBUG   SystemMonitor:1688616 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-03-17 23:42:02,548 INFO    HandlerThread:1688616 [interfaces.py:finish():202] Joined cpu monitor
+2025-03-17 23:42:02,548 INFO    HandlerThread:1688616 [interfaces.py:finish():202] Joined disk monitor
+2025-03-17 23:42:02,943 INFO    HandlerThread:1688616 [interfaces.py:finish():202] Joined gpu monitor
+2025-03-17 23:42:02,943 INFO    HandlerThread:1688616 [interfaces.py:finish():202] Joined memory monitor
+2025-03-17 23:42:02,943 INFO    HandlerThread:1688616 [interfaces.py:finish():202] Joined network monitor
+2025-03-17 23:42:02,945 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:02,945 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-03-17 23:42:02,945 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 3
+2025-03-17 23:42:02,945 DEBUG   SenderThread:1688616 [sender.py:send():379] send: stats
+2025-03-17 23:42:02,946 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:02,947 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 3
+2025-03-17 23:42:02,947 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:02,947 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-03-17 23:42:02,948 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 4
+2025-03-17 23:42:02,948 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:02,948 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 4
+2025-03-17 23:42:02,949 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:02,949 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-03-17 23:42:02,949 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 5
+2025-03-17 23:42:02,949 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:02,949 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 5
+2025-03-17 23:42:02,950 DEBUG   SenderThread:1688616 [sender.py:send():379] send: summary
+2025-03-17 23:42:02,990 INFO    SenderThread:1688616 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-03-17 23:42:02,990 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:02,990 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-03-17 23:42:02,991 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 6
+2025-03-17 23:42:02,991 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:02,991 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 6
+2025-03-17 23:42:02,992 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:02,992 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-03-17 23:42:02,997 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: status_report
+2025-03-17 23:42:03,148 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 7
+2025-03-17 23:42:03,148 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:03,149 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 7
+2025-03-17 23:42:03,149 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:03,149 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-03-17 23:42:03,460 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/wandb-summary.json
+2025-03-17 23:42:03,461 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/config.yaml
+2025-03-17 23:42:03,531 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-17 23:42:04,209 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 8
+2025-03-17 23:42:04,210 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: poll_exit
+2025-03-17 23:42:04,211 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:04,211 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 8
+2025-03-17 23:42:04,212 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:04,212 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-03-17 23:42:04,212 INFO    SenderThread:1688616 [job_builder.py:build():318] Attempting to build job artifact
+2025-03-17 23:42:04,216 INFO    SenderThread:1688616 [job_builder.py:_get_source_type():466] no source found
+2025-03-17 23:42:04,216 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 9
+2025-03-17 23:42:04,216 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:04,216 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 9
+2025-03-17 23:42:04,217 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:04,217 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-03-17 23:42:04,217 INFO    SenderThread:1688616 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-03-17 23:42:04,461 INFO    Thread-12 :1688616 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:42:04,462 INFO    SenderThread:1688616 [dir_watcher.py:finish():388] scan: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files
+2025-03-17 23:42:04,463 INFO    SenderThread:1688616 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/config.yaml config.yaml
+2025-03-17 23:42:04,463 INFO    SenderThread:1688616 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log output.log
+2025-03-17 23:42:04,463 INFO    SenderThread:1688616 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/requirements.txt requirements.txt
+2025-03-17 23:42:04,464 INFO    SenderThread:1688616 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/wandb-metadata.json wandb-metadata.json
+2025-03-17 23:42:04,464 INFO    SenderThread:1688616 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/conda-environment.yaml conda-environment.yaml
+2025-03-17 23:42:04,464 INFO    SenderThread:1688616 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/wandb-summary.json wandb-summary.json
+2025-03-17 23:42:04,464 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 10
+2025-03-17 23:42:04,465 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:04,465 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 10
+2025-03-17 23:42:04,481 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:04,481 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-03-17 23:42:04,481 INFO    SenderThread:1688616 [file_pusher.py:finish():172] shutting down file pusher
+2025-03-17 23:42:04,532 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-17 23:42:04,533 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: poll_exit
+2025-03-17 23:42:04,719 INFO    wandb-upload_1:1688616 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/config.yaml
+2025-03-17 23:42:04,747 INFO    wandb-upload_2:1688616 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/requirements.txt
+2025-03-17 23:42:04,751 INFO    wandb-upload_3:1688616 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/conda-environment.yaml
+2025-03-17 23:42:04,753 INFO    wandb-upload_4:1688616 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/wandb-summary.json
+2025-03-17 23:42:04,783 INFO    wandb-upload_0:1688616 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/files/output.log
+2025-03-17 23:42:04,984 INFO    Thread-11 (_thread_body):1688616 [sender.py:transition_state():614] send defer: 11
+2025-03-17 23:42:04,984 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:04,985 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 11
+2025-03-17 23:42:04,985 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:04,986 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-03-17 23:42:04,986 INFO    SenderThread:1688616 [file_pusher.py:join():178] waiting for file pusher
+2025-03-17 23:42:04,986 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 12
+2025-03-17 23:42:04,987 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:04,987 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 12
+2025-03-17 23:42:04,987 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:04,988 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-03-17 23:42:04,988 INFO    SenderThread:1688616 [file_stream.py:finish():614] file stream finish called
+2025-03-17 23:42:05,252 INFO    SenderThread:1688616 [file_stream.py:finish():618] file stream finish is done
+2025-03-17 23:42:05,252 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 13
+2025-03-17 23:42:05,252 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:05,253 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 13
+2025-03-17 23:42:05,253 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:05,253 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-03-17 23:42:05,254 INFO    SenderThread:1688616 [sender.py:transition_state():614] send defer: 14
+2025-03-17 23:42:05,254 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: defer
+2025-03-17 23:42:05,254 INFO    HandlerThread:1688616 [handler.py:handle_request_defer():172] handle defer: 14
+2025-03-17 23:42:05,255 DEBUG   SenderThread:1688616 [sender.py:send():379] send: final
+2025-03-17 23:42:05,255 DEBUG   SenderThread:1688616 [sender.py:send():379] send: footer
+2025-03-17 23:42:05,255 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: defer
+2025-03-17 23:42:05,256 INFO    SenderThread:1688616 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-03-17 23:42:05,257 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-17 23:42:05,258 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: poll_exit
+2025-03-17 23:42:05,258 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: poll_exit
+2025-03-17 23:42:05,259 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: poll_exit
+2025-03-17 23:42:05,260 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: server_info
+2025-03-17 23:42:05,262 DEBUG   SenderThread:1688616 [sender.py:send_request():406] send_request: server_info
+2025-03-17 23:42:05,262 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: get_summary
+2025-03-17 23:42:05,267 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: sampled_history
+2025-03-17 23:42:05,268 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: internal_messages
+2025-03-17 23:42:05,314 INFO    MainThread:1688616 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2025-03-17 23:42:05,315 INFO    MainThread:1688616 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2025-03-17 23:42:05,315 INFO    MainThread:1688616 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2025-03-17 23:42:05,316 DEBUG   HandlerThread:1688616 [handler.py:handle_request():146] handle_request: shutdown
+2025-03-17 23:42:05,316 INFO    HandlerThread:1688616 [handler.py:finish():866] shutting down handler
+2025-03-17 23:42:06,261 INFO    WriterThread:1688616 [datastore.py:close():296] close: /data/home/yjw5427/translora/wandb/run-20250317_232651-u72e2p7z/run-u72e2p7z.wandb
+2025-03-17 23:42:06,314 INFO    SenderThread:1688616 [sender.py:finish():1546] shutting down sender
+2025-03-17 23:42:06,314 INFO    SenderThread:1688616 [file_pusher.py:finish():172] shutting down file pusher
+2025-03-17 23:42:06,314 INFO    SenderThread:1688616 [file_pusher.py:join():178] waiting for file pusher

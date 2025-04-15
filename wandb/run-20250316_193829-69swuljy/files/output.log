@@ -1,0 +1,80 @@
+                                                                                                                            Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora.py", line 948, in <module>                             | 0/35 [00:00<?, ?it/s]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 805, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/trainer.py", line 2241, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/trainer.py", line 2548, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/trainer.py", line 3698, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/trainer.py", line 3759, in compute_loss
+    outputs = model(**inputs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/accelerate/utils/operations.py", line 687, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/accelerate/utils/operations.py", line 675, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 14, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/peft/peft_model.py", line 1577, in forward
+    return self.base_model(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 188, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 842, in forward
+    outputs = self.model(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 564, in forward
+    causal_mask = self._update_causal_mask(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 666, in _update_causal_mask
+    causal_mask = self._prepare_4d_causal_attention_mask_with_cache_position(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 732, in _prepare_4d_causal_attention_mask_with_cache_position
+    causal_mask = torch.triu(causal_mask, diagonal=1)
+RuntimeError: "triu_tril_cuda_template" not implemented for 'BFloat16'
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora.py", line 948, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 805, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/trainer.py", line 2241, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/trainer.py", line 2548, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/trainer.py", line 3698, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/trainer.py", line 3759, in compute_loss
+    outputs = model(**inputs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/accelerate/utils/operations.py", line 687, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/accelerate/utils/operations.py", line 675, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 14, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/peft/peft_model.py", line 1577, in forward
+    return self.base_model(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 188, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 842, in forward
+    outputs = self.model(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 564, in forward
+    causal_mask = self._update_causal_mask(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 666, in _update_causal_mask
+    causal_mask = self._prepare_4d_causal_attention_mask_with_cache_position(
+  File "/home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 732, in _prepare_4d_causal_attention_mask_with_cache_position
+    causal_mask = torch.triu(causal_mask, diagonal=1)
+RuntimeError: "triu_tril_cuda_template" not implemented for 'BFloat16'

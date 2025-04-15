@@ -1,0 +1,688 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b655-074a6b1967881c940729aeb4;44177da5-3b87-4ea7-9922-42299d279f78)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 35.0275, 'train_samples_per_second': 3.14, 'train_steps_per_second': 0.371, 'train_loss': 2.6525306701660156, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.6525
+  train_runtime            = 0:00:35.02
+  train_samples            =        110
+  train_samples_per_second =       3.14
+  train_steps_per_second   =      0.371
+7
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b673-55d677965cd353bf5cd4f172;93f75a1d-3c98-4140-a9b5-ff7b0c7ab52d)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 28.91, 'train_samples_per_second': 3.84, 'train_steps_per_second': 0.484, 'train_loss': 2.6467467716761996, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.6467
+  train_runtime            = 0:00:28.91
+  train_samples            =        111
+  train_samples_per_second =       3.84
+  train_steps_per_second   =      0.484
+7
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b68f-16a6f2bc1038e32a059d4e37;cfa2af16-d8fb-4980-9d1b-d1bf65843800)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 27.2058, 'train_samples_per_second': 4.006, 'train_steps_per_second': 0.478, 'train_loss': 2.6575150123009315, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.6575
+  train_runtime            = 0:00:27.20
+  train_samples            =        109
+  train_samples_per_second =      4.006
+  train_steps_per_second   =      0.478
+7
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████▉        | 12/13 [00:25<00:02,  2.11s/it]
+{'train_runtime': 27.4457, 'train_samples_per_second': 4.008, 'train_steps_per_second': 0.474, 'train_loss': 2.6463822584885817, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.6464
+  train_runtime            = 0:00:27.44
+  train_samples            =        110
+  train_samples_per_second =      4.008
+  train_steps_per_second   =      0.474
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b6ac-06f4925b4ecc72362349929d;b106edff-326d-4dd7-aac3-bc2cd8d93902)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b6cb-09a87e384ff9c1493e934cc2;b0187c55-ed55-4473-8c59-e49c823198e5)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 29.3177, 'train_samples_per_second': 3.786, 'train_steps_per_second': 0.478, 'train_loss': 2.6498701913016185, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.6499
+  train_runtime            = 0:00:29.31
+  train_samples            =        111
+  train_samples_per_second =      3.786
+  train_steps_per_second   =      0.478
+This round clients: [5, 6, 7, 8, 9]
+7
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:27<00:00,  2.11s/it]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b6e8-0f6c260039bbeefd0a14eb35;fe39aa76-13f7-4b1d-9a1f-766e7f1482c7)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.6427
+  train_runtime            = 0:00:27.47
+  train_samples            =        110
+  train_samples_per_second =      4.004
+  train_steps_per_second   =      0.473
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b707-4c7a3e5e2336aa2c15f20ef3;2a9a971e-ffeb-423e-ac51-c2fa39637961)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 29.3425, 'train_samples_per_second': 3.783, 'train_steps_per_second': 0.477, 'train_loss': 2.636631556919643, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.6366
+  train_runtime            = 0:00:29.34
+  train_samples            =        111
+  train_samples_per_second =      3.783
+  train_steps_per_second   =      0.477
+7
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b723-74a9d68d682459424615f4f5;816552f2-774b-4585-b2ea-23e4685c5a02)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 27.4901, 'train_samples_per_second': 3.965, 'train_steps_per_second': 0.473, 'train_loss': 2.6477024371807394, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.6477
+  train_runtime            = 0:00:27.49
+  train_samples            =        109
+  train_samples_per_second =      3.965
+  train_steps_per_second   =      0.473
+7
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████▉        | 12/13 [00:25<00:02,  2.11s/it]
+{'train_runtime': 27.4944, 'train_samples_per_second': 4.001, 'train_steps_per_second': 0.473, 'train_loss': 2.6362424997182994, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.6362
+  train_runtime            = 0:00:27.49
+  train_samples            =        110
+  train_samples_per_second =      4.001
+  train_steps_per_second   =      0.473
+7
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b740-0a27751b43f2397e77006546;7b492a2e-81ac-42cd-9549-f787777c512c)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b75f-4e79015c78e0332064793814;f2ef1746-319f-4737-8c95-f7a6de3c9976)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 29.3589, 'train_samples_per_second': 3.781, 'train_steps_per_second': 0.477, 'train_loss': 2.6397574288504466, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.6398
+  train_runtime            = 0:00:29.35
+  train_samples            =        111
+  train_samples_per_second =      3.781
+  train_steps_per_second   =      0.477
+This round clients: [5, 6, 7, 8, 9]
+7
+2.4e-06
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b77c-68ed8b5b6e6e5427355f9528;a5e190b8-be36-4061-a714-17b82b30d942)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 27.5174, 'train_samples_per_second': 3.997, 'train_steps_per_second': 0.472, 'train_loss': 2.623465611384465, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.6235
+  train_runtime            = 0:00:27.51
+  train_samples            =        110
+  train_samples_per_second =      3.997
+  train_steps_per_second   =      0.472
+7
+2.4e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 93%|█████████████████████████████████████████████████████████████████████████████████████████████████▌       | 13/14 [00:27<00:02,  2.11s/it]
+{'train_runtime': 29.3746, 'train_samples_per_second': 3.779, 'train_steps_per_second': 0.477, 'train_loss': 2.616784232003348, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.6168
+  train_runtime            = 0:00:29.37
+  train_samples            =        111
+  train_samples_per_second =      3.779
+  train_steps_per_second   =      0.477
+7
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b79a-589d914a3a0a217056dce0ac;936e9038-6c80-42db-ad12-1c369807781b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7b7-741b56322cff90b833b2ea47;874e587c-76bf-45de-8717-1c1732033db1)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]
+{'train_runtime': 27.5107, 'train_samples_per_second': 3.962, 'train_steps_per_second': 0.473, 'train_loss': 2.628840519831731, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.6288
+  train_runtime            = 0:00:27.51
+  train_samples            =        109
+  train_samples_per_second =      3.962
+  train_steps_per_second   =      0.473
+7
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:26,  2.18s/it]
+ 15%|████████████████▎                                                                                         | 2/13 [00:04<00:23,  2.14s/it]
+ 23%|████████████████████████▍                                                                                 | 3/13 [00:06<00:21,  2.13s/it]
+ 31%|████████████████████████████████▌                                                                         | 4/13 [00:08<00:19,  2.12s/it]
+ 38%|████████████████████████████████████████▊                                                                 | 5/13 [00:10<00:16,  2.11s/it]
+ 46%|████████████████████████████████████████████████▉                                                         | 6/13 [00:12<00:14,  2.11s/it]
+ 54%|█████████████████████████████████████████████████████████                                                 | 7/13 [00:14<00:12,  2.11s/it]
+ 62%|█████████████████████████████████████████████████████████████████▏                                        | 8/13 [00:16<00:10,  2.11s/it]
+ 69%|█████████████████████████████████████████████████████████████████████████▍                                | 9/13 [00:19<00:08,  2.11s/it]
+ 77%|████████████████████████████████████████████████████████████████████████████████▊                        | 10/13 [00:21<00:06,  2.11s/it]
+ 85%|████████████████████████████████████████████████████████████████████████████████████████▊                | 11/13 [00:23<00:04,  2.11s/it]
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████▉        | 12/13 [00:25<00:02,  2.11s/it]
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 27.5127, 'train_samples_per_second': 3.998, 'train_steps_per_second': 0.473, 'train_loss': 2.6169586181640625, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =      2.617
+  train_runtime            = 0:00:27.51
+  train_samples            =        110
+  train_samples_per_second =      3.998
+  train_steps_per_second   =      0.473
+7
+2.4e-06
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.able to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.able to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 29.3763, 'train_samples_per_second': 3.779, 'train_steps_per_second': 0.477, 'train_loss': 2.620242255074637, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.6202
+  train_runtime            = 0:00:29.37
+  train_samples            =        111
+  train_samples_per_second =      3.779
+  train_steps_per_second   =      0.477
+This round clients: [5, 6, 7, 8, 9]
+7
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 27.5013, 'train_samples_per_second': 4.0, 'train_steps_per_second': 0.473, 'train_loss': 2.5906656705416164, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.5907
+  train_runtime            = 0:00:27.50
+  train_samples            =        110
+  train_samples_per_second =        4.0
+  train_steps_per_second   =      0.473
+7
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/14 [00:02<00:28,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 29.3499, 'train_samples_per_second': 3.782, 'train_steps_per_second': 0.477, 'train_loss': 2.5837505885532925, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.5838
+  train_runtime            = 0:00:29.34
+  train_samples            =        111
+  train_samples_per_second =      3.782
+  train_steps_per_second   =      0.477
+7
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 27.5231, 'train_samples_per_second': 3.96, 'train_steps_per_second': 0.472, 'train_loss': 2.596294109637921, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.5963
+  train_runtime            = 0:00:27.52
+  train_samples            =        109
+  train_samples_per_second =       3.96
+  train_steps_per_second   =      0.472
+7
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 27.4974, 'train_samples_per_second': 4.0, 'train_steps_per_second': 0.473, 'train_loss': 2.5841299203725963, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.5841
+  train_runtime            = 0:00:27.49
+  train_samples            =        110
+  train_samples_per_second =        4.0
+  train_steps_per_second   =      0.473
+7
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/14 [00:02<00:28,  2.17s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 29.3624, 'train_samples_per_second': 3.78, 'train_steps_per_second': 0.477, 'train_loss': 2.5871879032679965, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.5872
+  train_runtime            = 0:00:29.36
+  train_samples            =        111
+  train_samples_per_second =       3.78
+  train_steps_per_second   =      0.477
+This round clients: [5, 6, 7, 8, 9]
+7
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 27.4739, 'train_samples_per_second': 4.004, 'train_steps_per_second': 0.473, 'train_loss': 2.5491089454064, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.5491
+  train_runtime            = 0:00:27.47
+  train_samples            =        110
+  train_samples_per_second =      4.004
+  train_steps_per_second   =      0.473
+7
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 29.115, 'train_samples_per_second': 3.812, 'train_steps_per_second': 0.481, 'train_loss': 2.5420589447021484, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.5421
+  train_runtime            = 0:00:29.11
+  train_samples            =        111
+  train_samples_per_second =      3.812
+  train_steps_per_second   =      0.481
+7
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 27.3049, 'train_samples_per_second': 3.992, 'train_steps_per_second': 0.476, 'train_loss': 2.55500001173753, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =      2.555
+  train_runtime            = 0:00:27.30
+  train_samples            =        109
+  train_samples_per_second =      3.992
+  train_steps_per_second   =      0.476
+7
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 27.3767, 'train_samples_per_second': 4.018, 'train_steps_per_second': 0.475, 'train_loss': 2.5425497201772838, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.5425
+  train_runtime            = 0:00:27.37
+  train_samples            =        110
+  train_samples_per_second =      4.018
+  train_steps_per_second   =      0.475
+7
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/14 [00:02<00:27,  2.15s/it]following error 403 Client Error. (Request ID: Root=1-67f4b7d4-606c67c63fe711445d7f2c38;af270aba-ad27-45fe-a7c1-c7c3e00e750a)
+{'train_runtime': 29.2287, 'train_samples_per_second': 3.798, 'train_steps_per_second': 0.479, 'train_loss': 2.5456883566720143, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.5457
+  train_runtime            = 0:00:29.22
+  train_samples            =        111
+  train_samples_per_second =      3.798
+  train_steps_per_second   =      0.479

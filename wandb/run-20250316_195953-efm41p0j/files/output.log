@@ -1,0 +1,797 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:47<00:00,  2.34s/it]
+{'train_runtime': 53.4185, 'train_samples_per_second': 1.498, 'train_steps_per_second': 0.374, 'train_loss': 1.4430578231811524, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  3473881GF
+  train_loss               =     1.4431
+  train_runtime            = 0:00:53.41
+  train_samples            =        325
+  train_samples_per_second =      1.498
+  train_steps_per_second   =      0.374
+156
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████| 156/156 [06:09<00:00,  2.38s/it]
+{'train_runtime': 369.1531, 'train_samples_per_second': 1.69, 'train_steps_per_second': 0.423, 'train_loss': 0.9647550338353866, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 27096278GF
+  train_loss               =     0.9648
+  train_runtime            = 0:06:09.15
+  train_samples            =       2509
+  train_samples_per_second =       1.69
+  train_steps_per_second   =      0.423
+16
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:38<00:00,  2.37s/it]
+{'train_runtime': 38.2493, 'train_samples_per_second': 1.673, 'train_steps_per_second': 0.418, 'train_loss': 1.282446265220642, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  2779105GF
+  train_loss               =     1.2824
+  train_runtime            = 0:00:38.24
+  train_samples            =        257
+  train_samples_per_second =      1.673
+  train_steps_per_second   =      0.418
+3
+1.2e-06
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:07<00:00,  2.47s/it]
+{'train_runtime': 7.5047, 'train_samples_per_second': 1.599, 'train_steps_per_second': 0.4, 'train_loss': 1.5559441248575847, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   521082GF
+  train_loss               =     1.5559
+  train_runtime            = 0:00:07.50
+  train_samples            =         54
+  train_samples_per_second =      1.599
+  train_steps_per_second   =        0.4
+30
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|████████████████████████████████████████████████████████████████████████████████████   | 29/30 [01:09<00:02,  2.40s/it]
+[WARNING|logging.py:328] 2025-03-16 20:09:01,143 >> The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[WARNING|logging.py:328] 2025-03-16 20:09:01,365 >> Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  5210822GF
+  train_loss               =     1.4613
+  train_runtime            = 0:01:12.20
+  train_samples            =        492
+  train_samples_per_second =      1.662
+  train_steps_per_second   =      0.415
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Kebab House], eatType[takeaway], food[Mediterranean (North African)], area[suburb], familyFriendly[yes]\nname[Lahore's Restaurant & Bar], eatType[pub, restaurant], food[Pakistani], area[city centre], familyFriendly[yes], note['Beware of the dodgy doorbell and dark interior'],near[Cafe de Paris]  name[Sultan's Tandoori Cafe], eatType[take"]
+This round clients: [0, 1, 2, 3, 4]
+20
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 95%|██████████████████████████████████████████████████████████████████████████████████▋    | 19/20 [00:44<00:02,  2.38s/it]
+{'train_runtime': 47.3975, 'train_samples_per_second': 1.688, 'train_steps_per_second': 0.422, 'train_loss': 1.4585090637207032, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  3473881GF
+  train_loss               =     1.4585
+  train_runtime            = 0:00:47.39
+  train_samples            =        325
+  train_samples_per_second =      1.688
+100%|███████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:47<00:00,  2.38s/it]
+  0%|                                                                                               | 0/156 [00:00<?, ?it/s]
+156
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████| 156/156 [06:10<00:00,  2.37s/it]
+{'train_runtime': 370.9564, 'train_samples_per_second': 1.682, 'train_steps_per_second': 0.421, 'train_loss': 0.9338956001477364, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 27096278GF
+  train_loss               =     0.9339
+  train_runtime            = 0:06:10.95
+  train_samples            =       2509
+  train_samples_per_second =      1.682
+  train_steps_per_second   =      0.421
+16
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:38<00:00,  2.36s/it]
+{'train_runtime': 38.0364, 'train_samples_per_second': 1.683, 'train_steps_per_second': 0.421, 'train_loss': 1.284791111946106, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  2779105GF
+  train_loss               =     1.2848
+  train_runtime            = 0:00:38.03
+  train_samples            =        257
+  train_samples_per_second =      1.683
+  train_steps_per_second   =      0.421
+3
+1.8000000000000001e-06
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:07<00:00,  2.46s/it]
+{'train_runtime': 7.4952, 'train_samples_per_second': 1.601, 'train_steps_per_second': 0.4, 'train_loss': 1.4754115740458171, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   521082GF
+  train_loss               =     1.4754
+  train_runtime            = 0:00:07.49
+  train_samples            =         54
+  train_samples_per_second =      1.601
+  train_steps_per_second   =        0.4
+30
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:11<00:00,  2.38s/it]
+{'train_runtime': 71.998, 'train_samples_per_second': 1.667, 'train_steps_per_second': 0.417, 'train_loss': 1.4896053314208983, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  5210822GF
+  train_loss               =     1.4896
+  train_runtime            = 0:01:11.99
+  train_samples            =        492
+  train_samples_per_second =      1.667
+  train_steps_per_second   =      0.417
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Kebab House], eatType[takeaway], food[Mediterranean (North African)], area[suburb], familyFriendly[yes], near[Dunedin's Steakhouse]\nname[Noodle Box], eatType[takeaway], food[Australian, Asian Fusion, Chinese, Indonesian, Malaysian, Singaporean, Thai, Vietnamese], area[city centre], familyFriendly[yes], near[Little India Restaurant & Bar]  name[Burrito Burrito], eat"]
+This round clients: [0, 1, 2, 3, 4]
+  0%|                                                                                                | 0/20 [00:00<?, ?it/s]
+20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 95%|██████████████████████████████████████████████████████████████████████████████████▋    | 19/20 [00:44<00:02,  2.37s/it]
+100%|███████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:47<00:00,  2.36s/it]
+  0%|                                                                                               | 0/156 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  3473881GF
+  train_loss               =     1.4476
+  train_runtime            = 0:00:47.05
+  train_samples            =        325
+  train_samples_per_second =        1.7
+  train_steps_per_second   =      0.425
+156
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|████████████████████████████████████████████████████████████████████████████████████▍| 155/156 [06:07<00:02,  2.37s/it]
+{'train_runtime': 369.9548, 'train_samples_per_second': 1.687, 'train_steps_per_second': 0.422, 'train_loss': 0.9173426505846854, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 27096278GF
+  train_loss               =     0.9173
+  train_runtime            = 0:06:09.95
+  train_samples            =       2509
+  train_samples_per_second =      1.687
+  train_steps_per_second   =      0.422
+16
+
+100%|█████████████████████████████████████████████████████████████████████████████████████| 156/156 [06:09<00:00,  2.38s/it]
+
+
+
+
+
+  File "/data/home/yjw5427/translora/fed_lora.py", line 915, in <module>                     | 5/16 [00:12<00:26,  2.39s/it]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 772, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3518, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2241, in backward
+    loss.backward(**kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

@@ -1,0 +1,33 @@
+2025-04-11 00:26:38,048 INFO    MainThread:563337 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2025-04-11 00:26:38,049 INFO    MainThread:563337 [wandb_setup.py:_flush():76] Configure stats pid to 563337
+2025-04-11 00:26:38,049 INFO    MainThread:563337 [wandb_setup.py:_flush():76] Loading settings from /home/yjw5427/.config/wandb/settings
+2025-04-11 00:26:38,049 INFO    MainThread:563337 [wandb_setup.py:_flush():76] Loading settings from /data/home/yjw5427/translora/wandb/settings
+2025-04-11 00:26:38,049 INFO    MainThread:563337 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-04-11 00:26:38,049 INFO    MainThread:563337 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-04-11 00:26:38,049 INFO    MainThread:563337 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'fed_lora.py', 'program_abspath': '/data/home/yjw5427/translora/fed_lora.py', 'program': '/data/home/yjw5427/translora/fed_lora.py'}
+2025-04-11 00:26:38,049 INFO    MainThread:563337 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-04-11 00:26:38,049 INFO    MainThread:563337 [wandb_init.py:_log_setup():521] Logging user logs to /data/home/yjw5427/translora/wandb/run-20250411_002638-042csgpo/logs/debug.log
+2025-04-11 00:26:38,050 INFO    MainThread:563337 [wandb_init.py:_log_setup():522] Logging internal logs to /data/home/yjw5427/translora/wandb/run-20250411_002638-042csgpo/logs/debug-internal.log
+2025-04-11 00:26:38,050 INFO    MainThread:563337 [wandb_init.py:init():561] calling init triggers
+2025-04-11 00:26:38,050 INFO    MainThread:563337 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2025-04-11 00:26:38,050 INFO    MainThread:563337 [wandb_init.py:init():611] starting backend
+2025-04-11 00:26:38,050 INFO    MainThread:563337 [wandb_init.py:init():615] setting up manager
+2025-04-11 00:26:38,054 INFO    MainThread:563337 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-11 00:26:38,055 INFO    MainThread:563337 [wandb_init.py:init():623] backend started and connected
+2025-04-11 00:26:38,059 INFO    MainThread:563337 [wandb_init.py:init():715] updated telemetry
+2025-04-11 00:26:38,060 INFO    MainThread:563337 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2025-04-11 00:26:38,327 INFO    MainThread:563337 [wandb_run.py:_on_init():2357] communicating current version
+2025-04-11 00:26:38,424 INFO    MainThread:563337 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.19.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-04-11 00:26:38,424 INFO    MainThread:563337 [wandb_init.py:init():799] starting run threads in backend
+2025-04-11 00:26:38,427 WARNING MainThread:563337 [wandb_init.py:init():1203] interrupted
+Traceback (most recent call last):
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1181, in init
+    run = wi.init()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 804, in init
+    settings=self.settings.to_proto(), run_id=self.settings.run_id
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/wandb/sdk/wandb_settings.py", line 1580, in to_proto
+    getattr(settings, k).CopyFrom(DoubleValue(value=v))
+KeyboardInterrupt
+2025-04-11 00:26:41,428 WARNING MsgRouterThr:563337 [router.py:message_loop():77] message_loop has been closed

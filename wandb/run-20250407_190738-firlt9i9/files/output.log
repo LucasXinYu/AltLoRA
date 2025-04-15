@@ -1,0 +1,500 @@
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45ac3-1208d9ce57e56ca31d0e7644;2d503189-ebcb-4810-90e8-75f7fe9d7778)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 9.9427, 'train_samples_per_second': 1.106, 'train_steps_per_second': 0.101, 'train_loss': 1.5730189085006714, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =      1.573
+  train_runtime            = 0:00:09.94
+  train_samples            =         11
+  train_samples_per_second =      1.106
+  train_steps_per_second   =      0.101
+0
+1.2e-06
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45ac6-0c2c78821bd373216a92a80a;19eafaa0-cc67-409d-a578-5088add5fa16)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =      1.537
+  train_runtime            = 0:00:02.13
+  train_samples            =         12
+  train_samples_per_second =      5.612
+  train_steps_per_second   =      0.468
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45ac9-1f18a8ca0cc70b1d75401fd9;2555960a-a100-4c7c-89b0-3b5452df844f)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.1647, 'train_samples_per_second': 5.081, 'train_steps_per_second': 0.462, 'train_loss': 1.6295814514160156, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6296
+  train_runtime            = 0:00:02.16
+  train_samples            =         11
+  train_samples_per_second =      5.081
+  train_steps_per_second   =      0.462
+0
+1.2e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45acd-76944ec160928c514e39fdcb;5fff1ca0-5b65-4934-a0d2-b6d69c3ac9f3)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.1605, 'train_samples_per_second': 5.091, 'train_steps_per_second': 0.463, 'train_loss': 1.605776309967041, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6058
+  train_runtime            = 0:00:02.16
+  train_samples            =         11
+  train_samples_per_second =      5.091
+  train_steps_per_second   =      0.463
+0
+1.2e-06
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 2.1648, 'train_samples_per_second': 5.081, 'train_steps_per_second': 0.462, 'train_loss': 1.574134349822998, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5741
+  train_runtime            = 0:00:02.16
+  train_samples            =         11
+  train_samples_per_second =      5.081
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45ad0-23705e831b2902a24f8e1c00;4ba4cdec-ff66-4e6a-a927-b88ccb302754)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+[WARNING|logging.py:328] 2025-04-07 19:08:29,377 >> The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[WARNING|logging.py:328] 2025-04-07 19:08:29,440 >> Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+***** eval metrics *****
+  epoch                   =     0.6667
+  eval_accuracy           =     0.7422
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242208
+  eval_loss               =     1.5434
+  eval_runtime            = 0:00:28.38
+  eval_samples            =        251
+  eval_samples_per_second =      8.844
+  eval_steps_per_second   =      1.128
+  eval_total              =      12042
+  perplexity              =     4.6804
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient??
+{'A': 'Ampicillin', 'B': 'Ceftriaxone', 'C': 'Ciprofloxacin', 'D': 'Doxycycline', 'E': 'Nitrofurantoin'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?? \n{'A': 'Ampicillin', 'B': 'Ceftriaxone', 'C': 'Ciprofloxacin', 'D': 'Doxycycline', 'E': 'Nitrofurantoin'},\n\n### Response:\nOption C : Ciprofloxacin"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. Which of the following precautions could have prevented the death of the baby??
+{'A': 'Placing the infant in a supine position on a firm mattress while sleeping', 'B': 'Routine postnatal electrocardiogram (ECG)', 'C': 'Keeping the infant covered and maintaining a high room temperature', 'D': 'Application of a device to maintain the sleeping position', 'E': 'Avoiding pacifier use during sleep'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. Which of the following precautions could have prevented the death of the baby?? \n{'A': 'Placing the infant in a supine position on a firm mattress while sleeping', 'B': 'Routine postnatal electrocardiogram (ECG)', 'C': 'Keeping the infant covered and maintaining a high room temperature', 'D': 'Application of a device to maintain the sleeping position', 'E': 'Avoiding pacifier use during sleep'},\n\n### Response:\nAns:B"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation??
+{'A': 'Abnormal migration of ventral pancreatic bud', 'B': 'Complete failure of proximal duodenum to recanalize', 'C': 'Error in neural crest cell migration', 'D': 'Abnormal hypertrophy of the pylorus', 'E': 'Failure of lateral body folds to move ventrally and fuse in the midline'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation?? \n{'A': 'Abnormal migration of ventral pancreatic bud', 'B': 'Complete failure of proximal duodenum to recanalize', 'C': 'Error in neural crest cell migration', 'D': 'Abnormal hypertrophy of the pylorus', 'E': 'Failure of lateral body folds to move ventrally and fuse in the midline'},\n\n### Response:\nAns:D\nExplanation:\n\nThe abdominal wall develops from a series of mesenchymal invaginations that occur during gastrulation.\nThe first three sets of somites form a dorsal septum (dorsal mesentery) which eventually forms part of the posterior abdominal wall.\nAfterward there is an inversion of these segments so as they appear outside the embryo surrounded by serosa.\nThese cells undergo endodermal differentiation at the site where the amniotic cavity opens into them thus forming the anterior abdominal wall.\n\nThe pancreas buds off of the foregut and migrates along the primitive gut axis before it reaches its final position in the neck of the stomach.\nIt then moves forward between two layers of peritoneum; the greater sac or omental bursa on the right side of the abdominal wall, and the lesser sac, containing the gastric fundus, on the left.\nDuring normal development, the ducts open directly into the intestine through pores called pancreaticobiliary sphincters, allowing bile to mix freely with pancreatic juices prior to release.\n\n\nIn some cases, however, when the developing tissue fails to migrate properly, abnormal connections can develop resulting in either an accessory spleen or polycystic disease of the liver, both conditions associated with severe pain due to obstruction of bowel movement caused by impacted stones within these organs.\n\n\n\nThe small intestine begins life attached behind the esophagus inside the embryo proper.\nAs growth occurs the intestinal loops separate themselves from each other gradually moving upward toward their adult positions above the umbilicus.\nThis process continues throughout fetal life such that only those portions immediately adjacent to the colon remain connected to the cloaca while more superior parts become completely independent structures separated only temporarily by bands of connective tissue known as mesenteries.\n\nWhen defects arise early enough during development they may prevent complete separation leading to malrotation wherein the intestine rotates counterclockwise around itself relative to the spine causing obstructions later in infancy or childhood after birth if untreated.\n\n\n\n\nAn error occurring late enough will result in complete loss of continuity preventing passage of foodstuffs altogether unless surgically corrected postnatally via enterostomy creation followed by reconnection once healing takes place"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings??
+{'A': 'Thromboembolism', 'B': 'Pulmonary ischemia', 'C': 'Pulmonary hypertension', 'D': 'Pulmonary passive congestion', 'E': 'Pulmonary hemorrhage'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings?? \n{'A': 'Thromboembolism', 'B': 'Pulmonary ischemia', 'C': 'Pulmonary hypertension', 'D': 'Pulmonary passive congestion', 'E': 'Pulmonary hemorrhage'},\n\n### Response:\n- D"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses “have always been heavy”, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1°C (96.9°F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient’s symptoms??
+{'A': 'Factor V Leiden', 'B': 'Hemophilia A', 'C': 'Lupus anticoagulant', 'D': 'Protein C deficiency', 'E': 'Von Willebrand disease'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses “have always been heavy”, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1°C (96.9°F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient’s symptoms?? \n{'A': 'Factor V Leiden', 'B': 'Hemophilia A', 'C': 'Lupus anticoagulant', 'D': 'Protein C deficiency', 'E': 'Von Willebrand disease'},\n\n### Response:\nOption E"]
+---------------------------------------------------
+This round clients: [5, 6, 7, 8, 9]
+0
+1.8000000000000001e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b01-29e23a346405b43861ce40c1;f55c971f-da17-46fd-8c84-6cb026b3fcca)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 2.1575, 'train_samples_per_second': 5.098, 'train_steps_per_second': 0.463, 'train_loss': 1.5734796524047852, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5735
+  train_runtime            = 0:00:02.15
+  train_samples            =         11
+  train_samples_per_second =      5.098
+  train_steps_per_second   =      0.463
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b04-1a322c8431f1c9cb0b416919;6ef15b29-9358-408e-b3a8-fa0e3dc5868c)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.0915, 'train_samples_per_second': 5.737, 'train_steps_per_second': 0.478, 'train_loss': 1.5367820262908936, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5368
+  train_runtime            = 0:00:02.09
+  train_samples            =         12
+  train_samples_per_second =      5.737
+  train_steps_per_second   =      0.478
+0
+1.8000000000000001e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b07-7487d29e2e1066c2223fd5a9;49d28e2d-66e2-4d34-9d0e-6049373d2ffe)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 2.1269, 'train_samples_per_second': 5.172, 'train_steps_per_second': 0.47, 'train_loss': 1.6305131912231445, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6305
+  train_runtime            = 0:00:02.12
+  train_samples            =         11
+  train_samples_per_second =      5.172
+  train_steps_per_second   =       0.47
+0
+1.8000000000000001e-06
+{'train_runtime': 2.1673, 'train_samples_per_second': 5.075, 'train_steps_per_second': 0.461, 'train_loss': 1.6062726974487305, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6063
+  train_runtime            = 0:00:02.16
+  train_samples            =         11
+  train_samples_per_second =      5.075
+  train_steps_per_second   =      0.461
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b0a-794737b46f77ad0726cc04b0;08eab9ce-c42a-49f0-ac71-ad3702aa843b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b0d-25d3a4c3071e58660363cbc1;63d92e9f-8fc3-43dd-95f3-de3281d5540a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.178, 'train_samples_per_second': 5.051, 'train_steps_per_second': 0.459, 'train_loss': 1.5736901760101318, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5737
+  train_runtime            = 0:00:02.17
+  train_samples            =         11
+  train_samples_per_second =      5.051
+  train_steps_per_second   =      0.459
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:23<00:00,  1.59it/s]
+***** eval metrics *****
+  epoch                   =     0.6667
+  eval_accuracy           =     0.7417
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242215
+  eval_loss               =     1.5432
+  eval_runtime            = 0:00:28.52
+  eval_samples            =        251
+  eval_samples_per_second =      8.799
+  eval_steps_per_second   =      1.122
+  eval_total              =      12042
+  perplexity              =     4.6793
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient??
+{'A': 'Ampicillin', 'B': 'Ceftriaxone', 'C': 'Ciprofloxacin', 'D': 'Doxycycline', 'E': 'Nitrofurantoin'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?? \n{'A': 'Ampicillin', 'B': 'Ceftriaxone', 'C': 'Ciprofloxacin', 'D': 'Doxycycline', 'E': 'Nitrofurantoin'},\n\n### Response:\nOption C : Ciprofloxacin"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. Which of the following precautions could have prevented the death of the baby??
+{'A': 'Placing the infant in a supine position on a firm mattress while sleeping', 'B': 'Routine postnatal electrocardiogram (ECG)', 'C': 'Keeping the infant covered and maintaining a high room temperature', 'D': 'Application of a device to maintain the sleeping position', 'E': 'Avoiding pacifier use during sleep'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. Which of the following precautions could have prevented the death of the baby?? \n{'A': 'Placing the infant in a supine position on a firm mattress while sleeping', 'B': 'Routine postnatal electrocardiogram (ECG)', 'C': 'Keeping the infant covered and maintaining a high room temperature', 'D': 'Application of a device to maintain the sleeping position', 'E': 'Avoiding pacifier use during sleep'},\n\n### Response:\nAns:B"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation??
+{'A': 'Abnormal migration of ventral pancreatic bud', 'B': 'Complete failure of proximal duodenum to recanalize', 'C': 'Error in neural crest cell migration', 'D': 'Abnormal hypertrophy of the pylorus', 'E': 'Failure of lateral body folds to move ventrally and fuse in the midline'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation?? \n{'A': 'Abnormal migration of ventral pancreatic bud', 'B': 'Complete failure of proximal duodenum to recanalize', 'C': 'Error in neural crest cell migration', 'D': 'Abnormal hypertrophy of the pylorus', 'E': 'Failure of lateral body folds to move ventrally and fuse in the midline'},\n\n### Response:\nAns:D\nExplanation:\n\nThe abdominal wall develops from a series of mesenchymal invaginations that occur during gastrulation.\nThe first three sets of somites form a dorsal septum (dorsal mesentery) which eventually forms part of the posterior abdominal wall.\nAfterward there is an inversion of these segments so as they appear outside the embryo surrounded by serosa.\nThese cells undergo endodermal differentiation at the site where the amniotic cavity opens into them thus forming the anterior abdominal wall.\n\nThe pancreas buds off of the foregut and migrates along the primitive gut axis before it reaches its final position in the neck of the stomach.\nIt then moves forward between two layers of peritoneum; the visceral layer being derived from the endoderm and the parietal layer formed by derivatives of the splanchnic mesoderm.\nIf the migrating pancreatic tissue fails to reach its proper place within the abdomen, it may become abnormally situated, leading to congenital malformations such as annular pancreas or duplication cysts.\n\n\nHypertrophied pyloric sphincter results due to abnormal development of the muscular coat around the pyloric canal and can cause gastric outlet obstruction.\nPylorospasm is caused when the contraction power increases beyond normal limits resulting in delayed emptying of food contents from stomach into small intestine thereby preventing complete mixing of chyme and secretion of digestive enzymes.\nThis causes vomiting even after taking sufficient amount of fluids.\n\n\n\nIncomplete closure of the anterior abdominal wall leads to gastroschisis wherein intestines protrude through the defect while omphalocele occurs if the bowel herniates into the umbilical cord itself rather than directly through the abdominal wall.\nExencephaly refers to defects involving cranial bones whereas spina bifida describes defects affecting spinal column.\n"]
+---------------------------------------------------
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings??
+{'A': 'Thromboembolism', 'B': 'Pulmonary ischemia', 'C': 'Pulmonary hypertension', 'D': 'Pulmonary passive congestion', 'E': 'Pulmonary hemorrhage'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings?? \n{'A': 'Thromboembolism', 'B': 'Pulmonary ischemia', 'C': 'Pulmonary hypertension', 'D': 'Pulmonary passive congestion', 'E': 'Pulmonary hemorrhage'},\n\n### Response:\n```python\n# input : Q\nanswer = A\n```\n"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses “have always been heavy”, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1°C (96.9°F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient’s symptoms??
+{'A': 'Factor V Leiden', 'B': 'Hemophilia A', 'C': 'Lupus anticoagulant', 'D': 'Protein C deficiency', 'E': 'Von Willebrand disease'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses “have always been heavy”, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1°C (96.9°F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient’s symptoms?? \n{'A': 'Factor V Leiden', 'B': 'Hemophilia A', 'C': 'Lupus anticoagulant', 'D': 'Protein C deficiency', 'E': 'Von Willebrand disease'},\n\n### Response:\nE\n"]
+---------------------------------------------------
+This round clients: [5, 6, 7, 8, 9]
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b3c-04297b4271781733142b9fe4;714e250b-f818-4b36-a3e8-f6c60bef56ac)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.1665, 'train_samples_per_second': 5.077, 'train_steps_per_second': 0.462, 'train_loss': 1.5728590488433838, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5729
+  train_runtime            = 0:00:02.16
+  train_samples            =         11
+  train_samples_per_second =      5.077
+  train_steps_per_second   =      0.462
+0
+2.4e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b3f-5ac9514f0a68f920533751cf;a64a8648-23fa-475d-87a3-37c6d297076e)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 2.0961, 'train_samples_per_second': 5.725, 'train_steps_per_second': 0.477, 'train_loss': 1.5367441177368164, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5367
+  train_runtime            = 0:00:02.09
+  train_samples            =         12
+  train_samples_per_second =      5.725
+  train_steps_per_second   =      0.477
+0
+2.4e-06
+{'train_runtime': 2.1506, 'train_samples_per_second': 5.115, 'train_steps_per_second': 0.465, 'train_loss': 1.6299612522125244, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =       1.63
+  train_runtime            = 0:00:02.15
+  train_samples            =         11
+  train_samples_per_second =      5.115
+  train_steps_per_second   =      0.465
+0
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.able to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b42-7db57a59351a5b8a1219d4d3;4a3d8e95-6f68-47a4-94e7-db92f6bca6f0)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.able to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b42-7db57a59351a5b8a1219d4d3;4a3d8e95-6f68-47a4-94e7-db92f6bca6f0)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b45-589cd9e66cacc28b5ef6ff3b;fe4c0cdc-6987-47c1-9de0-9989500660a1)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45b45-589cd9e66cacc28b5ef6ff3b;fe4c0cdc-6987-47c1-9de0-9989500660a1)
+{'train_runtime': 2.1561, 'train_samples_per_second': 5.102, 'train_steps_per_second': 0.464, 'train_loss': 1.606476068496704, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6065
+  train_runtime            = 0:00:02.15
+  train_samples            =         11
+  train_samples_per_second =      5.102
+  train_steps_per_second   =      0.464
+0
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b45-589cd9e66cacc28b5ef6ff3b;fe4c0cdc-6987-47c1-9de0-9989500660a1)
+  0%|                                                                                                                   | 0/32 [00:00<?, ?it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+  0%|                                                                                                                   | 0/32 [00:00<?, ?it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+{'train_runtime': 2.165, 'train_samples_per_second': 5.081, 'train_steps_per_second': 0.462, 'train_loss': 1.573395013809204, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5734
+  train_runtime            = 0:00:02.16
+  train_samples            =         11
+  train_samples_per_second =      5.081
+  9%|██████████                                                                                                 | 3/32 [00:01<00:15,  1.82it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 19%|████████████████████                                                                                       | 6/32 [00:03<00:18,  1.41it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 28%|██████████████████████████████                                                                             | 9/32 [00:06<00:17,  1.33it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 34%|████████████████████████████████████▍                                                                     | 11/32 [00:07<00:15,  1.31it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 44%|██████████████████████████████████████████████▍                                                           | 14/32 [00:10<00:13,  1.29it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 50%|█████████████████████████████████████████████████████                                                     | 16/32 [00:11<00:12,  1.29it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 59%|██████████████████████████████████████████████████████████████▉                                           | 19/32 [00:13<00:10,  1.29it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 66%|█████████████████████████████████████████████████████████████████████▌                                    | 21/32 [00:15<00:08,  1.29it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 75%|███████████████████████████████████████████████████████████████████████████████▌                          | 24/32 [00:17<00:06,  1.29it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 84%|█████████████████████████████████████████████████████████████████████████████████████████▍                | 27/32 [00:20<00:03,  1.29it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+ 91%|████████████████████████████████████████████████████████████████████████████████████████████████          | 29/32 [00:21<00:02,  1.29it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+***** eval metrics *****
+  epoch                   =     0.6667
+  eval_accuracy           =      0.742
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242215
+  eval_loss               =     1.5427
+  eval_runtime            = 0:00:28.67
+  eval_samples            =        251
+  eval_samples_per_second =      8.754
+  eval_steps_per_second   =      1.116
+  eval_total              =      12042
+  perplexity              =     4.6773
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient??
+{'A': 'Ampicillin', 'B': 'Ceftriaxone', 'C': 'Ciprofloxacin', 'D': 'Doxycycline', 'E': 'Nitrofurantoin'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?? \n{'A': 'Ampicillin', 'B': 'Ceftriaxone', 'C': 'Ciprofloxacin', 'D': 'Doxycycline', 'E': 'Nitrofurantoin'},\n\n### Response:\nOption C : Ciprofloxacin"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. Which of the following precautions could have prevented the death of the baby??
+{'A': 'Placing the infant in a supine position on a firm mattress while sleeping', 'B': 'Routine postnatal electrocardiogram (ECG)', 'C': 'Keeping the infant covered and maintaining a high room temperature', 'D': 'Application of a device to maintain the sleeping position', 'E': 'Avoiding pacifier use during sleep'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. Which of the following precautions could have prevented the death of the baby?? \n{'A': 'Placing the infant in a supine position on a firm mattress while sleeping', 'B': 'Routine postnatal electrocardiogram (ECG)', 'C': 'Keeping the infant covered and maintaining a high room temperature', 'D': 'Application of a device to maintain the sleeping position', 'E': 'Avoiding pacifier use during sleep'},\n\n### Response:\nAns:B"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation??
+{'A': 'Abnormal migration of ventral pancreatic bud', 'B': 'Complete failure of proximal duodenum to recanalize', 'C': 'Error in neural crest cell migration', 'D': 'Abnormal hypertrophy of the pylorus', 'E': 'Failure of lateral body folds to move ventrally and fuse in the midline'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation?? \n{'A': 'Abnormal migration of ventral pancreatic bud', 'B': 'Complete failure of proximal duodenum to recanalize', 'C': 'Error in neural crest cell migration', 'D': 'Abnormal hypertrophy of the pylorus', 'E': 'Failure of lateral body folds to move ventrally and fuse in the midline'},\n\n### Response:\nAns:D\nExplanation:\n\nThe question asks what developmental error might be responsible for a newborn that presents with vomiting.\nTwo major anatomical structures involved in digestion come from two different embryological sources. The foregut gives rise to the stomach and proximal part of small intestine (duodenum), while most of the rest of the small bowel comes from the midgut.\n\nIn humans, it can be difficult for the intestines to migrate into their proper positions. Therefore, they may end up being misplaced or folded on top of each other as seen here.\n\n\nFigure above shows normal development of the gut tube. During gastrulation at about day 21, the dorsal mesentery will develop around the intestinal tube forming loops. At the same time the midgut herniates through an opening between the umbilicus and liver which closes off by week 8 leaving only a remnant called the omphalo-mesenteric duct. These processes leave some potential space within the peritoneal cavity, allowing organs such as spleen to occupy these areas.\n\n\n\nSo when there is abnormal folding of parts of the gastrointestinal tract, then these malformations can occur resulting in various conditions like malrotation etc.\n\n\n\n\nVomiting due to congenital anomalies involving upper GI tract occurs more commonly during first few months of life whereas lower GI obstruction causes delayed onset of symptoms after birth typically beyond six weeks\n\n\n\n\nReferences\n\n\n1) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917952/\n"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings??
+{'A': 'Thromboembolism', 'B': 'Pulmonary ischemia', 'C': 'Pulmonary hypertension', 'D': 'Pulmonary passive congestion', 'E': 'Pulmonary hemorrhage'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings?? \n{'A': 'Thromboembolism', 'B': 'Pulmonary ischemia', 'C': 'Pulmonary hypertension', 'D': 'Pulmonary passive congestion', 'E': 'Pulmonary hemorrhage'},\n\n### Response:\nA\n"]
+---------------------------------------------------
+### Instruction: Please answer with one of the option in the bracket
+### Input:
+Q:A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses “have always been heavy”, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1°C (96.9°F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient’s symptoms??
+{'A': 'Factor V Leiden', 'B': 'Hemophilia A', 'C': 'Lupus anticoagulant', 'D': 'Protein C deficiency', 'E': 'Von Willebrand disease'},
+### Response:
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses “have always been heavy”, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1°C (96.9°F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient’s symptoms?? \n{'A': 'Factor V Leiden', 'B': 'Hemophilia A', 'C': 'Lupus anticoagulant', 'D': 'Protein C deficiency', 'E': 'Von Willebrand disease'},\n\n### Response:\nOption D"]
+---------------------------------------------------
+This round clients: [5, 6, 7, 8, 9]
+0
+3e-06
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+{'train_runtime': 2.1709, 'train_samples_per_second': 5.067, 'train_steps_per_second': 0.461, 'train_loss': 1.5729639530181885, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =      1.573
+  train_runtime            = 0:00:02.17
+  train_samples            =         11
+  train_samples_per_second =      5.067
+  train_steps_per_second   =      0.461
+0
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.██████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.██████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.██████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+{'train_runtime': 2.097, 'train_samples_per_second': 5.722, 'train_steps_per_second': 0.477, 'train_loss': 1.5362589359283447, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5363
+  train_runtime            = 0:00:02.09
+  train_samples            =         12
+  train_samples_per_second =      5.722
+  train_steps_per_second   =      0.477
+0
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.██████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+{'train_runtime': 2.091, 'train_samples_per_second': 5.261, 'train_steps_per_second': 0.478, 'train_loss': 1.6291431188583374, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6291
+  train_runtime            = 0:00:02.09
+  train_samples            =         11
+  train_samples_per_second =      5.261
+  train_steps_per_second   =      0.478
+0
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.██████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.██████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+{'train_runtime': 2.1309, 'train_samples_per_second': 5.162, 'train_steps_per_second': 0.469, 'train_loss': 1.6056530475616455, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6057
+  train_runtime            = 0:00:02.13
+  train_samples            =         11
+  train_samples_per_second =      5.162
+  train_steps_per_second   =      0.469
+0
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.██████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+{'train_runtime': 2.1556, 'train_samples_per_second': 5.103, 'train_steps_per_second': 0.464, 'train_loss': 1.5727006196975708, 'epoch': 0.67}
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.██████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5727
+  train_runtime            = 0:00:02.15
+  train_samples            =         11
+  train_samples_per_second =      5.103
+  train_steps_per_second   =      0.464
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.██████| 32/32 [00:23<00:00,  1.59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 127, in recursively_apply59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 127, in recursively_apply59it/s]ollowing error 403 Client Error. (Request ID: Root=1-67f45b49-54003b9035c754872fcdc473;480cdd6c-6d46-4fcb-8a8f-b9d8995a8e75)

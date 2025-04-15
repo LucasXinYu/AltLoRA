@@ -1,0 +1,797 @@
+***** eval metrics *****
+  eval_accuracy               =      0.181
+  eval_f1                     =     0.0962
+  eval_loss                   =     1.6049
+  eval_model_preparation_time =     0.0058
+  eval_runtime                = 0:00:31.08
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.155
+  eval_steps_per_second       =      4.664
+  perplexity                  =     4.9773
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏| 129/130 [01:29<00:00,  1.45it/s]
+{'train_runtime': 89.816, 'train_samples_per_second': 11.568, 'train_steps_per_second': 1.447, 'train_loss': 1.6002097496619592, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   511871GF
+  train_loss               =     1.6002
+  train_runtime            = 0:01:29.81
+  train_samples            =       1039
+  train_samples_per_second =     11.568
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [01:29<00:00,  1.46it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 141/145 [00:29<00:00,  4.74it/s]
+***** eval metrics *****
+  epoch                       =        1.0
+  eval_accuracy               =     0.2199
+  eval_f1                     =     0.0809
+  eval_loss                   =     1.5931
+  eval_model_preparation_time =     0.0058
+  eval_runtime                = 0:00:30.56
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.782
+  eval_steps_per_second       =      4.743
+  perplexity                  =      4.919
+This round clients: [1]
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.79it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|███████████████████████████████████████████████████████████████████████████████████████████████████▋    | 139/145 [00:29<00:01,  4.75it/s]
+***** eval metrics *****
+  eval_accuracy               =     0.2199
+  eval_f1                     =     0.0809
+  eval_loss                   =     1.5931
+  eval_model_preparation_time =     0.0083
+  eval_runtime                = 0:00:30.46
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.909
+  eval_steps_per_second       =      4.759
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.79it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏| 129/130 [01:24<00:00,  1.52it/s]
+{'train_runtime': 85.3457, 'train_samples_per_second': 12.186, 'train_steps_per_second': 1.523, 'train_loss': 1.5722771277794472, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   512364GF
+  train_loss               =     1.5723
+  train_runtime            = 0:01:25.34
+  train_samples            =       1040
+  train_samples_per_second =     12.186
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [01:25<00:00,  1.53it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 95%|██████████████████████████████████████████████████████████████████████████████████████████████████▉     | 138/145 [00:28<00:01,  4.76it/s]
+***** eval metrics *****
+  epoch                       =        1.0
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5675
+  eval_model_preparation_time =     0.0083
+  eval_runtime                = 0:00:30.35
+  eval_samples                =       1155
+  eval_samples_per_second     =     38.046
+  eval_steps_per_second       =      4.776
+  perplexity                  =     4.7947
+This round clients: [4]
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.79it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.79it/s]
+***** eval metrics *****
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5675
+  eval_model_preparation_time =     0.0091
+  eval_runtime                = 0:00:30.42
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.959
+  eval_steps_per_second       =      4.765
+  perplexity                  =     4.7947
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [01:30<00:00,  1.44it/s]
+{'train_runtime': 90.234, 'train_samples_per_second': 11.526, 'train_steps_per_second': 1.441, 'train_loss': 1.556588158240685, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   512364GF
+  train_loss               =     1.5566
+  train_runtime            = 0:01:30.23
+  train_samples            =       1040
+  train_samples_per_second =     11.526
+  train_steps_per_second   =      1.441
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 141/145 [00:29<00:00,  4.74it/s]
+***** eval metrics *****
+  epoch                       =        1.0
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5457
+  eval_model_preparation_time =     0.0091
+  eval_runtime                = 0:00:30.59
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.746
+  eval_steps_per_second       =      4.739
+  perplexity                  =     4.6912
+This round clients: [9]
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.78it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.78it/s]
+  0%|                                                                                                                  | 0/130 [00:00<?, ?it/s]
+***** eval metrics *****
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5457
+  eval_model_preparation_time =     0.0092
+  eval_runtime                = 0:00:30.49
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.875
+  eval_steps_per_second       =      4.755
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏| 129/130 [01:26<00:00,  1.49it/s]
+{'train_runtime': 87.0487, 'train_samples_per_second': 11.936, 'train_steps_per_second': 1.493, 'train_loss': 1.518188007061298, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   511871GF
+  train_loss               =     1.5182
+  train_runtime            = 0:01:27.04
+  train_samples            =       1039
+  train_samples_per_second =     11.936
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [01:27<00:00,  1.53it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.79it/s]
+  1%|█▍                                                                                                        | 2/145 [00:00<00:15,  9.24it/s]
+***** eval metrics *****
+  epoch                       =        1.0
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5344
+  eval_model_preparation_time =     0.0092
+  eval_runtime                = 0:00:30.60
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.745
+  eval_steps_per_second       =      4.739
+  perplexity                  =     4.6387
+This round clients: [1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████▌ | 143/145 [00:29<00:00,  4.75it/s]
+***** eval metrics *****
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5344
+  eval_model_preparation_time =     0.0089
+  eval_runtime                = 0:00:30.51
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.856
+  eval_steps_per_second       =      4.752
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.80it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [01:27<00:00,  1.50it/s]
+  0%|                                                                                                                  | 0/145 [00:00<?, ?it/s]
+{'train_runtime': 87.0705, 'train_samples_per_second': 11.944, 'train_steps_per_second': 1.493, 'train_loss': 1.5226359440730168, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   512364GF
+  train_loss               =     1.5226
+  train_runtime            = 0:01:27.07
+  train_samples            =       1040
+  train_samples_per_second =     11.944
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.78it/s]
+***** eval metrics *****
+  epoch                       =        1.0
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5361
+  eval_model_preparation_time =     0.0089
+  eval_runtime                = 0:00:30.58
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.758
+  eval_steps_per_second       =       4.74
+  perplexity                  =     4.6463
+This round clients: [6]
+9.504844339512095e-05
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████▍   | 140/145 [00:29<00:01,  4.72it/s]
+***** eval metrics *****
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5361
+  eval_model_preparation_time =     0.0091
+  eval_runtime                = 0:00:30.47
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.897
+  eval_steps_per_second       =      4.758
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.78it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [01:28<00:00,  1.47it/s]
+  0%|                                                                                                                  | 0/145 [00:00<?, ?it/s]
+{'train_runtime': 88.6022, 'train_samples_per_second': 11.727, 'train_steps_per_second': 1.467, 'train_loss': 1.5443729107196515, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   511871GF
+  train_loss               =     1.5444
+  train_runtime            = 0:01:28.60
+  train_samples            =       1039
+  train_samples_per_second =     11.727
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.79it/s]
+***** eval metrics *****
+  epoch                       =        1.0
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5333
+  eval_model_preparation_time =     0.0091
+  eval_runtime                = 0:00:30.58
+  eval_samples                =       1155
+  eval_samples_per_second     =      37.76
+  eval_steps_per_second       =       4.74
+  perplexity                  =     4.6333
+This round clients: [9]
+8.117449009293668e-05
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.78it/s]
+  0%|                                                                                                                  | 0/130 [00:00<?, ?it/s]
+***** eval metrics *****
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5333
+  eval_model_preparation_time =      0.011
+  eval_runtime                = 0:00:30.52
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.835
+  eval_steps_per_second       =       4.75
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [01:27<00:00,  1.53it/s]
+{'train_runtime': 87.1084, 'train_samples_per_second': 11.928, 'train_steps_per_second': 1.492, 'train_loss': 1.507229262131911, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   511871GF
+  train_loss               =     1.5072
+  train_runtime            = 0:01:27.10
+  train_samples            =       1039
+  train_samples_per_second =     11.928
+  train_steps_per_second   =      1.492
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.78it/s]
+  4%|████▍                                                                                                     | 6/145 [00:01<00:26,  5.16it/s]
+***** eval metrics *****
+  epoch                       =        1.0
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5339
+  eval_model_preparation_time =      0.011
+  eval_runtime                = 0:00:30.44
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.938
+  eval_steps_per_second       =      4.763
+  perplexity                  =     4.6364
+This round clients: [2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎| 144/145 [00:30<00:00,  4.79it/s]
+  0%|                                                                                                                  | 0/130 [00:00<?, ?it/s]
+***** eval metrics *****
+  eval_accuracy               =     0.3229
+  eval_f1                     =     0.1577
+  eval_loss                   =     1.5339
+  eval_model_preparation_time =     0.0088
+  eval_runtime                = 0:00:30.48
+  eval_samples                =       1155
+  eval_samples_per_second     =     37.891
+  eval_steps_per_second       =      4.757
+
+
+
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 850, in <module>                                  | 10/130 [00:06<01:20,  1.49it/s]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 726, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3518, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2241, in backward
+    loss.backward(**kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 850, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 726, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3518, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2241, in backward
+    loss.backward(**kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

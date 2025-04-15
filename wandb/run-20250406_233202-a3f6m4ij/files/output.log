@@ -1,0 +1,294 @@
+***** eval metrics *****
+  eval_accuracy               =     0.2121
+  eval_f1                     =     0.0915
+  eval_loss                   =     3.5527
+  eval_model_preparation_time =     0.0282
+  eval_runtime                = 0:01:44.70
+  eval_samples                =       1155
+  eval_samples_per_second     =     11.031
+  eval_steps_per_second       =      1.385
+  perplexity                  =    34.9077
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏| 129/130 [05:18<00:02,  2.47s/it]
+{'train_runtime': 320.7648, 'train_samples_per_second': 3.239, 'train_steps_per_second': 0.405, 'train_loss': 1.518358670748197, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 17047226GF
+  train_loss               =     1.5184
+  train_runtime            = 0:05:20.76
+  train_samples            =       1039
+  train_samples_per_second =      3.239
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f34879-7f36db1048c5e36c2e4150b3;ecf9b4c5-40cd-4ac7-b3aa-6befec7df5fd)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+                                                                                                                                               Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 872, in <module>                                           | 0/145 [00:00<?, ?it/s]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 785, in main
+    metrics = trainer.evaluate()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3868, in evaluate
+    output = eval_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4061, in evaluation_loop
+    losses, logits, labels = self.prediction_step(model, inputs, prediction_loss_only, ignore_keys=ignore_keys)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4279, in prediction_step
+    loss, outputs = self.compute_loss(model, inputs, return_outputs=True)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3532, in compute_loss
+    outputs = model(**inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 823, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 811, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 43, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 823, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 811, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 43, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/peft_model.py", line 1430, in forward
+    return self.base_model(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 179, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1371, in forward
+    transformer_outputs = self.model(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1000, in forward
+    layer_outputs = decoder_layer(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 745, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 311, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/tuners/lora/layer.py", line 569, in forward
+    result = result + lora_B(lora_A(dropout(x))) * scaling
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 872, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 785, in main
+    metrics = trainer.evaluate()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3868, in evaluate
+    output = eval_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4061, in evaluation_loop
+    losses, logits, labels = self.prediction_step(model, inputs, prediction_loss_only, ignore_keys=ignore_keys)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4279, in prediction_step
+    loss, outputs = self.compute_loss(model, inputs, return_outputs=True)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3532, in compute_loss
+    outputs = model(**inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 823, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 811, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 43, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 823, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 811, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 43, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/peft_model.py", line 1430, in forward
+    return self.base_model(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 179, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1371, in forward
+    transformer_outputs = self.model(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1000, in forward
+    layer_outputs = decoder_layer(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 745, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 311, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/tuners/lora/layer.py", line 569, in forward
+    result = result + lora_B(lora_A(dropout(x))) * scaling
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  File "/data/home/yjw5427/translora/fed_lora.py", line 961, in <module>                                 | 110/3150 [05:47<2:40:48,  3.17s/it]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 799, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2393, in _inner_training_loop
+    and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora.py", line 961, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 799, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2393, in _inner_training_loop
+    and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+KeyboardInterrupt

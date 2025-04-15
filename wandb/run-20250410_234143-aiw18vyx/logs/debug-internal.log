@@ -1,0 +1,302 @@
+2025-04-10 23:41:43,968 INFO    StreamThr :513865 [internal.py:wandb_internal():86] W&B internal server running at pid: 513865, started at: 2025-04-10 23:41:43.967393
+2025-04-10 23:41:43,972 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status
+2025-04-10 23:41:43,977 INFO    WriterThread:513865 [datastore.py:open_for_write():87] open: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/run-aiw18vyx.wandb
+2025-04-10 23:41:43,978 DEBUG   SenderThread:513865 [sender.py:send():379] send: header
+2025-04-10 23:41:43,979 DEBUG   SenderThread:513865 [sender.py:send():379] send: run
+2025-04-10 23:41:44,590 INFO    SenderThread:513865 [dir_watcher.py:__init__():211] watching files in: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files
+2025-04-10 23:41:44,590 INFO    SenderThread:513865 [sender.py:_start_run_threads():1124] run started: aiw18vyx with start time 1744342903.966416
+2025-04-10 23:41:44,605 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: check_version
+2025-04-10 23:41:44,605 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: check_version
+2025-04-10 23:41:44,714 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: run_start
+2025-04-10 23:41:44,761 DEBUG   HandlerThread:513865 [system_info.py:__init__():26] System info init
+2025-04-10 23:41:44,761 DEBUG   HandlerThread:513865 [system_info.py:__init__():41] System info init done
+2025-04-10 23:41:44,761 INFO    HandlerThread:513865 [system_monitor.py:start():194] Starting system monitor
+2025-04-10 23:41:44,762 INFO    SystemMonitor:513865 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-10 23:41:44,763 INFO    HandlerThread:513865 [system_monitor.py:probe():214] Collecting system info
+2025-04-10 23:41:44,763 INFO    SystemMonitor:513865 [interfaces.py:start():190] Started cpu monitoring
+2025-04-10 23:41:44,767 INFO    SystemMonitor:513865 [interfaces.py:start():190] Started disk monitoring
+2025-04-10 23:41:44,768 INFO    SystemMonitor:513865 [interfaces.py:start():190] Started gpu monitoring
+2025-04-10 23:41:44,771 INFO    SystemMonitor:513865 [interfaces.py:start():190] Started memory monitoring
+2025-04-10 23:41:44,772 INFO    SystemMonitor:513865 [interfaces.py:start():190] Started network monitoring
+2025-04-10 23:41:44,830 DEBUG   HandlerThread:513865 [system_info.py:probe():150] Probing system
+2025-04-10 23:41:44,833 DEBUG   HandlerThread:513865 [gitlib.py:_init_repo():56] git repository is invalid
+2025-04-10 23:41:44,834 DEBUG   HandlerThread:513865 [system_info.py:probe():198] Probing system done
+2025-04-10 23:41:44,834 DEBUG   HandlerThread:513865 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-136-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2025-04-11T03:41:44.830993', 'startedAt': '2025-04-11T03:41:43.955627', 'docker': None, 'cuda': None, 'args': ('--model_name_or_path', 'meta-llama/Meta-Llama-3-8B', '--output_dir', '/home/yjw5427/translora/checkpoints_moe/Meta-Llama-3-8B/meta-math/MetaMathQA/3e-5_iid_lora', '--dataset_name', 'meta-math/MetaMathQA', '--dataset_config_name', 'default', '--per_device_train_batch_size', '2', '--per_device_eval_batch_size', '8', '--max_steps', '3000', '--overwrite_output_dir', '--do_train', 'True', '--do_eval', '--seed', '42', '--dataloader_num_workers', '16', '--disable_tqdm', 'False', '--save_strategy', 'no', '--evaluation_strategy', 'epoch', '--learning_rate', '3e-5', '--notes', 'lora', '--split_strategy', 'iid', '--num_rounds', '1', '--num_clients', '1', '--sample_clients', '1', '--max_gate_samples', '50', '--max_train_samples', '100000', '--gradient_accumulation_steps', '64'), 'state': 'running', 'program': '/data/home/yjw5427/translora/fed_lora.py', 'codePathLocal': 'fed_lora.py', 'codePath': 'fed_lora.py', 'host': 'i4-l-jzc5917-01', 'username': 'yjw5427', 'executable': '/home/yjw5427/miniconda3/envs/trans/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2060.4801458333336, 'min': 800.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 840.997, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 970.1, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}, {'current': 2100.0, 'min': 800.0, 'max': 3300.0}], 'disk': {'/': {'total': 1640.1212921142578, 'used': 26.321914672851562}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 503.52316665649414}}
+2025-04-10 23:41:44,834 INFO    HandlerThread:513865 [system_monitor.py:probe():224] Finished collecting system info
+2025-04-10 23:41:44,834 INFO    HandlerThread:513865 [system_monitor.py:probe():227] Publishing system info
+2025-04-10 23:41:44,834 DEBUG   HandlerThread:513865 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-04-10 23:41:45,593 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/conda-environment.yaml
+2025-04-10 23:41:49,762 DEBUG   HandlerThread:513865 [system_info.py:_save_conda():222] Saving conda packages done
+2025-04-10 23:41:49,764 INFO    HandlerThread:513865 [system_monitor.py:probe():229] Finished publishing system info
+2025-04-10 23:41:49,774 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:41:49,774 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: keepalive
+2025-04-10 23:41:49,775 DEBUG   SenderThread:513865 [sender.py:send():379] send: files
+2025-04-10 23:41:49,775 INFO    SenderThread:513865 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2025-04-10 23:41:50,004 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: python_packages
+2025-04-10 23:41:50,005 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:41:50,006 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: python_packages
+2025-04-10 23:41:50,007 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:41:50,014 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:41:50,073 DEBUG   SenderThread:513865 [sender.py:send():379] send: telemetry
+2025-04-10 23:41:50,074 DEBUG   SenderThread:513865 [sender.py:send():379] send: config
+2025-04-10 23:41:50,076 DEBUG   SenderThread:513865 [sender.py:send():379] send: metric
+2025-04-10 23:41:50,076 DEBUG   SenderThread:513865 [sender.py:send():379] send: telemetry
+2025-04-10 23:41:50,076 DEBUG   SenderThread:513865 [sender.py:send():379] send: metric
+2025-04-10 23:41:50,077 WARNING SenderThread:513865 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2025-04-10 23:41:50,077 DEBUG   SenderThread:513865 [sender.py:send():379] send: telemetry
+2025-04-10 23:41:50,077 DEBUG   SenderThread:513865 [sender.py:send():379] send: telemetry
+2025-04-10 23:41:50,077 DEBUG   SenderThread:513865 [sender.py:send():379] send: config
+2025-04-10 23:41:50,111 INFO    wandb-upload_0:513865 [upload_job.py:push():131] Uploaded file /tmp/tmp9g7k12v9wandb/4tt1l8wn-wandb-metadata.json
+2025-04-10 23:41:50,592 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/conda-environment.yaml
+2025-04-10 23:41:50,593 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:41:50,594 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/requirements.txt
+2025-04-10 23:41:50,594 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/wandb-metadata.json
+2025-04-10 23:41:52,594 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:41:55,080 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:00,082 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:05,007 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:42:05,008 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:42:05,010 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:42:05,127 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:10,128 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:15,134 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:15,606 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/config.yaml
+2025-04-10 23:42:20,007 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:42:20,008 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:42:20,049 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:42:21,137 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:26,138 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:31,140 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:35,007 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:42:35,008 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:42:35,049 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:42:36,148 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:41,149 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:43,694 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: partial_history
+2025-04-10 23:42:43,699 DEBUG   SenderThread:513865 [sender.py:send():379] send: metric
+2025-04-10 23:42:43,700 DEBUG   SenderThread:513865 [sender.py:send():379] send: metric
+2025-04-10 23:42:43,700 DEBUG   SenderThread:513865 [sender.py:send():379] send: metric
+2025-04-10 23:42:43,700 DEBUG   SenderThread:513865 [sender.py:send():379] send: metric
+2025-04-10 23:42:43,700 DEBUG   SenderThread:513865 [sender.py:send():379] send: history
+2025-04-10 23:42:43,701 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: summary_record
+2025-04-10 23:42:43,704 INFO    SenderThread:513865 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-04-10 23:42:44,621 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:42:44,622 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_created():271] file/dir created: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/wandb-summary.json
+2025-04-10 23:42:44,773 DEBUG   SystemMonitor:513865 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-10 23:42:44,778 DEBUG   SenderThread:513865 [sender.py:send():379] send: stats
+2025-04-10 23:42:46,622 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:42:46,785 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:47,623 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/config.yaml
+2025-04-10 23:42:50,007 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:42:50,008 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:42:50,012 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:42:52,131 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:42:57,132 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:02,133 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:05,007 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:43:05,008 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:43:05,049 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:43:08,107 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:13,108 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:14,781 DEBUG   SenderThread:513865 [sender.py:send():379] send: stats
+2025-04-10 23:43:18,784 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:20,007 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:43:20,008 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:43:20,049 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:43:24,141 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:29,142 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:34,143 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:35,007 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:43:35,008 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:43:35,049 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:43:37,378 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: partial_history
+2025-04-10 23:43:37,382 DEBUG   SenderThread:513865 [sender.py:send():379] send: history
+2025-04-10 23:43:37,382 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: summary_record
+2025-04-10 23:43:37,426 INFO    SenderThread:513865 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-04-10 23:43:37,650 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/wandb-summary.json
+2025-04-10 23:43:38,651 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:43:39,428 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:40,652 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:43:44,429 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:44,784 DEBUG   SenderThread:513865 [sender.py:send():379] send: stats
+2025-04-10 23:43:49,787 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:43:50,008 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:43:50,010 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:43:50,012 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:43:55,146 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:00,147 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:05,008 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:44:05,008 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:44:05,049 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:44:06,142 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:11,143 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:14,788 DEBUG   SenderThread:513865 [sender.py:send():379] send: stats
+2025-04-10 23:44:16,790 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:20,008 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:44:20,009 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:44:20,049 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:44:22,139 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:27,140 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:31,518 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: partial_history
+2025-04-10 23:44:31,522 DEBUG   SenderThread:513865 [sender.py:send():379] send: history
+2025-04-10 23:44:31,523 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: summary_record
+2025-04-10 23:44:31,560 INFO    SenderThread:513865 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-04-10 23:44:31,680 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/wandb-summary.json
+2025-04-10 23:44:32,562 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:32,680 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:44:34,682 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:44:35,008 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:44:35,010 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:44:35,014 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:44:38,070 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:43,071 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:44,791 DEBUG   SenderThread:513865 [sender.py:send():379] send: stats
+2025-04-10 23:44:48,794 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:50,009 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:44:50,010 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:44:50,049 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:44:54,134 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:44:59,135 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:45:04,136 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:45:05,009 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-10 23:45:05,009 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: stop_status
+2025-04-10 23:45:05,049 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:45:07,894 DEBUG   SenderThread:513865 [sender.py:send():379] send: exit
+2025-04-10 23:45:07,894 INFO    SenderThread:513865 [sender.py:send_exit():586] handling exit code: 255
+2025-04-10 23:45:07,895 INFO    SenderThread:513865 [sender.py:send_exit():588] handling runtime: 203
+2025-04-10 23:45:07,904 INFO    SenderThread:513865 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-04-10 23:45:07,904 INFO    SenderThread:513865 [sender.py:send_exit():594] send defer
+2025-04-10 23:45:07,905 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:07,905 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 0
+2025-04-10 23:45:07,906 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:07,906 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-04-10 23:45:07,906 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 1
+2025-04-10 23:45:07,907 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:07,907 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 1
+2025-04-10 23:45:07,907 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:07,907 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-04-10 23:45:07,908 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 2
+2025-04-10 23:45:07,908 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:07,908 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 2
+2025-04-10 23:45:07,908 INFO    HandlerThread:513865 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-10 23:45:07,908 DEBUG   SystemMonitor:513865 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-10 23:45:07,910 INFO    HandlerThread:513865 [interfaces.py:finish():202] Joined cpu monitor
+2025-04-10 23:45:07,910 DEBUG   SystemMonitor:513865 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-10 23:45:07,912 INFO    HandlerThread:513865 [interfaces.py:finish():202] Joined disk monitor
+2025-04-10 23:45:08,206 INFO    HandlerThread:513865 [interfaces.py:finish():202] Joined gpu monitor
+2025-04-10 23:45:08,206 INFO    HandlerThread:513865 [interfaces.py:finish():202] Joined memory monitor
+2025-04-10 23:45:08,206 INFO    HandlerThread:513865 [interfaces.py:finish():202] Joined network monitor
+2025-04-10 23:45:08,208 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:08,208 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-04-10 23:45:08,208 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 3
+2025-04-10 23:45:08,208 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:08,209 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 3
+2025-04-10 23:45:08,275 DEBUG   SenderThread:513865 [sender.py:send():379] send: stats
+2025-04-10 23:45:08,276 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:08,277 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-04-10 23:45:08,277 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 4
+2025-04-10 23:45:08,277 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:08,277 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 4
+2025-04-10 23:45:08,278 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:08,278 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-04-10 23:45:08,278 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 5
+2025-04-10 23:45:08,279 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:08,279 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 5
+2025-04-10 23:45:08,280 DEBUG   SenderThread:513865 [sender.py:send():379] send: summary
+2025-04-10 23:45:08,311 INFO    SenderThread:513865 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-04-10 23:45:08,312 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:08,312 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-04-10 23:45:08,312 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 6
+2025-04-10 23:45:08,312 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:08,313 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 6
+2025-04-10 23:45:08,313 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:08,314 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-04-10 23:45:08,314 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 7
+2025-04-10 23:45:08,314 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: status_report
+2025-04-10 23:45:08,314 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:08,315 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 7
+2025-04-10 23:45:08,315 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:08,315 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-04-10 23:45:08,700 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:45:08,701 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/wandb-summary.json
+2025-04-10 23:45:08,894 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-10 23:45:09,890 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 8
+2025-04-10 23:45:09,891 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: poll_exit
+2025-04-10 23:45:09,891 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:09,892 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 8
+2025-04-10 23:45:09,892 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:09,893 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-04-10 23:45:09,893 INFO    SenderThread:513865 [job_builder.py:build():318] Attempting to build job artifact
+2025-04-10 23:45:09,897 INFO    SenderThread:513865 [job_builder.py:_get_source_type():466] no source found
+2025-04-10 23:45:09,897 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 9
+2025-04-10 23:45:09,897 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:09,897 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 9
+2025-04-10 23:45:09,899 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:09,899 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-04-10 23:45:09,899 INFO    SenderThread:513865 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-04-10 23:45:09,900 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-10 23:45:10,701 INFO    Thread-12 :513865 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:45:10,703 INFO    SenderThread:513865 [dir_watcher.py:finish():388] scan: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files
+2025-04-10 23:45:10,703 INFO    SenderThread:513865 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/config.yaml config.yaml
+2025-04-10 23:45:10,704 INFO    SenderThread:513865 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log output.log
+2025-04-10 23:45:10,704 INFO    SenderThread:513865 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/requirements.txt requirements.txt
+2025-04-10 23:45:10,704 INFO    SenderThread:513865 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/wandb-metadata.json wandb-metadata.json
+2025-04-10 23:45:10,704 INFO    SenderThread:513865 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/conda-environment.yaml conda-environment.yaml
+2025-04-10 23:45:10,715 INFO    SenderThread:513865 [dir_watcher.py:finish():402] scan save: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/wandb-summary.json wandb-summary.json
+2025-04-10 23:45:10,776 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 10
+2025-04-10 23:45:10,776 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: poll_exit
+2025-04-10 23:45:10,781 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:10,781 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 10
+2025-04-10 23:45:10,783 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:10,784 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-04-10 23:45:10,784 INFO    SenderThread:513865 [file_pusher.py:finish():172] shutting down file pusher
+2025-04-10 23:45:10,902 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-10 23:45:10,902 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: poll_exit
+2025-04-10 23:45:11,026 INFO    wandb-upload_1:513865 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/config.yaml
+2025-04-10 23:45:11,040 INFO    wandb-upload_0:513865 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/output.log
+2025-04-10 23:45:11,047 INFO    wandb-upload_4:513865 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/wandb-summary.json
+2025-04-10 23:45:11,062 INFO    wandb-upload_3:513865 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/conda-environment.yaml
+2025-04-10 23:45:11,063 INFO    wandb-upload_2:513865 [upload_job.py:push():131] Uploaded file /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/files/requirements.txt
+2025-04-10 23:45:11,264 INFO    Thread-11 (_thread_body):513865 [sender.py:transition_state():614] send defer: 11
+2025-04-10 23:45:11,264 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:11,265 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 11
+2025-04-10 23:45:11,266 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:11,266 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-04-10 23:45:11,266 INFO    SenderThread:513865 [file_pusher.py:join():178] waiting for file pusher
+2025-04-10 23:45:11,266 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 12
+2025-04-10 23:45:11,267 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:11,267 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 12
+2025-04-10 23:45:11,268 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:11,268 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-04-10 23:45:11,268 INFO    SenderThread:513865 [file_stream.py:finish():614] file stream finish called
+2025-04-10 23:45:11,576 INFO    SenderThread:513865 [file_stream.py:finish():618] file stream finish is done
+2025-04-10 23:45:11,576 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 13
+2025-04-10 23:45:11,576 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:11,577 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 13
+2025-04-10 23:45:11,577 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:11,577 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-04-10 23:45:11,578 INFO    SenderThread:513865 [sender.py:transition_state():614] send defer: 14
+2025-04-10 23:45:11,578 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: defer
+2025-04-10 23:45:11,578 INFO    HandlerThread:513865 [handler.py:handle_request_defer():172] handle defer: 14
+2025-04-10 23:45:11,579 DEBUG   SenderThread:513865 [sender.py:send():379] send: final
+2025-04-10 23:45:11,580 DEBUG   SenderThread:513865 [sender.py:send():379] send: footer
+2025-04-10 23:45:11,580 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: defer
+2025-04-10 23:45:11,580 INFO    SenderThread:513865 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-04-10 23:45:11,581 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-10 23:45:11,582 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: poll_exit
+2025-04-10 23:45:11,583 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-10 23:45:11,584 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: poll_exit
+2025-04-10 23:45:11,585 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: server_info
+2025-04-10 23:45:11,586 DEBUG   SenderThread:513865 [sender.py:send_request():406] send_request: server_info
+2025-04-10 23:45:11,591 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: get_summary
+2025-04-10 23:45:11,592 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: sampled_history
+2025-04-10 23:45:11,593 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-10 23:45:11,641 INFO    MainThread:513865 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2025-04-10 23:45:11,642 INFO    MainThread:513865 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2025-04-10 23:45:11,642 INFO    MainThread:513865 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2025-04-10 23:45:11,643 DEBUG   HandlerThread:513865 [handler.py:handle_request():146] handle_request: shutdown
+2025-04-10 23:45:11,643 INFO    HandlerThread:513865 [handler.py:finish():866] shutting down handler
+2025-04-10 23:45:12,586 INFO    WriterThread:513865 [datastore.py:close():296] close: /data/home/yjw5427/translora/wandb/run-20250410_234143-aiw18vyx/run-aiw18vyx.wandb
+2025-04-10 23:45:12,641 INFO    SenderThread:513865 [sender.py:finish():1546] shutting down sender
+2025-04-10 23:45:12,641 INFO    SenderThread:513865 [file_pusher.py:finish():172] shutting down file pusher
+2025-04-10 23:45:12,641 INFO    SenderThread:513865 [file_pusher.py:join():178] waiting for file pusher

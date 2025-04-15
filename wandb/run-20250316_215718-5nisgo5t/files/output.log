@@ -1,0 +1,1474 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:24<00:00,  2.09s/it]
+{'train_runtime': 151.9262, 'train_samples_per_second': 1.817, 'train_steps_per_second': 0.454, 'train_loss': 1.320301221764606, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3203
+  train_runtime            = 0:02:31.92
+  train_samples            =       1112
+  train_samples_per_second =      1.817
+  train_steps_per_second   =      0.454
+68
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:23<00:00,  2.11s/it]
+  0%|                                                                                                | 0/68 [00:00<?, ?it/s]
+{'train_runtime': 143.9502, 'train_samples_per_second': 1.89, 'train_steps_per_second': 0.472, 'train_loss': 1.3521096846636604, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3521
+  train_runtime            = 0:02:23.95
+  train_samples            =       1091
+  train_samples_per_second =       1.89
+  train_steps_per_second   =      0.472
+68
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 67/68 [02:21<00:02,  2.11s/it]
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:23<00:00,  2.11s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3383
+  train_runtime            = 0:02:23.36
+  train_samples            =       1096
+  train_samples_per_second =      1.897
+  train_steps_per_second   =      0.474
+69
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 68/69 [02:23<00:02,  2.07s/it]
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:25<00:00,  2.07s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3327
+  train_runtime            = 0:02:25.12
+  train_samples            =       1107
+  train_samples_per_second =      1.902
+  train_steps_per_second   =      0.475
+69
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:23<00:00,  2.07s/it]
+{'train_runtime': 143.4264, 'train_samples_per_second': 1.924, 'train_steps_per_second': 0.481, 'train_loss': 1.326642796613168, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3266
+  train_runtime            = 0:02:23.42
+  train_samples            =       1115
+  train_samples_per_second =      1.924
+[WARNING|logging.py:328] 2025-03-16 22:09:32,441 >> The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[WARNING|logging.py:328] 2025-03-16 22:09:32,616 >> Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining], food[itallian, pizza and pasta, a la carte menu available on request], vegetarian[dishes available but not extensive range - please ask for details when booking as we are happy to oblige where possible], glutenFree[please advise us in advance of your visit so that our chef can cater accordingly], area[outskirts], disabledAccess[yes], babyChangingFacilities[both male & female toilets have changing tables']
+This round clients: [0, 1, 2, 3, 4]
+69
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 68/69 [02:22<00:02,  2.11s/it]
+{'train_runtime': 144.9361, 'train_samples_per_second': 1.904, 'train_steps_per_second': 0.476, 'train_loss': 1.299219214397928, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2992
+  train_runtime            = 0:02:24.93
+  train_samples            =       1112
+  train_samples_per_second =      1.904
+  train_steps_per_second   =      0.476
+68
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:24<00:00,  2.10s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 67/68 [02:22<00:02,  2.11s/it]
+{'train_runtime': 144.5515, 'train_samples_per_second': 1.882, 'train_steps_per_second': 0.47, 'train_loss': 1.3432075276094324, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3432
+  train_runtime            = 0:02:24.55
+  train_samples            =       1091
+  train_samples_per_second =      1.882
+  train_steps_per_second   =       0.47
+68
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:24<00:00,  2.11s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 67/68 [02:22<00:02,  2.12s/it]
+{'train_runtime': 145.097, 'train_samples_per_second': 1.875, 'train_steps_per_second': 0.469, 'train_loss': 1.312905704273897, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3129
+  train_runtime            = 0:02:25.09
+  train_samples            =       1096
+  train_samples_per_second =      1.875
+  train_steps_per_second   =      0.469
+69
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.12s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:25<00:00,  2.10s/it]
+{'train_runtime': 145.6082, 'train_samples_per_second': 1.895, 'train_steps_per_second': 0.474, 'train_loss': 1.2582316744154778, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2582
+  train_runtime            = 0:02:25.60
+  train_samples            =       1107
+  train_samples_per_second =      1.895
+  train_steps_per_second   =      0.474
+69
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 68/69 [02:24<00:02,  2.11s/it]
+{'train_runtime': 146.4053, 'train_samples_per_second': 1.885, 'train_steps_per_second': 0.471, 'train_loss': 1.3063174261563066, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3063
+  train_runtime            = 0:02:26.40
+  train_samples            =       1115
+  train_samples_per_second =      1.885
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:26<00:00,  2.10s/it]
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining], food[itallian, pizza and pasta, a la carte menu available on request], vegetarian[dishes available but not extensive range - please ask for details when booking as we are happy to oblige where possible], glutenFree[please advise us in advance of your visit so that our chef can cater accordingly], area[outskirts], disabledAccess[yes], babyChangingFacilities[both male & female toilets have changing tables']
+This round clients: [0, 1, 2, 3, 4]
+69
+2.4e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 68/69 [02:24<00:02,  2.16s/it]
+{'train_runtime': 147.1162, 'train_samples_per_second': 1.876, 'train_steps_per_second': 0.469, 'train_loss': 1.265809542890908, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2658
+  train_runtime            = 0:02:27.11
+  train_samples            =       1112
+  train_samples_per_second =      1.876
+  train_steps_per_second   =      0.469
+68
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.14s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 67/68 [02:24<00:02,  2.15s/it]
+{'train_runtime': 146.3387, 'train_samples_per_second': 1.859, 'train_steps_per_second': 0.465, 'train_loss': 1.2821225559010225, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2821
+  train_runtime            = 0:02:26.33
+  train_samples            =       1091
+  train_samples_per_second =      1.859
+  train_steps_per_second   =      0.465
+68
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:26<00:00,  2.15s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 67/68 [02:23<00:02,  2.13s/it]
+{'train_runtime': 145.5776, 'train_samples_per_second': 1.868, 'train_steps_per_second': 0.467, 'train_loss': 1.2747626585118912, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2748
+  train_runtime            = 0:02:25.57
+  train_samples            =       1096
+  train_samples_per_second =      1.868
+  train_steps_per_second   =      0.467
+69
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.12s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 68/69 [02:25<00:02,  2.13s/it]
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.12s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2524
+  train_runtime            = 0:02:27.22
+  train_samples            =       1107
+  train_samples_per_second =      1.875
+  train_steps_per_second   =      0.469
+69
+2.4e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 68/69 [02:24<00:02,  2.12s/it]
+{'train_runtime': 146.3868, 'train_samples_per_second': 1.885, 'train_steps_per_second': 0.471, 'train_loss': 1.2754592895507812, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2755
+  train_runtime            = 0:02:26.38
+  train_samples            =       1115
+  train_samples_per_second =      1.885
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:26<00:00,  2.11s/it]
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining], food[itallian, pizza and pasta, a la carte menu available on request], vegetarian[dishes available but not extensive range - please ask for details when booking as we are happy to oblige where possible], glutenFree[please advise us in advance of your visit so that our chef can cater accordingly], area[outskirts], disabledAccess[yes], babyChangingFacilities[both male & female toilets have changing tables']
+This round clients: [0, 1, 2, 3, 4]
+69
+3e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 68/69 [02:24<00:02,  2.13s/it]
+{'train_runtime': 146.5706, 'train_samples_per_second': 1.883, 'train_steps_per_second': 0.471, 'train_loss': 1.212419813957767, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2124
+  train_runtime            = 0:02:26.57
+  train_samples            =       1112
+  train_samples_per_second =      1.883
+  train_steps_per_second   =      0.471
+68
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:26<00:00,  2.12s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:24<00:00,  2.11s/it]
+{'train_runtime': 144.2877, 'train_samples_per_second': 1.885, 'train_steps_per_second': 0.471, 'train_loss': 1.2358270532944624, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2358
+  train_runtime            = 0:02:24.28
+  train_samples            =       1091
+  train_samples_per_second =      1.885
+  train_steps_per_second   =      0.471
+68
+3e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  File "/data/home/yjw5427/translora/fed_lora.py", line 905, in <module>██████████████▉     | 64/68 [02:13<00:08,  2.06s/it]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 762, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3518, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2241, in backward
+    loss.backward(**kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora.py", line 905, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 762, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3518, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2241, in backward
+    loss.backward(**kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

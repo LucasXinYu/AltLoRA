@@ -1,0 +1,408 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:23<00:00,  2.08s/it]
+{'train_runtime': 150.123, 'train_samples_per_second': 1.838, 'train_steps_per_second': 0.46, 'train_loss': 1.3203282010728035, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3203
+  train_runtime            = 0:02:30.12
+  train_samples            =       1112
+  train_samples_per_second =      1.838
+  train_steps_per_second   =       0.46
+68
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:21<00:00,  2.07s/it]
+{'train_runtime': 141.4178, 'train_samples_per_second': 1.923, 'train_steps_per_second': 0.481, 'train_loss': 1.3521566951976103, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3522
+  train_runtime            = 0:02:21.41
+  train_samples            =       1091
+  train_samples_per_second =      1.923
+  train_steps_per_second   =      0.481
+68
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:22<00:00,  2.09s/it]
+  0%|                                                                                                | 0/69 [00:00<?, ?it/s]
+{'train_runtime': 142.1167, 'train_samples_per_second': 1.914, 'train_steps_per_second': 0.478, 'train_loss': 1.3383476032930262, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3383
+  train_runtime            = 0:02:22.11
+  train_samples            =       1096
+  train_samples_per_second =      1.914
+  train_steps_per_second   =      0.478
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:24<00:00,  2.12s/it]
+  0%|                                                                                                | 0/69 [00:00<?, ?it/s]
+{'train_runtime': 144.744, 'train_samples_per_second': 1.907, 'train_steps_per_second': 0.477, 'train_loss': 1.3326545383619226, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3327
+  train_runtime            = 0:02:24.74
+  train_samples            =       1107
+  train_samples_per_second =      1.907
+  train_steps_per_second   =      0.477
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  File "/data/home/yjw5427/translora/fed_lora.py", line 905, in <module>                    | 48/69 [01:40<00:44,  2.10s/it]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 762, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3518, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2241, in backward
+    loss.backward(**kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora.py", line 905, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 762, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3518, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2241, in backward
+    loss.backward(**kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

@@ -1,0 +1,689 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ad20-58cf19f24687a31042648738;226c0fea-b697-4459-8cdd-50fabb3dbbf1)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 34.1779, 'train_samples_per_second': 3.218, 'train_steps_per_second': 0.38, 'train_loss': 2.304394061748798, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.3044
+  train_runtime            = 0:00:34.17
+  train_samples            =        110
+  train_samples_per_second =      3.218
+  train_steps_per_second   =       0.38
+7
+4e-05
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ad3e-7d1d70f441bc0fa05e0a4edd;addcd281-dc51-459d-9712-39e3c360ed00)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 29.1779, 'train_samples_per_second': 3.804, 'train_steps_per_second': 0.48, 'train_loss': 2.272106851850237, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.2721
+  train_runtime            = 0:00:29.17
+  train_samples            =        111
+  train_samples_per_second =      3.804
+  train_steps_per_second   =       0.48
+7
+4e-05
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ad5b-3ebcc1897fdb1ecb1ac072b4;262cf363-1f0a-4083-89a4-531ce6d29d2d)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 27.4542, 'train_samples_per_second': 3.97, 'train_steps_per_second': 0.474, 'train_loss': 2.3141570458045373, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.3142
+  train_runtime            = 0:00:27.45
+  train_samples            =        109
+  train_samples_per_second =       3.97
+  train_steps_per_second   =      0.474
+7
+4e-05
+
+
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████▉        | 12/13 [00:25<00:02,  2.10s/it]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ad77-5f12b0272412b4df5c1d880b;1bb7ccf8-b755-4271-ab54-b548d6736479)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     2.2966
+  train_runtime            = 0:00:27.44
+  train_samples            =        110
+  train_samples_per_second =      4.007
+  train_steps_per_second   =      0.474
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ad96-0add7c8b531585c423e7023f;85b08d89-fbf0-4053-950f-de333efcf56c)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 29.3728, 'train_samples_per_second': 3.779, 'train_steps_per_second': 0.477, 'train_loss': 2.270789010184152, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     2.2708
+  train_runtime            = 0:00:29.37
+  train_samples            =        111
+  train_samples_per_second =      3.779
+  train_steps_per_second   =      0.477
+This round clients: [5, 6, 7, 8, 9]
+7
+6.000000000000001e-05
+
+
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████▉        | 12/13 [00:25<00:02,  2.11s/it]
+{'train_runtime': 27.5137, 'train_samples_per_second': 3.998, 'train_steps_per_second': 0.472, 'train_loss': 1.7668154789851263, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.7668
+  train_runtime            = 0:00:27.51
+  train_samples            =        110
+  train_samples_per_second =      3.998
+  train_steps_per_second   =      0.472
+7
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4adb3-76f53820750e839525ffd0c5;9bd3e875-076b-462b-86b7-0d0567f53da0)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4add2-1e7e583b396ef5925ff4a464;7b9ae3f4-2ca5-4f81-802e-ef9e8db9db06)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]
+{'train_runtime': 29.3409, 'train_samples_per_second': 3.783, 'train_steps_per_second': 0.477, 'train_loss': 1.7523750577654158, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     1.7524
+  train_runtime            = 0:00:29.34
+  train_samples            =        111
+  train_samples_per_second =      3.783
+  train_steps_per_second   =      0.477
+7
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4adee-70674337660807037557274f;b7051437-7164-41bc-bb04-b7510fbe3d59)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 27.529, 'train_samples_per_second': 3.959, 'train_steps_per_second': 0.472, 'train_loss': 1.7781881185678334, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.7782
+  train_runtime            = 0:00:27.52
+  train_samples            =        109
+  train_samples_per_second =      3.959
+  train_steps_per_second   =      0.472
+7
+6.000000000000001e-05
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae0b-6b7433c06a6bf23f4ff0eaa3;41034407-9149-4436-999f-4e0db2c7833b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 27.4886, 'train_samples_per_second': 4.002, 'train_steps_per_second': 0.473, 'train_loss': 1.7586954556978667, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.7587
+  train_runtime            = 0:00:27.48
+  train_samples            =        110
+  train_samples_per_second =      4.002
+  train_steps_per_second   =      0.473
+7
+6.000000000000001e-05
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 93%|█████████████████████████████████████████████████████████████████████████████████████████████████▌       | 13/14 [00:27<00:02,  2.11s/it]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae2a-015e65b307cd3bef24933a99;78d77f74-4485-412a-b400-f69302af47a7)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     1.7584
+  train_runtime            = 0:00:29.39
+  train_samples            =        111
+  train_samples_per_second =      3.777
+  train_steps_per_second   =      0.476
+This round clients: [5, 6, 7, 8, 9]
+7
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae47-1435b053410a03fb190aaf61;8f8c4efc-1aed-4157-aaba-ecd5f93c050b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 27.5165, 'train_samples_per_second': 3.998, 'train_steps_per_second': 0.472, 'train_loss': 1.4913494403545673, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.4913
+  train_runtime            = 0:00:27.51
+  train_samples            =        110
+  train_samples_per_second =      3.998
+  train_steps_per_second   =      0.472
+7
+8e-05
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae65-340c806864e34e045cb853a6;1c69a50f-6600-412f-842b-732c193cc13f)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 29.3963, 'train_samples_per_second': 3.776, 'train_steps_per_second': 0.476, 'train_loss': 1.4772443771362305, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     1.4772
+  train_runtime            = 0:00:29.39
+  train_samples            =        111
+  train_samples_per_second =      3.776
+  train_steps_per_second   =      0.476
+7
+8e-05
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae82-4367d2894598a4597e2f1b55;2b7916ca-59bf-44e2-a933-9c17d5749059)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]
+{'train_runtime': 27.5419, 'train_samples_per_second': 3.958, 'train_steps_per_second': 0.472, 'train_loss': 1.5004857870248647, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.5005
+  train_runtime            = 0:00:27.54
+  train_samples            =        109
+  train_samples_per_second =      3.958
+  train_steps_per_second   =      0.472
+7
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.17s/it]
+ 15%|████████████████▎                                                                                         | 2/13 [00:04<00:23,  2.13s/it]
+ 23%|████████████████████████▍                                                                                 | 3/13 [00:06<00:21,  2.12s/it]
+ 31%|████████████████████████████████▌                                                                         | 4/13 [00:08<00:19,  2.12s/it]
+ 38%|████████████████████████████████████████▊                                                                 | 5/13 [00:10<00:16,  2.12s/it]
+ 46%|████████████████████████████████████████████████▉                                                         | 6/13 [00:12<00:14,  2.11s/it]
+ 54%|█████████████████████████████████████████████████████████                                                 | 7/13 [00:14<00:12,  2.11s/it]
+ 62%|█████████████████████████████████████████████████████████████████▏                                        | 8/13 [00:16<00:10,  2.11s/it]
+ 69%|█████████████████████████████████████████████████████████████████████████▍                                | 9/13 [00:19<00:08,  2.11s/it]
+ 77%|████████████████████████████████████████████████████████████████████████████████▊                        | 10/13 [00:21<00:06,  2.11s/it]
+ 85%|████████████████████████████████████████████████████████████████████████████████████████▊                | 11/13 [00:23<00:04,  2.11s/it]
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████▉        | 12/13 [00:25<00:02,  2.11s/it]
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+{'train_runtime': 27.5342, 'train_samples_per_second': 3.995, 'train_steps_per_second': 0.472, 'train_loss': 1.4816671518179088, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.4817
+  train_runtime            = 0:00:27.53
+  train_samples            =        110
+  train_samples_per_second =      3.995
+  train_steps_per_second   =      0.472
+7
+8e-05
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+  warnings.warn(niconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae9f-3e46b2a62979699c4ad6b438;f5c2f1e3-74f7-4d6c-9c61-1690e39f6290)
+{'train_runtime': 29.4025, 'train_samples_per_second': 3.775, 'train_steps_per_second': 0.476, 'train_loss': 1.483055795942034, 'epoch': 1.0}
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     1.4831
+  train_runtime            = 0:00:29.40
+  train_samples            =        111
+  train_samples_per_second =      3.775
+  train_steps_per_second   =      0.476
+This round clients: [5, 6, 7, 8, 9]
+7
+0.0001
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+{'train_runtime': 27.5058, 'train_samples_per_second': 3.999, 'train_steps_per_second': 0.473, 'train_loss': 1.360525864821214, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.3605
+  train_runtime            = 0:00:27.50
+  train_samples            =        110
+  train_samples_per_second =      3.999
+  train_steps_per_second   =      0.473
+7
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+{'train_runtime': 29.4071, 'train_samples_per_second': 3.775, 'train_steps_per_second': 0.476, 'train_loss': 1.3514014652797155, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     1.3514
+  train_runtime            = 0:00:29.40
+  train_samples            =        111
+  train_samples_per_second =      3.775
+  train_steps_per_second   =      0.476
+7
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+{'train_runtime': 27.5163, 'train_samples_per_second': 3.961, 'train_steps_per_second': 0.472, 'train_loss': 1.3650685823880708, 'epoch': 0.95}
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.3651
+  train_runtime            = 0:00:27.51
+  train_samples            =        109
+  train_samples_per_second =      3.961
+  train_steps_per_second   =      0.472
+7
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+{'train_runtime': 27.5117, 'train_samples_per_second': 3.998, 'train_steps_per_second': 0.473, 'train_loss': 1.34325071481558, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.3433
+  train_runtime            = 0:00:27.51
+  train_samples            =        110
+  train_samples_per_second =      3.998
+  train_steps_per_second   =      0.473
+7
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+{'train_runtime': 29.2568, 'train_samples_per_second': 3.794, 'train_steps_per_second': 0.479, 'train_loss': 1.350902693612235, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     1.3509
+  train_runtime            = 0:00:29.25
+  train_samples            =        111
+  train_samples_per_second =      3.794
+  train_steps_per_second   =      0.479
+This round clients: [5, 6, 7, 8, 9]
+7
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.3204
+  train_runtime            = 0:00:27.33
+  train_samples            =        110
+  train_samples_per_second =      4.025
+  train_steps_per_second   =      0.476
+7
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  7%|███████▌                                                                                                  | 1/14 [00:02<00:27,  2.15s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+{'train_runtime': 29.3767, 'train_samples_per_second': 3.779, 'train_steps_per_second': 0.477, 'train_loss': 1.3150333677019392, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =      1.315
+  train_runtime            = 0:00:29.37
+  train_samples            =        111
+  train_samples_per_second =      3.779
+  train_steps_per_second   =      0.477
+7
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  8%|████████▏                                                                                                 | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.      | 1/13 [00:02<00:25,  2.16s/it]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+{'train_runtime': 27.5112, 'train_samples_per_second': 3.962, 'train_steps_per_second': 0.473, 'train_loss': 1.327237789447491, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.3272
+  train_runtime            = 0:00:27.51
+  train_samples            =        109
+  train_samples_per_second =      3.962
+  train_steps_per_second   =      0.473
+7
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+{'train_runtime': 27.475, 'train_samples_per_second': 4.004, 'train_steps_per_second': 0.473, 'train_loss': 1.3105140099158654, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9455
+  total_flos               =  1706354GF
+  train_loss               =     1.3105
+  train_runtime            = 0:00:27.47
+  train_samples            =        110
+  train_samples_per_second =      4.004
+  train_steps_per_second   =      0.473
+7
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/13 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+{'train_runtime': 29.3226, 'train_samples_per_second': 3.785, 'train_steps_per_second': 0.477, 'train_loss': 1.320061274937221, 'epoch': 1.0}
+  0%|                                                                                                                  | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1821204GF
+  train_loss               =     1.3201
+  train_runtime            = 0:00:29.32
+  train_samples            =        111
+  train_samples_per_second =      3.785
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.              | 0/14 [00:00<?, ?it/s]2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.9c61-1690e39f6290)

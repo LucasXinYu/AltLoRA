@@ -1,0 +1,1229 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4a8f4-0ef3a90c01dd72dc244985f6;6e514bc9-9a41-4edb-823c-c93ea33aef26)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 109.9395, 'train_samples_per_second': 2.001, 'train_steps_per_second': 0.246, 'train_loss': 1.3549669053819444, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =      1.355
+  train_runtime            = 0:01:49.93
+  train_samples            =        220
+  train_samples_per_second =      2.001
+  train_steps_per_second   =      0.246
+13
+0.00011999999999999999
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████    | 26/27 [01:40<00:03,  3.83s/it]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4a95d-337838bd6e90d4097cf3dcbd;07a7cfc7-fbb2-4a20-aeb1-22ed63a9a8f4)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/27 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.3326
+  train_runtime            = 0:01:43.93
+  train_samples            =        219
+  train_samples_per_second =      2.107
+  train_steps_per_second   =       0.26
+13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4a9c7-165089bf6078c6147a10ca99;830178a2-1585-49bd-8454-3265d09c847b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 104.4797, 'train_samples_per_second': 2.096, 'train_steps_per_second': 0.258, 'train_loss': 1.3545455932617188, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.3545
+  train_runtime            = 0:01:44.47
+  train_samples            =        219
+  train_samples_per_second =      2.096
+  train_steps_per_second   =      0.258
+13
+0.00011999999999999999
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4aa31-4c7dc971182ecb1942e8efac;671a48dd-9326-4bfe-861f-0735063d8982)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 104.6783, 'train_samples_per_second': 2.121, 'train_steps_per_second': 0.258, 'train_loss': 1.3386917114257812, 'epoch': 0.97}
+***** train metrics *****
+  epoch                    =      0.973
+  total_flos               =  9379481GF
+  train_loss               =     1.3387
+  train_runtime            = 0:01:44.67
+  train_samples            =        222
+  train_samples_per_second =      2.121
+  train_steps_per_second   =      0.258
+13
+0.00011999999999999999
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4aa9f-4f355de672a31a5704523abb;ebc35619-f61a-47a4-ac3c-d642247ba884)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 108.0732, 'train_samples_per_second': 2.063, 'train_steps_per_second': 0.259, 'train_loss': 1.3361069815499442, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  9683445GF
+  train_loss               =     1.3361
+  train_runtime            = 0:01:48.07
+  train_samples            =        223
+  train_samples_per_second =      2.063
+  train_steps_per_second   =      0.259
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:46<00:00,  1.25s/it]
+  0%|                                                                                                                  | 0/27 [00:00<?, ?it/s]
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.7853
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242788
+  eval_loss               =     1.2217
+  eval_runtime            = 0:00:53.02
+  eval_samples            =        251
+  eval_samples_per_second =      4.734
+  eval_steps_per_second   =      0.604
+  eval_total              =      12042
+  perplexity              =     3.3931
+This round clients: [0, 1, 2, 3, 4]
+13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ab3d-7abec3241c8494f97583b66e;2ec3b5bf-e96d-4a1d-9b4c-fb529565b53d)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 104.1125, 'train_samples_per_second': 2.113, 'train_steps_per_second': 0.259, 'train_loss': 1.2377887301974826, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.2378
+  train_runtime            = 0:01:44.11
+  train_samples            =        220
+  train_samples_per_second =      2.113
+  train_steps_per_second   =      0.259
+13
+0.00017999999999999998
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4aba8-641b977f5ecc8acd096f8ef9;ee7ef287-0072-4483-a3ac-7b0ca5aba0a0)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 104.7952, 'train_samples_per_second': 2.09, 'train_steps_per_second': 0.258, 'train_loss': 1.2100352534541376, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =       1.21
+  train_runtime            = 0:01:44.79
+  train_samples            =        219
+  train_samples_per_second =       2.09
+  train_steps_per_second   =      0.258
+13
+0.00017999999999999998
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 27/27 [01:44<00:00,  3.88s/it]
+{'train_runtime': 104.7458, 'train_samples_per_second': 2.091, 'train_steps_per_second': 0.258, 'train_loss': 1.2379685861093026, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =      1.238
+  train_runtime            = 0:01:44.74
+  train_samples            =        219
+  train_samples_per_second =      2.091
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ac12-6c5efa6b28bc1ab3640aaa7b;2289f14f-d14b-446b-9272-c6c231d9abe5)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/27 [00:00<?, ?it/s]
+13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████    | 26/27 [01:40<00:03,  3.88s/it]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ac7c-13ca71b7644575ed1479839d;4ba1a2db-1303-4ff3-a5cb-5ca56d8d923b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                  | 0/28 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =      0.973
+  total_flos               =  9379481GF
+  train_loss               =     1.2224
+  train_runtime            = 0:01:44.79
+  train_samples            =        222
+  train_samples_per_second =      2.118
+  train_steps_per_second   =      0.258
+13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4acea-510817a50aa641d34fc5aebf;c282cada-86ed-4654-96d3-3d10f9f3d8b1)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 108.2251, 'train_samples_per_second': 2.061, 'train_steps_per_second': 0.259, 'train_loss': 1.222463880266462, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  9683445GF
+  train_loss               =     1.2225
+  train_runtime            = 0:01:48.22
+  train_samples            =        223
+  train_samples_per_second =      2.061
+  train_steps_per_second   =      0.259
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:46<00:00,  1.25s/it]
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.7952
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242707
+  eval_loss               =     1.1828
+  eval_runtime            = 0:00:52.95
+  eval_samples            =        251
+  eval_samples_per_second =       4.74
+  eval_steps_per_second   =      0.604
+  eval_total              =      12042
+  perplexity              =     3.2634
+This round clients: [0, 1, 2, 3, 4]
+13
+0.00023999999999999998
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████    | 26/27 [01:40<00:03,  3.88s/it]
+{'train_runtime': 104.5133, 'train_samples_per_second': 2.105, 'train_steps_per_second': 0.258, 'train_loss': 1.1983254044144243, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.1983
+  train_runtime            = 0:01:44.51
+  train_samples            =        220
+  train_samples_per_second =      2.105
+  train_steps_per_second   =      0.258
+13
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ad89-7d470e7c7ba7eb472b47b28e;33a3633f-2413-4ec5-b89f-3d95b5764202)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████    | 26/27 [01:40<00:03,  3.88s/it]
+{'train_runtime': 104.8578, 'train_samples_per_second': 2.089, 'train_steps_per_second': 0.257, 'train_loss': 1.1742700647424769, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.1743
+  train_runtime            = 0:01:44.85
+  train_samples            =        219
+  train_samples_per_second =      2.089
+  train_steps_per_second   =      0.257
+13
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4adf4-494537a65346452d774d2efc;c7136292-103b-4cc6-b2c2-2c816f5a7232)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████    | 26/27 [01:40<00:03,  3.88s/it]
+{'train_runtime': 104.7413, 'train_samples_per_second': 2.091, 'train_steps_per_second': 0.258, 'train_loss': 1.2003107424135562, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.2003
+  train_runtime            = 0:01:44.74
+  train_samples            =        219
+  train_samples_per_second =      2.091
+  train_steps_per_second   =      0.258
+13
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4ae5e-290aa4ff161214354862387d;d83d9928-7675-4dd3-8c53-f1d479495529)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████    | 26/27 [01:41<00:03,  3.89s/it]
+{'train_runtime': 104.9824, 'train_samples_per_second': 2.115, 'train_steps_per_second': 0.257, 'train_loss': 1.184705239755136, 'epoch': 0.97}
+***** train metrics *****
+  epoch                    =      0.973
+  total_flos               =  9379481GF
+  train_loss               =     1.1847
+  train_runtime            = 0:01:44.98
+  train_samples            =        222
+  train_samples_per_second =      2.115
+  train_steps_per_second   =      0.257
+13
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4aec9-0d28da685025e1ae0dd3f698;3e749683-c6f0-4f5f-858a-4b470635d058)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████▎   | 27/28 [01:44<00:03,  3.88s/it]
+{'train_runtime': 108.2145, 'train_samples_per_second': 2.061, 'train_steps_per_second': 0.259, 'train_loss': 1.1862406049455916, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  9683445GF
+  train_loss               =     1.1862
+  train_runtime            = 0:01:48.21
+  train_samples            =        223
+  train_samples_per_second =      2.061
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4af36-3099e935455ee2a35674c474;9bd7b48a-5876-4c0b-8f4e-6b544a92fc39)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:46<00:00,  1.25s/it]
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.7946
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242708
+  eval_loss               =     1.1712
+  eval_runtime            = 0:00:53.16
+  eval_samples            =        251
+  eval_samples_per_second =      4.721
+  eval_steps_per_second   =      0.602
+  eval_total              =      12042
+  perplexity              =     3.2259
+This round clients: [0, 1, 2, 3, 4]
+13
+0.0003
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████    | 26/27 [01:40<00:03,  3.88s/it]
+{'train_runtime': 104.6883, 'train_samples_per_second': 2.101, 'train_steps_per_second': 0.258, 'train_loss': 1.1726112365722656, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.1726
+  train_runtime            = 0:01:44.68
+  train_samples            =        220
+  train_samples_per_second =      2.101
+  train_steps_per_second   =      0.258
+13
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f4afd6-410b55ce75bd7bbd5c832104;53e70d10-96b4-4bbd-8591-56fc8730e56a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Meta-Llama-3-8B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Meta-Llama-3-8B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  4%|███▉                                                                                                      | 1/27 [00:03<01:42,  3.92s/it]
+  7%|███████▊                                                                                                  | 2/27 [00:07<01:37,  3.89s/it]
+ 11%|███████████▊                                                                                              | 3/27 [00:11<01:33,  3.88s/it]
+ 15%|███████████████▋                                                                                          | 4/27 [00:15<01:29,  3.88s/it]
+ 19%|███████████████████▋                                                                                      | 5/27 [00:19<01:25,  3.87s/it]
+ 22%|███████████████████████▌                                                                                  | 6/27 [00:23<01:21,  3.87s/it]
+ 26%|███████████████████████████▍                                                                              | 7/27 [00:27<01:17,  3.88s/it]
+ 30%|███████████████████████████████▍                                                                          | 8/27 [00:31<01:13,  3.88s/it]
+ 33%|███████████████████████████████████▎                                                                      | 9/27 [00:34<01:09,  3.88s/it]
+ 37%|██████████████████████████████████████▉                                                                  | 10/27 [00:38<01:05,  3.88s/it]
+ 41%|██████████████████████████████████████████▊                                                              | 11/27 [00:42<01:02,  3.88s/it]
+ 44%|██████████████████████████████████████████████▋                                                          | 12/27 [00:46<00:58,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+ 48%|██████████████████████████████████████████████████▌                                                      | 13/27 [00:50<00:54,  3.88s/it]
+{'train_runtime': 104.6946, 'train_samples_per_second': 2.092, 'train_steps_per_second': 0.258, 'train_loss': 1.1502082259566695, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.1502
+  train_runtime            = 0:01:44.69
+  train_samples            =        219
+  train_samples_per_second =      2.092
+  train_steps_per_second   =      0.258
+13
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+{'train_runtime': 104.5215, 'train_samples_per_second': 2.095, 'train_steps_per_second': 0.258, 'train_loss': 1.1764209182174117, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.1764
+  train_runtime            = 0:01:44.52
+  train_samples            =        219
+  train_samples_per_second =      2.095
+  train_steps_per_second   =      0.258
+13
+0.0003
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+{'train_runtime': 104.5781, 'train_samples_per_second': 2.123, 'train_steps_per_second': 0.258, 'train_loss': 1.159638934665256, 'epoch': 0.97}
+***** train metrics *****
+  epoch                    =      0.973
+  total_flos               =  9379481GF
+  train_loss               =     1.1596
+  train_runtime            = 0:01:44.57
+  train_samples            =        222
+  train_samples_per_second =      2.123
+  train_steps_per_second   =      0.258
+13
+0.0003
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+{'train_runtime': 108.0228, 'train_samples_per_second': 2.064, 'train_steps_per_second': 0.259, 'train_loss': 1.1627569198608398, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  9683445GF
+  train_loss               =     1.1628
+  train_runtime            = 0:01:48.02
+  train_samples            =        223
+  train_samples_per_second =      2.064
+  train_steps_per_second   =      0.259
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.7975
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242610
+  eval_loss               =     1.1641
+  eval_runtime            = 0:00:53.05
+  eval_samples            =        251
+  eval_samples_per_second =      4.731
+  eval_steps_per_second   =      0.603
+  eval_total              =      12042
+  perplexity              =     3.2031
+This round clients: [0, 1, 2, 3, 4]
+13
+0.0003
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+{'train_runtime': 103.6758, 'train_samples_per_second': 2.122, 'train_steps_per_second': 0.26, 'train_loss': 1.1368492267749928, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.1368
+  train_runtime            = 0:01:43.67
+  train_samples            =        220
+  train_samples_per_second =      2.122
+  train_steps_per_second   =       0.26
+13
+0.0003
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+{'train_runtime': 104.645, 'train_samples_per_second': 2.093, 'train_steps_per_second': 0.258, 'train_loss': 1.1187675617359303, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.1188
+  train_runtime            = 0:01:44.64
+  train_samples            =        219
+  train_samples_per_second =      2.093
+  train_steps_per_second   =      0.258
+13
+0.0003
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+{'train_runtime': 104.6308, 'train_samples_per_second': 2.093, 'train_steps_per_second': 0.258, 'train_loss': 1.1414883931477864, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9818
+  total_flos               =  9379481GF
+  train_loss               =     1.1415
+  train_runtime            = 0:01:44.63
+  train_samples            =        219
+  train_samples_per_second =      2.093
+  train_steps_per_second   =      0.258
+13
+0.0003
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+{'train_runtime': 104.5602, 'train_samples_per_second': 2.123, 'train_steps_per_second': 0.258, 'train_loss': 1.125830544365777, 'epoch': 0.97}
+***** train metrics *****
+  epoch                    =      0.973
+  total_flos               =  9379481GF
+  train_loss               =     1.1258
+  train_runtime            = 0:01:44.56
+  train_samples            =        222
+  train_samples_per_second =      2.123
+  train_steps_per_second   =      0.258
+13
+0.0003
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+{'train_runtime': 107.9543, 'train_samples_per_second': 2.066, 'train_steps_per_second': 0.259, 'train_loss': 1.1299407822745187, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  9683445GF
+  train_loss               =     1.1299
+  train_runtime            = 0:01:47.95
+  train_samples            =        223
+  train_samples_per_second =      2.066
+  train_steps_per_second   =      0.259
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.7915
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242926
+  eval_loss               =     1.1632
+  eval_runtime            = 0:00:53.05
+  eval_samples            =        251
+  eval_samples_per_second =      4.731
+  eval_steps_per_second   =      0.603
+  eval_total              =      12042
+  perplexity              =     3.2002
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.  | 13/27 [00:50<00:54,  3.88s/it]

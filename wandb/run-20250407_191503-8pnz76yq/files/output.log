@@ -1,0 +1,251 @@
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45c7f-33743f3b02c297ae1b6d61ed;45ebb34c-1139-43fa-a134-eaeaed3e700e)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 9.3546, 'train_samples_per_second': 1.176, 'train_steps_per_second': 0.107, 'train_loss': 1.5760436058044434, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =      1.576
+  train_runtime            = 0:00:09.35
+  train_samples            =         11
+  train_samples_per_second =      1.176
+  train_steps_per_second   =      0.107
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45c82-5037fcb0351934400d8f1a4b;eda04a37-8f96-4353-8e90-568a18602ea9)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.0768, 'train_samples_per_second': 5.778, 'train_steps_per_second': 0.482, 'train_loss': 1.5379217863082886, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5379
+  train_runtime            = 0:00:02.07
+  train_samples            =         12
+  train_samples_per_second =      5.778
+  train_steps_per_second   =      0.482
+0
+1.2e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45c85-1fec926b2efec7f12601dc9c;6978ac40-046b-4130-b39f-bb0a38ba6a0e)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 2.0691, 'train_samples_per_second': 5.316, 'train_steps_per_second': 0.483, 'train_loss': 1.6298009157180786, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6298
+  train_runtime            = 0:00:02.06
+  train_samples            =         11
+  train_samples_per_second =      5.316
+  train_steps_per_second   =      0.483
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45c88-6fff62710ef8ba90705a080e;66c8c2c5-7163-41da-9a7d-497309ab0fc8)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.083, 'train_samples_per_second': 5.281, 'train_steps_per_second': 0.48, 'train_loss': 1.604569911956787, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6046
+  train_runtime            = 0:00:02.08
+  train_samples            =         11
+  train_samples_per_second =      5.281
+  train_steps_per_second   =       0.48
+0
+1.2e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45c8b-2991c1ca04bb781d75fbfd94;cb7ac7d0-fdf1-4235-ba2b-b04d3b85d604)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.147, 'train_samples_per_second': 5.123, 'train_steps_per_second': 0.466, 'train_loss': 1.5728349685668945, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5728
+  train_runtime            = 0:00:02.14
+  train_samples            =         11
+  train_samples_per_second =      5.123
+  train_steps_per_second   =      0.466
+
+
+
+
+
+
+
+
+
+
+
+[WARNING|logging.py:328] 2025-04-07 19:15:52,853 >> The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[WARNING|logging.py:328] 2025-04-07 19:15:52,919 >> Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+***** eval metrics *****
+  epoch                   =     0.6667
+  eval_accuracy           =     0.7412
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242217
+  eval_loss               =     1.5432
+  eval_runtime            = 0:00:28.41
+  eval_samples            =        251
+  eval_samples_per_second =      8.834
+  eval_steps_per_second   =      1.126
+  eval_total              =      12042
+  perplexity              =     4.6798
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?? \n{'A': 'Ampicillin', 'B': 'Ceftriaxone', 'C': 'Ciprofloxacin', 'D': 'Doxycycline', 'E': 'Nitrofurantoin'},\n\n### Response:\nOption C : Ciprofloxacin"]
+E: Nitrofurantoin
+---------------------------------------------------
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. Which of the following precautions could have prevented the death of the baby?? \n{'A': 'Placing the infant in a supine position on a firm mattress while sleeping', 'B': 'Routine postnatal electrocardiogram (ECG)', 'C': 'Keeping the infant covered and maintaining a high room temperature', 'D': 'Application of a device to maintain the sleeping position', 'E': 'Avoiding pacifier use during sleep'},\n\n### Response:\nAns:B"]
+A: Placing the infant in a supine position on a firm mattress while sleeping
+---------------------------------------------------
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+['### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A mother brings her 3-week-old infant to the pediatrician\'s office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child\'s abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation?? \n{\'A\': \'Abnormal migration of ventral pancreatic bud\', \'B\': \'Complete failure of proximal duodenum to recanalize\', \'C\': \'Error in neural crest cell migration\', \'D\': \'Abnormal hypertrophy of the pylorus\', \'E\': \'Failure of lateral body folds to move ventrally and fuse in the midline\'},\n\n### Response:\nAns:D\nExplanation:\n\nThe pyloric sphincter (P) develops from an invagination at the junction between the gastric mucosa (G) and duodenal mucosa (D). As it grows down, it becomes surrounded by muscle fibers that form a ring around its circumference.\nDuring development, a large portion of the stomach migrates downward over the anterior abdominal wall. The area where these structures meet forms what is known as the "pyloric canal." At birth, the pylore valve orifice remains open allowing for continuous flow into the small intestine.\n\nWhen there is insufficient space available within the developing alimentary tract to accommodate the growing fetus, the entire gastrointestinal system may be affected. This condition can cause serious health issues such as gastroschisis or omphalocele.\n• Gastroschisis occurs when part of the digestive system protrudes through an abnormal opening on either side of the umbilical cord. It usually affects males more frequently than females. Most cases occur during early pregnancy after implantation takes place inside utero; however, some women give birth prematurely due to premature rupture of membranes resulting in exposure to amniotic fluid.\n• Omphalocele refers to herniation of internal organs including liver bile ducts intestines colon spleen pancreas kidneys gallbladder adrenal glands ovaries testicles uterus fallopian tubes vagina cervix clitoris labia majora minora penis scrotum perineum anus rectum anal canal vaginal cavity uterosacral ligament round ligaments broad ligament infundibulum pelvic floor diaphragm thorax sternum ribs intercostals muscles abdominopelvic fascial planes parietes mesentery omentum greater momentum lesseromentum transverse colonic fold sigmoid colon descending colon cecum ascending colon hepatic flexure splenic flexure caudate lobe left kidney right kidney urinary bladder ureter urogenital sinus external genitalia skin subcutaneous tissue myofascial layer fat layer muscularis externa serosal surface blood vessels lymphatics nerve endings nerves visceral pleura pulmonary parenchyma mediastinal contents heart great vessels roots of lungs tracheobronchial tree bronchioles alveolar sacs airspaces gas exchange capillaries hemoglobin erythrocytes oxygen carbon dioxide bicarbonate chloride potassium sodium magnesium phosphorus calcium hydrogen sulfide ammonia methionine cysteine tyrosine phenylalanine histidine lysine arginine tryptophan threonine valine leucine isooleucine glutamine alanine proline glycine serine asparagine glutamate hydrochloric acid pepsin gastrin enterogastrone cholecystokinin secretin motilin vasoactive intestinal peptide somatostatin glucagon insulin growth hormone prolactin thyroxine triiodothyronine cortisol aldosterone adrenocorticotropic hormone antidiuretic hor mone oxytocin vasopressin thyroid stimulating hormone follicle-stimulating hormone luteinizing hormone chorionic gonadotropin placental lactogen estradiol progesterone estriol testosterone dihydrotestosterone deoxycortisol corticotroph releasing factor melanocyte concentrating hormone neuropeptide Y neurotensin enkephalin endorphins dynorphins serotonin dopamine norepinephrine epinephrine acetylcholine muscarinic receptors nicotinic receptors GABA receptors NMDA receptors AMPA receptors kainate receptors metabotropic glutamate receptors opioids cannabinoid receptors opioid peptides morphiceps endomorphins nocistats somatosensory neurons viscerosomatic pathways trigeminothalamic pathway autonomic nervous system sympathetic division parasympathetic']
+A: Abnormal migration of ventral pancreatic bud
+---------------------------------------------------
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings?? \n{'A': 'Thromboembolism', 'B': 'Pulmonary ischemia', 'C': 'Pulmonary hypertension', 'D': 'Pulmonary passive congestion', 'E': 'Pulmonary hemorrhage'},\n\n### Response:\nOption C"]
+A: Thromboembolism
+---------------------------------------------------
+["### Instruction: Please answer with one of the option in the bracket\n\n### Input:\nQ:A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses “have always been heavy”, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1°C (96.9°F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient’s symptoms?? \n{'A': 'Factor V Leiden', 'B': 'Hemophilia A', 'C': 'Lupus anticoagulant', 'D': 'Protein C deficiency', 'E': 'Von Willebrand disease'},\n\n### Response:\nOption E"]
+E: Von Willebrand disease
+---------------------------------------------------
+This round clients: [5, 6, 7, 8, 9]
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45cc8-25e826e226529b0268910574;97524569-ea37-4221-a0e7-e8be6c9a5f49)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.1487, 'train_samples_per_second': 5.119, 'train_steps_per_second': 0.465, 'train_loss': 1.5761773586273193, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5762
+  train_runtime            = 0:00:02.14
+  train_samples            =         11
+  train_samples_per_second =      5.119
+  train_steps_per_second   =      0.465
+0
+1.8000000000000001e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45ccb-047a80a1625bdf5f6548d179;9130a2b1-f094-4c3e-aeb4-03881322bcc2)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 2.0852, 'train_samples_per_second': 5.755, 'train_steps_per_second': 0.48, 'train_loss': 1.5376454591751099, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5376
+  train_runtime            = 0:00:02.08
+  train_samples            =         12
+  train_samples_per_second =      5.755
+  train_steps_per_second   =       0.48
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45cce-2e7edc7820ddff1a7effe3f2;035b2882-d7cb-4ee9-a3e2-2d1da3488984)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.0868, 'train_samples_per_second': 5.271, 'train_steps_per_second': 0.479, 'train_loss': 1.6302727460861206, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6303
+  train_runtime            = 0:00:02.08
+  train_samples            =         11
+  train_samples_per_second =      5.271
+  train_steps_per_second   =      0.479
+0
+1.8000000000000001e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45cd1-432c29093667a67b24834a71;0763e136-bebd-4b37-9f17-9dd209c5a7d7)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 2.1458, 'train_samples_per_second': 5.126, 'train_steps_per_second': 0.466, 'train_loss': 1.6042506694793701, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6043
+  train_runtime            = 0:00:02.14
+  train_samples            =         11
+  train_samples_per_second =      5.126
+  train_steps_per_second   =      0.466
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45cd5-4335257f5eea2b331d569ff2;d05f7ab7-ecbd-4fb1-8287-7fa34dbdfd81)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.1423, 'train_samples_per_second': 5.135, 'train_steps_per_second': 0.467, 'train_loss': 1.5736119747161865, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5736
+  train_runtime            = 0:00:02.14
+  train_samples            =         11
+  train_samples_per_second =      5.135
+  train_steps_per_second   =      0.467
+
+
+  File "/data/home/yjw5427/translora/fed_lora.py", line 937, in <module>                                        | 8/32 [00:05<00:17,  1.35it/s]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 825, in main
+    metrics = trainer.evaluate()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3868, in evaluate
+    output = eval_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4079, in evaluation_loop
+    labels = self.accelerator.pad_across_processes(labels, dim=1, pad_index=-100)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2595, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 412, in wrapper
+    return function(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 682, in pad_across_processes
+    return recursively_apply(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 127, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 662, in _pad_across_processes
+    size = torch.tensor(tensor.shape, device=tensor.device)[None]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora.py", line 937, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 825, in main
+    metrics = trainer.evaluate()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3868, in evaluate
+    output = eval_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4079, in evaluation_loop
+    labels = self.accelerator.pad_across_processes(labels, dim=1, pad_index=-100)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2595, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 412, in wrapper
+    return function(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 682, in pad_across_processes
+    return recursively_apply(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 127, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 662, in _pad_across_processes
+    size = torch.tensor(tensor.shape, device=tensor.device)[None]
+KeyboardInterrupt

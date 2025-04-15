@@ -1,0 +1,24 @@
+                                                                                                                                                    Traceback (most recent call last):
+  File "/data/home/yjw5427/aslora_new/main_lora.py", line 911, in <module>                                                  | 0/100 [00:00<?, ?it/s]
+    main()
+  File "/data/home/yjw5427/aslora_new/main_lora.py", line 761, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/aslora/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/aslora/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/data/home/yjw5427/aslora_new/logtrainer.py", line 224, in training_step
+    return super().training_step(model, inputs, num_items_in_batch)
+TypeError: Trainer.training_step() takes 3 positional arguments but 4 were given
+Traceback (most recent call last):
+  File "/data/home/yjw5427/aslora_new/main_lora.py", line 911, in <module>
+    main()
+  File "/data/home/yjw5427/aslora_new/main_lora.py", line 761, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/aslora/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/aslora/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/data/home/yjw5427/aslora_new/logtrainer.py", line 224, in training_step
+    return super().training_step(model, inputs, num_items_in_batch)
+TypeError: Trainer.training_step() takes 3 positional arguments but 4 were given

@@ -1,0 +1,6415 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:24<00:00,  2.09s/it]
+  0%|                                                                                                | 0/68 [00:00<?, ?it/s]
+{'train_runtime': 151.173, 'train_samples_per_second': 1.826, 'train_steps_per_second': 0.456, 'train_loss': 1.320304981176404, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3203
+  train_runtime            = 0:02:31.17
+  train_samples            =       1112
+  train_samples_per_second =      1.826
+  train_steps_per_second   =      0.456
+68
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 67/68 [02:20<00:02,  2.09s/it]
+{'train_runtime': 142.9191, 'train_samples_per_second': 1.903, 'train_steps_per_second': 0.476, 'train_loss': 1.3521826126996208, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3522
+  train_runtime            = 0:02:22.91
+  train_samples            =       1091
+  train_samples_per_second =      1.903
+  train_steps_per_second   =      0.476
+68
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:22<00:00,  2.10s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:22<00:00,  2.10s/it]
+{'train_runtime': 142.6416, 'train_samples_per_second': 1.907, 'train_steps_per_second': 0.477, 'train_loss': 1.3383179832907284, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3383
+  train_runtime            = 0:02:22.64
+  train_samples            =       1096
+  train_samples_per_second =      1.907
+  train_steps_per_second   =      0.477
+69
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 68/69 [02:23<00:02,  2.12s/it]
+{'train_runtime': 145.934, 'train_samples_per_second': 1.891, 'train_steps_per_second': 0.473, 'train_loss': 1.3326501155245132, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3327
+  train_runtime            = 0:02:25.93
+  train_samples            =       1107
+  train_samples_per_second =      1.891
+  train_steps_per_second   =      0.473
+69
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:25<00:00,  2.11s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 68/69 [02:24<00:02,  2.11s/it]
+{'train_runtime': 146.3328, 'train_samples_per_second': 1.886, 'train_steps_per_second': 0.472, 'train_loss': 1.326666790506114, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3267
+  train_runtime            = 0:02:26.33
+  train_samples            =       1115
+  train_samples_per_second =      1.886
+[WARNING|logging.py:328] 2025-03-16 23:21:04,281 >> The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[WARNING|logging.py:328] 2025-03-16 23:21:04,470 >> Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining], food[itallian, pizza and pasta, a la carte menu], area[Newtown Centre], familyFriendly[yes]\nThe Cafe Barista is located in the Newtown Centre on High Street (just up from Raja) serving coffee/tea and cake for those who fancy an indulgence.\xa0 There are also a selection of fresh sandwiches available as well as some light meals like fishcakes and burgers.\nAs it']
+This round clients: [0, 1, 2, 3, 4]
+69
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:24<00:00,  2.09s/it]
+{'train_runtime': 144.4772, 'train_samples_per_second': 1.91, 'train_steps_per_second': 0.478, 'train_loss': 1.2991762023041213, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2992
+  train_runtime            = 0:02:24.47
+  train_samples            =       1112
+  train_samples_per_second =       1.91
+  train_steps_per_second   =      0.478
+68
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████▋ | 67/68 [02:21<00:02,  2.12s/it]
+{'train_runtime': 144.0521, 'train_samples_per_second': 1.888, 'train_steps_per_second': 0.472, 'train_loss': 1.3432775385239546, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3433
+  train_runtime            = 0:02:24.05
+  train_samples            =       1091
+  train_samples_per_second =      1.888
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:24<00:00,  2.12s/it]
+68
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:24<00:00,  2.11s/it]
+{'train_runtime': 144.0286, 'train_samples_per_second': 1.889, 'train_steps_per_second': 0.472, 'train_loss': 1.3128445569206686, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.3128
+  train_runtime            = 0:02:24.02
+  train_samples            =       1096
+  train_samples_per_second =      1.889
+  train_steps_per_second   =      0.472
+69
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:26<00:00,  2.13s/it]
+{'train_runtime': 146.782, 'train_samples_per_second': 1.88, 'train_steps_per_second': 0.47, 'train_loss': 1.258307857789855, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2583
+  train_runtime            = 0:02:26.78
+  train_samples            =       1107
+  train_samples_per_second =       1.88
+  train_steps_per_second   =       0.47
+69
+1.8000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:26<00:00,  2.09s/it]
+{'train_runtime': 146.6002, 'train_samples_per_second': 1.883, 'train_steps_per_second': 0.471, 'train_loss': 1.306365524513134, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.3064
+  train_runtime            = 0:02:26.60
+  train_samples            =       1115
+  train_samples_per_second =      1.883
+  train_steps_per_second   =      0.471
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining], food[itallian, pizza and pasta, a la carte menu available on request], vegetarian[dishes available but not extensive range - please ask for details when booking as we are happy to oblige where possible], glutenFree[please advise us in advance of your visit so that our chef can cater accordingly], area[outskirts], disabledAccess[yes], babyChangingFacilities[both male & female toilets have changing tables']
+This round clients: [0, 1, 2, 3, 4]
+69
+2.4e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.14s/it]
+{'train_runtime': 147.1872, 'train_samples_per_second': 1.875, 'train_steps_per_second': 0.469, 'train_loss': 1.2659108258675837, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2659
+  train_runtime            = 0:02:27.18
+  train_samples            =       1112
+  train_samples_per_second =      1.875
+  train_steps_per_second   =      0.469
+68
+2.4e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.14s/it]
+{'train_runtime': 145.3595, 'train_samples_per_second': 1.871, 'train_steps_per_second': 0.468, 'train_loss': 1.2821049409754135, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2821
+  train_runtime            = 0:02:25.35
+  train_samples            =       1091
+  train_samples_per_second =      1.871
+  train_steps_per_second   =      0.468
+68
+2.4e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.12s/it]
+  0%|                                                                 | 0/69 [00:00<?, ?it/s]
+{'train_runtime': 145.6287, 'train_samples_per_second': 1.868, 'train_steps_per_second': 0.467, 'train_loss': 1.274877997005687, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2749
+  train_runtime            = 0:02:25.62
+  train_samples            =       1096
+  train_samples_per_second =      1.868
+  train_steps_per_second   =      0.467
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.13s/it]
+{'train_runtime': 147.5876, 'train_samples_per_second': 1.87, 'train_steps_per_second': 0.468, 'train_loss': 1.2525544097458108, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2526
+  train_runtime            = 0:02:27.58
+  train_samples            =       1107
+  train_samples_per_second =       1.87
+  train_steps_per_second   =      0.468
+69
+2.4e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:25<00:02,  2.15s/it]
+{'train_runtime': 147.6231, 'train_samples_per_second': 1.87, 'train_steps_per_second': 0.467, 'train_loss': 1.2754666978034421, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2755
+  train_runtime            = 0:02:27.62
+  train_samples            =       1115
+  train_samples_per_second =       1.87
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.15s/it]
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining], food[itallian, pizza and pasta, a la carte menu], area[Newtown Centre], familyFriendly[yes but not great as very small indoor seating only with no high chairs], near[Sushi Town, Burger King, KFC, Pizza Hut Express]\nCafé Barista has opened on the corner of Victoria St in Wellington's CBD. It is a tiny place - maybe five tables inside plus another"]
+This round clients: [0, 1, 2, 3, 4]
+69
+3e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:24<00:02,  2.09s/it]
+{'train_runtime': 146.2192, 'train_samples_per_second': 1.888, 'train_steps_per_second': 0.472, 'train_loss': 1.2123659659123076, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2124
+  train_runtime            = 0:02:26.21
+  train_samples            =       1112
+  train_samples_per_second =      1.888
+  train_steps_per_second   =      0.472
+68
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:26<00:00,  2.09s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:19<00:02,  2.08s/it]
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:22<00:00,  2.08s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2357
+  train_runtime            = 0:02:22.03
+  train_samples            =       1091
+  train_samples_per_second =      1.915
+  train_steps_per_second   =      0.479
+68
+3e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:23<00:02,  2.11s/it]
+{'train_runtime': 145.5414, 'train_samples_per_second': 1.869, 'train_steps_per_second': 0.467, 'train_loss': 1.2558348038617302, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2558
+  train_runtime            = 0:02:25.54
+  train_samples            =       1096
+  train_samples_per_second =      1.869
+  train_steps_per_second   =      0.467
+69
+100%|████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.10s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:25<00:02,  2.14s/it]
+{'train_runtime': 147.6144, 'train_samples_per_second': 1.87, 'train_steps_per_second': 0.467, 'train_loss': 1.2251570328422214, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2252
+  train_runtime            = 0:02:27.61
+  train_samples            =       1107
+  train_samples_per_second =       1.87
+  train_steps_per_second   =      0.467
+69
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.14s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.16s/it]
+{'train_runtime': 147.879, 'train_samples_per_second': 1.866, 'train_steps_per_second': 0.467, 'train_loss': 1.2427079573921536, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.2427
+  train_runtime            = 0:02:27.87
+  train_samples            =       1115
+  train_samples_per_second =      1.866
+  train_steps_per_second   =      0.467
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining], food[itallian, pizza and pasta, a la carte menu], area[Newtown Centre], familyFriendly[yes but not great as very small indoor seating only with no high chairs], near[Sushi Town, Burger King, KFC, Pizza Hut Express]\nCafé Barista has opened on the corner of Victoria St in Wellington's CBD. It is a tiny place - maybe five tables inside plus another"]
+This round clients: [0, 1, 2, 3, 4]
+69
+3e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:26<00:00,  2.14s/it]
+{'train_runtime': 146.9602, 'train_samples_per_second': 1.878, 'train_steps_per_second': 0.47, 'train_loss': 1.1725917208021965, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1726
+  train_runtime            = 0:02:26.96
+  train_samples            =       1112
+  train_samples_per_second =      1.878
+  train_steps_per_second   =       0.47
+68
+3e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:24<00:00,  2.08s/it]
+{'train_runtime': 144.0424, 'train_samples_per_second': 1.888, 'train_steps_per_second': 0.472, 'train_loss': 1.2093124389648438, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2093
+  train_runtime            = 0:02:24.04
+  train_samples            =       1091
+  train_samples_per_second =      1.888
+  train_steps_per_second   =      0.472
+68
+3e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:19<00:02,  2.09s/it]
+100%|████████████████████████████████████████████████████████| 68/68 [02:21<00:00,  2.09s/it]
+  0%|                                                                 | 0/69 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1932
+  train_runtime            = 0:02:21.65
+  train_samples            =       1096
+  train_samples_per_second =       1.92
+  train_steps_per_second   =       0.48
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:26<00:00,  2.14s/it]
+{'train_runtime': 146.0321, 'train_samples_per_second': 1.89, 'train_steps_per_second': 0.472, 'train_loss': 1.1915727698284646, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1916
+  train_runtime            = 0:02:26.03
+  train_samples            =       1107
+  train_samples_per_second =       1.89
+  train_steps_per_second   =      0.472
+69
+3e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:28<00:00,  2.14s/it]
+{'train_runtime': 148.4593, 'train_samples_per_second': 1.859, 'train_steps_per_second': 0.465, 'train_loss': 1.2040312393851902, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =      1.204
+  train_runtime            = 0:02:28.45
+  train_samples            =       1115
+  train_samples_per_second =      1.859
+  train_steps_per_second   =      0.465
+  0%|                                                                 | 0/69 [00:00<?, ?it/s]
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining], food[itallian, pizza and pasta, a la carte menu], area[Newtown Centre], familyFriendly[yes but not great as very small indoor seating only with no high chairs], near[Sushi Town, Burger King, KFC, Pizza Hut Express]\nCafé Barista has opened on the corner of Victoria St in Wellington's CBD. It is a tiny place - maybe five tables inside plus another"]
+This round clients: [0, 1, 2, 3, 4]
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:20<00:00,  2.09s/it]
+  0%|                                                                 | 0/68 [00:00<?, ?it/s]
+{'train_runtime': 140.704, 'train_samples_per_second': 1.962, 'train_steps_per_second': 0.49, 'train_loss': 1.1784561820652173, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1785
+  train_runtime            = 0:02:20.70
+  train_samples            =       1112
+  train_samples_per_second =      1.962
+  train_steps_per_second   =       0.49
+68
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:23<00:00,  2.13s/it]
+{'train_runtime': 143.8449, 'train_samples_per_second': 1.891, 'train_steps_per_second': 0.473, 'train_loss': 1.204247755162856, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2042
+  train_runtime            = 0:02:23.84
+  train_samples            =       1091
+  train_samples_per_second =      1.891
+  train_steps_per_second   =      0.473
+68
+2.9795419551040837e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.15s/it]
+{'train_runtime': 145.1023, 'train_samples_per_second': 1.875, 'train_steps_per_second': 0.469, 'train_loss': 1.2136991164263558, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.2137
+  train_runtime            = 0:02:25.10
+  train_samples            =       1096
+  train_samples_per_second =      1.875
+  train_steps_per_second   =      0.469
+69
+2.9795419551040837e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:28<00:00,  2.12s/it]
+  0%|                                                                 | 0/69 [00:00<?, ?it/s]
+{'train_runtime': 148.4733, 'train_samples_per_second': 1.859, 'train_steps_per_second': 0.465, 'train_loss': 1.1755822223165762, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1756
+  train_runtime            = 0:02:28.47
+  train_samples            =       1107
+  train_samples_per_second =      1.859
+  train_steps_per_second   =      0.465
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:24<00:00,  2.10s/it]
+{'train_runtime': 145.0226, 'train_samples_per_second': 1.903, 'train_steps_per_second': 0.476, 'train_loss': 1.1606040622877039, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1606
+  train_runtime            = 0:02:25.02
+  train_samples            =       1115
+  train_samples_per_second =      1.903
+  train_steps_per_second   =      0.476
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[italian, pizza and pasta, international cuisine, vegetarian/vegan options, coffee shop/cafe, bakery/bakery products, seafood], area[town/town center], familyFriendly[yes], near[Deli Gourmet Cafe & Grill - Town Centre Mall],, [Pirate's Tavern - Town Centre Mall] \nname[Pizza Hut Pizza Delivery], eatType[pizzeria/pie shop"]
+This round clients: [0, 1, 2, 3, 4]
+69
+2.918725862550952e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:23<00:02,  2.13s/it]
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:25<00:00,  2.13s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1642
+  train_runtime            = 0:02:25.94
+  train_samples            =       1112
+  train_samples_per_second =      1.891
+  train_steps_per_second   =      0.473
+68
+2.918725862550952e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:23<00:02,  2.14s/it]
+{'train_runtime': 145.4107, 'train_samples_per_second': 1.871, 'train_steps_per_second': 0.468, 'train_loss': 1.1547951417810776, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1548
+  train_runtime            = 0:02:25.41
+  train_samples            =       1091
+  train_samples_per_second =      1.871
+  train_steps_per_second   =      0.468
+68
+100%|████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.14s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:23<00:02,  2.13s/it]
+{'train_runtime': 145.5251, 'train_samples_per_second': 1.869, 'train_steps_per_second': 0.467, 'train_loss': 1.159276850083295, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1593
+  train_runtime            = 0:02:25.52
+  train_samples            =       1096
+  train_samples_per_second =      1.869
+  train_steps_per_second   =      0.467
+69
+100%|████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.14s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:25<00:02,  2.13s/it]
+{'train_runtime': 147.5769, 'train_samples_per_second': 1.87, 'train_steps_per_second': 0.468, 'train_loss': 1.148113969443501, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1481
+  train_runtime            = 0:02:27.57
+  train_samples            =       1107
+  train_samples_per_second =       1.87
+  train_steps_per_second   =      0.468
+69
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.15s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:25<00:02,  2.13s/it]
+{'train_runtime': 148.0995, 'train_samples_per_second': 1.864, 'train_steps_per_second': 0.466, 'train_loss': 1.1510404503863791, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =      1.151
+  train_runtime            = 0:02:28.09
+  train_samples            =       1115
+  train_samples_per_second =      1.864
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:28<00:00,  2.13s/it]
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[gourmet coffee shop and cafe, a sandwich bar serving soups with seasonal salads], area[nearby the cinema - shopping mall], familyFriendly[yes], near[Lions Square (Mall)]  name[Deli Gourmande], eatType[boutique delicatessen selling charcuterie, cheese, fresh breads & pastries in a Parisian-style deli], food[Sa']
+This round clients: [0, 1, 2, 3, 4]
+69
+2.8192106268097337e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:25<00:00,  2.15s/it]
+{'train_runtime': 145.0948, 'train_samples_per_second': 1.902, 'train_steps_per_second': 0.476, 'train_loss': 1.146904544553895, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1469
+  train_runtime            = 0:02:25.09
+  train_samples            =       1112
+  train_samples_per_second =      1.902
+  train_steps_per_second   =      0.476
+68
+2.8192106268097337e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:23<00:02,  2.15s/it]
+{'train_runtime': 145.8061, 'train_samples_per_second': 1.865, 'train_steps_per_second': 0.466, 'train_loss': 1.1392585530000574, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1393
+  train_runtime            = 0:02:25.80
+  train_samples            =       1091
+  train_samples_per_second =      1.865
+  train_steps_per_second   =      0.466
+68
+100%|████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.14s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.14s/it]
+{'train_runtime': 145.6417, 'train_samples_per_second': 1.868, 'train_steps_per_second': 0.467, 'train_loss': 1.1511441399069393, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1511
+  train_runtime            = 0:02:25.64
+  train_samples            =       1096
+  train_samples_per_second =      1.868
+  train_steps_per_second   =      0.467
+69
+2.8192106268097337e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.14s/it]
+{'train_runtime': 147.7564, 'train_samples_per_second': 1.868, 'train_steps_per_second': 0.467, 'train_loss': 1.1465346847755322, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1465
+  train_runtime            = 0:02:27.75
+  train_samples            =       1107
+  train_samples_per_second =      1.868
+  train_steps_per_second   =      0.467
+69
+2.8192106268097337e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:28<00:00,  2.12s/it]
+{'train_runtime': 148.8244, 'train_samples_per_second': 1.855, 'train_steps_per_second': 0.464, 'train_loss': 1.1835443247919497, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1835
+  train_runtime            = 0:02:28.82
+  train_samples            =       1115
+  train_samples_per_second =      1.855
+  train_steps_per_second   =      0.464
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[italian, pizza and pasta, international cuisine, vegetarian/vegan options, coffee shop/cafe, bakery/bakery products, seafood], area[town/town center], familyFriendly[yes], near[Deli Gourmet Cafe & Restaurant - Town Centre Mall], near[Habitat Coffee House - Town Centre Mall]  name[Pizza Hut Delivery], eatType[dinner delivery takeout lunch fast']
+This round clients: [0, 1, 2, 3, 4]
+69
+2.6837107640945906e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:22<00:02,  2.15s/it]
+{'train_runtime': 144.4941, 'train_samples_per_second': 1.91, 'train_steps_per_second': 0.478, 'train_loss': 1.1353053217348845, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1353
+  train_runtime            = 0:02:24.49
+  train_samples            =       1112
+  train_samples_per_second =       1.91
+100%|████████████████████████████████████████████████████████| 69/69 [02:24<00:00,  2.15s/it]
+  0%|                                                                 | 0/68 [00:00<?, ?it/s]
+68
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:24<00:02,  2.15s/it]
+{'train_runtime': 146.8054, 'train_samples_per_second': 1.853, 'train_steps_per_second': 0.463, 'train_loss': 1.1438563851749195, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1439
+  train_runtime            = 0:02:26.80
+  train_samples            =       1091
+  train_samples_per_second =      1.853
+  train_steps_per_second   =      0.463
+68
+100%|████████████████████████████████████████████████████████| 68/68 [02:26<00:00,  2.14s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:25<00:00,  2.04s/it]
+  0%|                                                                 | 0/69 [00:00<?, ?it/s]
+{'train_runtime': 145.4625, 'train_samples_per_second': 1.87, 'train_steps_per_second': 0.467, 'train_loss': 1.1414990144617416, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1415
+  train_runtime            = 0:02:25.46
+  train_samples            =       1096
+  train_samples_per_second =       1.87
+  train_steps_per_second   =      0.467
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:25<00:00,  2.15s/it]
+{'train_runtime': 145.9836, 'train_samples_per_second': 1.891, 'train_steps_per_second': 0.473, 'train_loss': 1.1238360197647759, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1238
+  train_runtime            = 0:02:25.98
+  train_samples            =       1107
+  train_samples_per_second =      1.891
+  train_steps_per_second   =      0.473
+69
+2.6837107640945906e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:29<00:00,  2.16s/it]
+{'train_runtime': 149.1303, 'train_samples_per_second': 1.851, 'train_steps_per_second': 0.463, 'train_loss': 1.1039807969245359, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =      1.104
+  train_runtime            = 0:02:29.13
+  train_samples            =       1115
+  train_samples_per_second =      1.851
+  train_steps_per_second   =      0.463
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[gourmet coffee shop and cafe, a sandwich bar serving soups with seasonal salads], area[nearby the cinema - shopping mall], familyFriendly[yes], near[Lions Square (Mall)]  name[Deli Gourmande], eatType[boutique delicatessen selling charcuterie, cheese, fresh breads & pastries in a Parisian-style deli], food[Sa']
+This round clients: [0, 1, 2, 3, 4]
+69
+2.515922357438612e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:24<00:00,  2.14s/it]
+{'train_runtime': 144.4854, 'train_samples_per_second': 1.91, 'train_steps_per_second': 0.478, 'train_loss': 1.1011753911557405, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1012
+  train_runtime            = 0:02:24.48
+  train_samples            =       1112
+  train_samples_per_second =       1.91
+  train_steps_per_second   =      0.478
+68
+2.515922357438612e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:25<00:02,  2.17s/it]
+{'train_runtime': 147.4881, 'train_samples_per_second': 1.844, 'train_steps_per_second': 0.461, 'train_loss': 1.1139234655043657, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1139
+  train_runtime            = 0:02:27.48
+  train_samples            =       1091
+  train_samples_per_second =      1.844
+  train_steps_per_second   =      0.461
+68
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:27<00:00,  2.17s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:25<00:02,  2.17s/it]
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:27<00:00,  2.17s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1261
+  train_runtime            = 0:02:27.50
+  train_samples            =       1096
+  train_samples_per_second =      1.844
+  train_steps_per_second   =      0.461
+69
+2.515922357438612e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:27<00:02,  2.17s/it]
+{'train_runtime': 149.9273, 'train_samples_per_second': 1.841, 'train_steps_per_second': 0.46, 'train_loss': 1.0887255461319634, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0887
+  train_runtime            = 0:02:29.92
+  train_samples            =       1107
+  train_samples_per_second =      1.841
+  train_steps_per_second   =       0.46
+69
+100%|████████████████████████████████████████████████████████| 69/69 [02:29<00:00,  2.16s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:28<00:00,  2.17s/it]
+{'train_runtime': 148.2804, 'train_samples_per_second': 1.861, 'train_steps_per_second': 0.465, 'train_loss': 1.118029387100883, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =      1.118
+  train_runtime            = 0:02:28.28
+  train_samples            =       1115
+  train_samples_per_second =      1.861
+  train_steps_per_second   =      0.465
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[gourmet coffee shop and cafe, a sandwich bar serving soups with seasonal salads], area[nearby the cinema - shopping mall], familyFriendly[yes], near[Lions Square (Mall)]  name[Deli Gourmande], eatType[boutique delicatessen selling charcuterie, cheese, fresh breads & pastries in a Parisian-style deli], food[Sa']
+This round clients: [0, 1, 2, 3, 4]
+69
+2.3204222371836405e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:24<00:02,  2.15s/it]
+{'train_runtime': 146.6346, 'train_samples_per_second': 1.882, 'train_steps_per_second': 0.471, 'train_loss': 1.1045539966527966, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1046
+  train_runtime            = 0:02:26.63
+  train_samples            =       1112
+  train_samples_per_second =      1.882
+  train_steps_per_second   =      0.471
+68
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:26<00:00,  2.15s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:25<00:02,  2.16s/it]
+{'train_runtime': 147.2492, 'train_samples_per_second': 1.847, 'train_steps_per_second': 0.462, 'train_loss': 1.106257158167222, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1063
+  train_runtime            = 0:02:27.24
+  train_samples            =       1091
+  train_samples_per_second =      1.847
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:27<00:00,  2.15s/it]
+68
+2.3204222371836405e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:25<00:02,  2.17s/it]
+{'train_runtime': 147.8157, 'train_samples_per_second': 1.84, 'train_steps_per_second': 0.46, 'train_loss': 1.0931657903334673, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.0932
+  train_runtime            = 0:02:27.81
+  train_samples            =       1096
+  train_samples_per_second =       1.84
+  train_steps_per_second   =       0.46
+69
+100%|████████████████████████████████████████████████████████| 68/68 [02:27<00:00,  2.17s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:27<00:02,  2.16s/it]
+{'train_runtime': 149.4466, 'train_samples_per_second': 1.847, 'train_steps_per_second': 0.462, 'train_loss': 1.105756455573483, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1058
+  train_runtime            = 0:02:29.44
+  train_samples            =       1107
+  train_samples_per_second =      1.847
+  train_steps_per_second   =      0.462
+69
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:29<00:00,  2.16s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:21<00:02,  2.10s/it]
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:23<00:00,  2.11s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.1018
+  train_runtime            = 0:02:23.31
+  train_samples            =       1115
+  train_samples_per_second =      1.926
+  train_steps_per_second   =      0.481
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[italian, pizza and pasta, a la carte menu, gluten free options available upon request], area[out of town - south side], familyFriendly[yes with children's menu], near[Sandwich Station]\nname[Café Zebra], eatType[bistro], food[gourmet burgers & gourmet hotdogs (veg. option), beer garden in summer], area[in the city centre on the main"]
+This round clients: [0, 1, 2, 3, 4]
+  0%|                                                                 | 0/69 [00:00<?, ?it/s]
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:22<00:00,  2.10s/it]
+{'train_runtime': 142.8213, 'train_samples_per_second': 1.932, 'train_steps_per_second': 0.483, 'train_loss': 1.0807591313901155, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0808
+  train_runtime            = 0:02:22.82
+  train_samples            =       1112
+  train_samples_per_second =      1.932
+  train_steps_per_second   =      0.483
+68
+2.1025431369794542e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:22<00:00,  2.09s/it]
+{'train_runtime': 142.5766, 'train_samples_per_second': 1.908, 'train_steps_per_second': 0.477, 'train_loss': 1.1076837427475874, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1077
+  train_runtime            = 0:02:22.57
+  train_samples            =       1091
+  train_samples_per_second =      1.908
+  train_steps_per_second   =      0.477
+68
+2.1025431369794542e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:26<00:00,  2.16s/it]
+  0%|                                                                 | 0/69 [00:00<?, ?it/s]
+{'train_runtime': 146.2923, 'train_samples_per_second': 1.859, 'train_steps_per_second': 0.465, 'train_loss': 1.1065210454604204, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.1065
+  train_runtime            = 0:02:26.29
+  train_samples            =       1096
+  train_samples_per_second =      1.859
+  train_steps_per_second   =      0.465
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:29<00:00,  2.16s/it]
+{'train_runtime': 149.5061, 'train_samples_per_second': 1.846, 'train_steps_per_second': 0.462, 'train_loss': 1.094933551290761, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0949
+  train_runtime            = 0:02:29.50
+  train_samples            =       1107
+  train_samples_per_second =      1.846
+  train_steps_per_second   =      0.462
+69
+2.1025431369794542e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:29<00:00,  2.15s/it]
+{'train_runtime': 149.3203, 'train_samples_per_second': 1.848, 'train_steps_per_second': 0.462, 'train_loss': 1.0725597436877266, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0726
+  train_runtime            = 0:02:29.32
+  train_samples            =       1115
+  train_samples_per_second =      1.848
+  train_steps_per_second   =      0.462
+  0%|                                                                 | 0/69 [00:00<?, ?it/s]
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+['name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[gourmet coffee shop and cafe, a sandwich bar serving soups with seasonal salads], area[nearby the cinema - shopping mall], familyFriendly[yes], near[Lions Square (Mall)]  name[Deli Gourmande], eatType[boutique delicatessen selling charcuterie, cheese, fresh breads & pastries in a Parisian-style deli], food[Sa']
+This round clients: [0, 1, 2, 3, 4]
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:25<00:00,  2.17s/it]
+{'train_runtime': 145.8196, 'train_samples_per_second': 1.893, 'train_steps_per_second': 0.473, 'train_loss': 1.072776905004529, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0728
+  train_runtime            = 0:02:25.81
+  train_samples            =       1112
+  train_samples_per_second =      1.893
+  train_steps_per_second   =      0.473
+68
+1.8682282307111988e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:27<00:00,  2.15s/it]
+  0%|                                                                 | 0/68 [00:00<?, ?it/s]
+{'train_runtime': 147.6159, 'train_samples_per_second': 1.843, 'train_steps_per_second': 0.461, 'train_loss': 1.0901015786563648, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.0901
+  train_runtime            = 0:02:27.61
+  train_samples            =       1091
+  train_samples_per_second =      1.843
+  train_steps_per_second   =      0.461
+68
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:25<00:02,  2.18s/it]
+{'train_runtime': 147.6594, 'train_samples_per_second': 1.842, 'train_steps_per_second': 0.461, 'train_loss': 1.088004841524012, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =      1.088
+  train_runtime            = 0:02:27.65
+  train_samples            =       1096
+  train_samples_per_second =      1.842
+  train_steps_per_second   =      0.461
+69
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:27<00:00,  2.18s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:27<00:02,  2.17s/it]
+{'train_runtime': 149.4117, 'train_samples_per_second': 1.847, 'train_steps_per_second': 0.462, 'train_loss': 1.0887484343155571, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0887
+  train_runtime            = 0:02:29.41
+  train_samples            =       1107
+  train_samples_per_second =      1.847
+  train_steps_per_second   =      0.462
+69
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:29<00:00,  2.16s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:27<00:02,  2.16s/it]
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:29<00:00,  2.16s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0803
+  train_runtime            = 0:02:29.60
+  train_samples            =       1115
+  train_samples_per_second =      1.845
+  train_steps_per_second   =      0.461
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[italian, pizza and pasta, a la carte menu, gluten free options available upon request], area[out of town - south side], familyFriendly[yes with children's menu], near[Sandwich Station]\nname[Café Zebra], eatType[bistro], food[gourmet burgers & gourmet hotdogs (veg. option), beer garden in summer], area[in the city centre on the main"]
+This round clients: [0, 1, 2, 3, 4]
+69
+1.6238690182084987e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:17<00:02,  2.03s/it]
+{'train_runtime': 139.8677, 'train_samples_per_second': 1.973, 'train_steps_per_second': 0.493, 'train_loss': 1.0648951875990715, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0649
+  train_runtime            = 0:02:19.86
+  train_samples            =       1112
+  train_samples_per_second =      1.973
+  train_steps_per_second   =      0.493
+68
+100%|████████████████████████████████████████████████████████| 69/69 [02:19<00:00,  2.03s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:24<00:02,  2.11s/it]
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:26<00:00,  2.10s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.0652
+  train_runtime            = 0:02:26.25
+  train_samples            =       1091
+  train_samples_per_second =       1.86
+  train_steps_per_second   =      0.465
+68
+1.6238690182084987e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:24<00:02,  2.19s/it]
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:26<00:00,  2.18s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.0866
+  train_runtime            = 0:02:26.85
+  train_samples            =       1096
+  train_samples_per_second =      1.852
+  train_steps_per_second   =      0.463
+69
+1.6238690182084987e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:29<00:00,  2.14s/it]
+{'train_runtime': 149.2591, 'train_samples_per_second': 1.849, 'train_steps_per_second': 0.462, 'train_loss': 1.0766801695892776, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0767
+  train_runtime            = 0:02:29.25
+  train_samples            =       1107
+  train_samples_per_second =      1.849
+  train_steps_per_second   =      0.462
+69
+1.6238690182084987e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:29<00:00,  2.07s/it]
+{'train_runtime': 149.4081, 'train_samples_per_second': 1.847, 'train_steps_per_second': 0.462, 'train_loss': 1.0791303109431611, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0791
+  train_runtime            = 0:02:29.40
+  train_samples            =       1115
+  train_samples_per_second =      1.847
+  train_steps_per_second   =      0.462
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[italian, pizza and pasta, a la carte menu, gluten free options available upon request], area[out of town - south side], familyFriendly[yes with children's menu], near[Sandwich Station]\nname[Café Zebra], eatType[bistro], food[gourmet burgers & gourmet hotdogs (veg. option), beer garden in summer], area[in the city centre on the main"]
+This round clients: [0, 1, 2, 3, 4]
+69
+1.3761309817915016e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:27<00:00,  2.17s/it]
+{'train_runtime': 147.2616, 'train_samples_per_second': 1.874, 'train_steps_per_second': 0.469, 'train_loss': 1.0746745233950408, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0747
+  train_runtime            = 0:02:27.26
+  train_samples            =       1112
+  train_samples_per_second =      1.874
+  train_steps_per_second   =      0.469
+68
+1.3761309817915016e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:26<00:02,  2.19s/it]
+{'train_runtime': 148.2801, 'train_samples_per_second': 1.834, 'train_steps_per_second': 0.459, 'train_loss': 1.0712715597713696, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.0713
+  train_runtime            = 0:02:28.28
+  train_samples            =       1091
+  train_samples_per_second =      1.834
+  train_steps_per_second   =      0.459
+68
+100%|████████████████████████████████████████████████████████| 68/68 [02:28<00:00,  2.18s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:27<00:00,  2.10s/it]
+{'train_runtime': 147.5582, 'train_samples_per_second': 1.843, 'train_steps_per_second': 0.461, 'train_loss': 1.0813968882841223, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.0814
+  train_runtime            = 0:02:27.55
+  train_samples            =       1096
+  train_samples_per_second =      1.843
+  train_steps_per_second   =      0.461
+69
+1.3761309817915016e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 68/69 [02:28<00:02,  2.20s/it]
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:30<00:00,  2.19s/it]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0654
+  train_runtime            = 0:02:30.78
+  train_samples            =       1107
+  train_samples_per_second =       1.83
+  train_steps_per_second   =      0.458
+69
+1.3761309817915016e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:31<00:00,  2.18s/it]
+{'train_runtime': 151.2956, 'train_samples_per_second': 1.824, 'train_steps_per_second': 0.456, 'train_loss': 1.0686822421308877, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0687
+  train_runtime            = 0:02:31.29
+  train_samples            =       1115
+  train_samples_per_second =      1.824
+  train_steps_per_second   =      0.456
+name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]
+["name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]  name[Cafe Barista], eatType[casual dining restaurant], food[italian, pizza and pasta, a la carte menu, gluten free options available upon request], area[out of town - south side], familyFriendly[yes with children's menu], near[Sandwich Station]\nname[Café Zebra], eatType[bistro], food[gourmet burgers & gourmet hotdogs (veg. option), beer garden in summer], area[in the city centre on the main"]
+This round clients: [0, 1, 2, 3, 4]
+69
+1.1317717692888017e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:23<00:00,  2.19s/it]
+{'train_runtime': 143.1505, 'train_samples_per_second': 1.928, 'train_steps_per_second': 0.482, 'train_loss': 1.0643435492031816, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0643
+  train_runtime            = 0:02:23.15
+  train_samples            =       1112
+  train_samples_per_second =      1.928
+  train_steps_per_second   =      0.482
+68
+1.1317717692888017e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 68/68 [02:28<00:00,  2.17s/it]
+{'train_runtime': 148.6015, 'train_samples_per_second': 1.83, 'train_steps_per_second': 0.458, 'train_loss': 1.0841626559986788, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.0842
+  train_runtime            = 0:02:28.60
+  train_samples            =       1091
+  train_samples_per_second =       1.83
+  train_steps_per_second   =      0.458
+68
+1.1317717692888017e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████▏| 67/68 [02:25<00:02,  2.18s/it]
+{'train_runtime': 147.8359, 'train_samples_per_second': 1.84, 'train_steps_per_second': 0.46, 'train_loss': 1.070255391737994, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11811198GF
+  train_loss               =     1.0703
+  train_runtime            = 0:02:27.83
+  train_samples            =       1096
+  train_samples_per_second =       1.84
+100%|████████████████████████████████████████████████████████| 68/68 [02:27<00:00,  2.18s/it]
+  0%|                                                                 | 0/69 [00:00<?, ?it/s]
+69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████| 69/69 [02:30<00:00,  2.18s/it]
+{'train_runtime': 150.3917, 'train_samples_per_second': 1.835, 'train_steps_per_second': 0.459, 'train_loss': 1.05865478515625, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 11984892GF
+  train_loss               =     1.0587
+  train_runtime            = 0:02:30.39
+  train_samples            =       1107
+  train_samples_per_second =      1.835
+  train_steps_per_second   =      0.459
+69
+1.1317717692888017e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

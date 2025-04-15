@@ -1,0 +1,46 @@
+                                                                                                                                   /home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py:1073: UserWarning: compute_loss is only implemented for DPODataCollatorWithPadding, and you passed a datacollator that is different than DPODataCollatorWithPadding - you might see unexpected behavior. Alternatively, you can implement your own prediction_step method if you are using a custom data collator
+  warnings.warn(                                                                                          | 0/1250 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_distill_dpo.py", line 818, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_distill_dpo.py", line 696, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3485, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 1081, in compute_loss
+    loss, metrics = self.get_batch_loss_metrics(model, inputs, train_eval="train")
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 1022, in get_batch_loss_metrics
+    ) = self.concatenated_forward(model, batch)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 968, in concatenated_forward
+    concatenated_batch = self.concatenated_inputs(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 818, in concatenated_inputs
+    concatenated_batch[concatenated_key] = pad_to_length(batch[k], max_length, pad_value=pad_value)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/utils.py", line 571, in pad_to_length
+    pad_value * torch.ones(*pad_size, dtype=tensor.dtype, device=tensor.device),
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'Tensor'
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_distill_dpo.py", line 818, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_distill_dpo.py", line 696, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 2388, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3485, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 1081, in compute_loss
+    loss, metrics = self.get_batch_loss_metrics(model, inputs, train_eval="train")
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 1022, in get_batch_loss_metrics
+    ) = self.concatenated_forward(model, batch)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 968, in concatenated_forward
+    concatenated_batch = self.concatenated_inputs(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 818, in concatenated_inputs
+    concatenated_batch[concatenated_key] = pad_to_length(batch[k], max_length, pad_value=pad_value)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/trl/trainer/utils.py", line 571, in pad_to_length
+    pad_value * torch.ones(*pad_size, dtype=tensor.dtype, device=tensor.device),
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'Tensor'

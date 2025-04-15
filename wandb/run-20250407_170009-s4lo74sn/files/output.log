@@ -1,0 +1,249 @@
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.01s/it]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43ce1-68ab260b738d628d3947674b;3d32e374-1264-4586-b227-f6a65e055e53)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 8.5338, 'train_samples_per_second': 0.117, 'train_steps_per_second': 0.117, 'train_loss': 0.436543345451355, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.4365
+  train_runtime            = 0:00:08.53
+  train_samples            =         11
+  train_samples_per_second =      0.117
+  train_steps_per_second   =      0.117
+0
+1.2e-06
+{'train_runtime': 0.4303, 'train_samples_per_second': 2.324, 'train_steps_per_second': 2.324, 'train_loss': 0.40486958622932434, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.44it/s]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43ce2-6f239dc344c13f2805a90cb9;fe7e3027-a502-49a9-ba1b-24141f7ae532)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.4049
+  train_runtime            = 0:00:00.43
+  train_samples            =         12
+  train_samples_per_second =      2.324
+  train_steps_per_second   =      2.324
+0
+1.2e-06
+{'train_runtime': 0.4591, 'train_samples_per_second': 2.178, 'train_steps_per_second': 2.178, 'train_loss': 0.3505104184150696, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.3505
+  train_runtime            = 0:00:00.45
+  train_samples            =         11
+  train_samples_per_second =      2.178
+  train_steps_per_second   =      2.178
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43ce4-6f0b63246c957e57374e4727;5a7f773b-e121-4d2a-9550-0eda5c9feca2)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.47it/s]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43ce5-3f0bab7d06e3c04d7fa35c2b;1b80f4ff-611a-424b-af27-516a157df4b1)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 0.4289, 'train_samples_per_second': 2.332, 'train_steps_per_second': 2.332, 'train_loss': 0.4165560305118561, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.4166
+  train_runtime            = 0:00:00.42
+  train_samples            =         11
+  train_samples_per_second =      2.332
+  train_steps_per_second   =      2.332
+0
+1.2e-06
+{'train_runtime': 0.4267, 'train_samples_per_second': 2.343, 'train_steps_per_second': 2.343, 'train_loss': 0.4252285659313202, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.47it/s]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43ce6-22daadd02300fba26d2b8a96;80302454-5f47-4531-94c6-422b53e4c277)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.4252
+  train_runtime            = 0:00:00.42
+  train_samples            =         11
+  train_samples_per_second =      2.343
+  train_steps_per_second   =      2.343
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:23<00:00,  1.60it/s]
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.0347
+  eval_invalid_labels     =          0
+  eval_invalid_preds      =          0
+  eval_loss               =     1.5433
+  eval_runtime            = 0:00:27.99
+  eval_samples            =        251
+  eval_samples_per_second =      8.967
+  eval_steps_per_second   =      1.143
+  eval_total              =     256773
+  perplexity              =     4.6801
+This round clients: [5, 6, 7, 8, 9]
+0
+1.8000000000000001e-06
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.69it/s]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43d04-5615d12213e3f1276a9b74ec;69ce02e6-ecc5-4b4c-8434-29f2a94727a1)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.4046
+  train_runtime            = 0:00:00.38
+  train_samples            =         11
+  train_samples_per_second =      2.577
+  train_steps_per_second   =      2.577
+0
+1.8000000000000001e-06
+{'train_runtime': 0.3341, 'train_samples_per_second': 2.993, 'train_steps_per_second': 2.993, 'train_loss': 0.32054534554481506, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.3205
+  train_runtime            = 0:00:00.33
+  train_samples            =         12
+  train_samples_per_second =      2.993
+  train_steps_per_second   =      2.993
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43d06-66684cc85b6d28731913aa6c;e596bd19-1162-4227-b718-4863b885b2fb)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.33it/s]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43d07-22d5fd3e259c869f377ad171;ade3e922-6944-44b8-ab63-cae07a8b284b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 0.4543, 'train_samples_per_second': 2.201, 'train_steps_per_second': 2.201, 'train_loss': 0.39726734161376953, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.3973
+  train_runtime            = 0:00:00.45
+  train_samples            =         11
+  train_samples_per_second =      2.201
+  train_steps_per_second   =      2.201
+0
+1.8000000000000001e-06
+{'train_runtime': 0.4606, 'train_samples_per_second': 2.171, 'train_steps_per_second': 2.171, 'train_loss': 0.40357422828674316, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.4036
+  train_runtime            = 0:00:00.46
+  train_samples            =         11
+  train_samples_per_second =      2.171
+  train_steps_per_second   =      2.171
+0
+1.8000000000000001e-06
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.29it/s]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43d08-6c8cd172603ef5e20d473940;a6e98c3a-0693-4ec7-9e6d-91946190e4ae)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.53it/s]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f43d09-5de5f6d85494118f2623f69a;2eb0d26f-8d46-49f3-b662-e07ce9a6fefd)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 0.4325, 'train_samples_per_second': 2.312, 'train_steps_per_second': 2.312, 'train_loss': 0.4026139974594116, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16407GF
+  train_loss               =     0.4026
+  train_runtime            = 0:00:00.43
+  train_samples            =         11
+  train_samples_per_second =      2.312
+  train_steps_per_second   =      2.312
+
+
+
+
+
+
+
+
+
+
+  File "/data/home/yjw5427/translora/fed_lora.py", line 928, in <module>█████████████████████████▊             | 28/32 [00:20<00:03,  1.30it/s]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 822, in main
+    metrics = trainer.evaluate()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3868, in evaluate
+    output = eval_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4079, in evaluation_loop
+    labels = self.accelerator.pad_across_processes(labels, dim=1, pad_index=-100)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2595, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 412, in wrapper
+    return function(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 682, in pad_across_processes
+    return recursively_apply(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 127, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 662, in _pad_across_processes
+    size = torch.tensor(tensor.shape, device=tensor.device)[None]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora.py", line 928, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 822, in main
+    metrics = trainer.evaluate()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3868, in evaluate
+    output = eval_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4079, in evaluation_loop
+    labels = self.accelerator.pad_across_processes(labels, dim=1, pad_index=-100)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/accelerator.py", line 2595, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 412, in wrapper
+    return function(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 682, in pad_across_processes
+    return recursively_apply(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 127, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/accelerate/utils/operations.py", line 662, in _pad_across_processes
+    size = torch.tensor(tensor.shape, device=tensor.device)[None]
+KeyboardInterrupt

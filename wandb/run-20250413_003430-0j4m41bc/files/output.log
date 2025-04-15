@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 38/38 [02:24<00:00,  3.78s/it]
+{'train_runtime': 151.279, 'train_samples_per_second': 1.025, 'train_steps_per_second': 0.251, 'train_loss': 395.1903525904605, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9806
+  total_flos               =  6600375GF
+  train_loss               =   395.1904
+  train_runtime            = 0:02:31.27
+  train_samples            =          5
+  train_samples_per_second =      1.025
+  train_steps_per_second   =      0.251

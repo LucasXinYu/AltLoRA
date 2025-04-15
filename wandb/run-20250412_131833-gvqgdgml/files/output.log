@@ -1,0 +1,1003 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████| 15/15 [00:57<00:00,  3.82s/it]
+{'train_runtime': 64.199, 'train_samples_per_second': 1.963, 'train_steps_per_second': 0.234, 'train_loss': 2.2356534322102863, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9524
+  total_flos               =  5210822GF
+  train_loss               =     2.2357
+  train_runtime            = 0:01:04.19
+  train_samples            =        126
+  train_samples_per_second =      1.963
+  train_steps_per_second   =      0.234
+117
+4.000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████| 234/234 [15:01<00:00,  3.85s/it]
+{'train_runtime': 901.3454, 'train_samples_per_second': 2.079, 'train_steps_per_second': 0.26, 'train_loss': 2.1138369568392763, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =     0.9989
+  total_flos               = 81288835GF
+  train_loss               =     2.1138
+  train_runtime            = 0:15:01.34
+  train_samples            =       1874
+  train_samples_per_second =      2.079
+  train_steps_per_second   =       0.26
+0
+100%|████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.28it/s]
+100%|████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.30it/s]
+  0%|                                                                            | 0/3 [00:00<?, ?it/s]
+{'train_runtime': 0.4642, 'train_samples_per_second': 2.154, 'train_steps_per_second': 2.154, 'train_loss': 0.5409806370735168, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16623GF
+  train_loss               =      0.541
+  train_runtime            = 0:00:00.46
+  train_samples            =          1
+  train_samples_per_second =      2.154
+  train_steps_per_second   =      2.154
+1
+
+
+
+100%|████████████████████████████████████████████████████████████████████| 3/3 [00:11<00:00,  3.65s/it]
+{'train_runtime': 11.153, 'train_samples_per_second': 2.062, 'train_steps_per_second': 0.269, 'train_loss': 2.3116490046183267, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   998741GF
+  train_loss               =     2.3116
+  train_runtime            = 0:00:11.15
+  train_samples            =         23
+  train_samples_per_second =      2.062
+  train_steps_per_second   =      0.269
+11
+4.000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████| 22/22 [01:24<00:00,  3.85s/it]
+{'train_runtime': 84.7786, 'train_samples_per_second': 2.1, 'train_steps_per_second': 0.259, 'train_loss': 2.2665993083607066, 'epoch': 0.99}
+***** train metrics *****
+  epoch                    =     0.9888
+  total_flos               =  7642540GF
+  train_loss               =     2.2666
+  train_runtime            = 0:01:24.77
+  train_samples            =        178
+  train_samples_per_second =        2.1
+  train_steps_per_second   =      0.259
+This round clients: [0, 1, 2, 3, 4]
+7
+6.000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████| 15/15 [00:57<00:00,  3.86s/it]
+{'train_runtime': 57.9606, 'train_samples_per_second': 2.174, 'train_steps_per_second': 0.259, 'train_loss': 2.1052174886067707, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9524
+  total_flos               =  5210822GF
+  train_loss               =     2.1052
+  train_runtime            = 0:00:57.96
+  train_samples            =        126
+  train_samples_per_second =      2.174
+  train_steps_per_second   =      0.259
+117
+6.000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████| 234/234 [15:00<00:00,  3.81s/it]
+{'train_runtime': 900.1764, 'train_samples_per_second': 2.082, 'train_steps_per_second': 0.26, 'train_loss': 1.89121578901242, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =     0.9989
+  total_flos               = 81288835GF
+  train_loss               =     1.8912
+  train_runtime            = 0:15:00.17
+  train_samples            =       1874
+  train_samples_per_second =      2.082
+  train_steps_per_second   =       0.26
+0
+100%|████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.18it/s]
+100%|████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.22it/s]
+  0%|                                                                            | 0/3 [00:00<?, ?it/s]
+{'train_runtime': 0.3645, 'train_samples_per_second': 2.744, 'train_steps_per_second': 2.744, 'train_loss': 0.4728989005088806, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16623GF
+  train_loss               =     0.4729
+  train_runtime            = 0:00:00.36
+  train_samples            =          1
+  train_samples_per_second =      2.744
+  train_steps_per_second   =      2.744
+1
+
+
+
+100%|████████████████████████████████████████████████████████████████████| 3/3 [00:10<00:00,  3.60s/it]
+{'train_runtime': 11.0118, 'train_samples_per_second': 2.089, 'train_steps_per_second': 0.272, 'train_loss': 2.1983683904012046, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   998741GF
+  train_loss               =     2.1984
+  train_runtime            = 0:00:11.01
+  train_samples            =         23
+  train_samples_per_second =      2.089
+  train_steps_per_second   =      0.272
+11
+6.000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████| 22/22 [01:23<00:00,  3.81s/it]
+  0%|                                                                           | 0/15 [00:00<?, ?it/s]
+{'train_runtime': 83.8067, 'train_samples_per_second': 2.124, 'train_steps_per_second': 0.263, 'train_loss': 2.127191023393111, 'epoch': 0.99}
+***** train metrics *****
+  epoch                    =     0.9888
+  total_flos               =  7642540GF
+  train_loss               =     2.1272
+  train_runtime            = 0:01:23.80
+  train_samples            =        178
+  train_samples_per_second =      2.124
+  train_steps_per_second   =      0.263
+This round clients: [0, 1, 2, 3, 4]
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████| 15/15 [00:57<00:00,  3.81s/it]
+{'train_runtime': 57.1709, 'train_samples_per_second': 2.204, 'train_steps_per_second': 0.262, 'train_loss': 2.0085865020751954, 'epoch': 0.95}
+***** train metrics *****
+  epoch                    =     0.9524
+  total_flos               =  5210822GF
+  train_loss               =     2.0086
+  train_runtime            = 0:00:57.17
+  train_samples            =        126
+  train_samples_per_second =      2.204
+  train_steps_per_second   =      0.262
+117
+8.000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████▋| 233/234 [14:58<00:03,  3.85s/it]
+{'train_runtime': 902.2572, 'train_samples_per_second': 2.077, 'train_steps_per_second': 0.259, 'train_loss': 1.8059890616653311, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =     0.9989
+  total_flos               = 81288835GF
+  train_loss               =      1.806
+  train_runtime            = 0:15:02.25
+  train_samples            =       1874
+  train_samples_per_second =      2.077
+
+100%|████████████████████████████████████████████████████████████████| 234/234 [15:02<00:00,  3.86s/it]
+0
+8.000000000000001e-06
+100%|████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.06it/s]
+100%|████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.08it/s]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    16623GF
+  train_loss               =      0.413
+  train_runtime            = 0:00:00.51
+  train_samples            =          1
+  train_samples_per_second =      1.926
+  train_steps_per_second   =      1.926
+1
+8.000000000000001e-06
+
+
+
+100%|████████████████████████████████████████████████████████████████████| 3/3 [00:11<00:00,  3.66s/it]
+{'train_runtime': 11.1842, 'train_samples_per_second': 2.056, 'train_steps_per_second': 0.268, 'train_loss': 2.118255138397217, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   998741GF
+  train_loss               =     2.1183
+  train_runtime            = 0:00:11.18
+  train_samples            =         23
+  train_samples_per_second =      2.056
+  train_steps_per_second   =      0.268
+11
+8.000000000000001e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████| 22/22 [01:24<00:00,  3.85s/it]
+{'train_runtime': 84.771, 'train_samples_per_second': 2.1, 'train_steps_per_second': 0.26, 'train_loss': 2.0261804407293145, 'epoch': 0.99}
+***** train metrics *****
+  epoch                    =     0.9888
+  total_flos               =  7642540GF
+  train_loss               =     2.0262
+  train_runtime            = 0:01:24.77
+  train_samples            =        178
+  train_samples_per_second =        2.1
+  train_steps_per_second   =       0.26

@@ -1,0 +1,557 @@
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f3271b-450541d44b8804f65f91e115;3c131af4-adba-45f6-b6ce-7f593a826830)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                             | 0/3 [00:00<?, ?it/s]
+{'train_runtime': 14.8697, 'train_samples_per_second': 1.614, 'train_steps_per_second': 0.202, 'train_loss': 3.5649007161458335, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.5649
+  train_runtime            = 0:00:14.86
+  train_samples            =         50
+  train_samples_per_second =      1.614
+  train_steps_per_second   =      0.202
+3
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f32724-0dcb38c85fec28d420eec8df;1cf758d0-32d5-4394-9e12-f1a4abb2b2b0)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 7.4293, 'train_samples_per_second': 3.23, 'train_steps_per_second': 0.404, 'train_loss': 3.0624593098958335, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.0625
+  train_runtime            = 0:00:07.42
+  train_samples            =         50
+  train_samples_per_second =       3.23
+  train_steps_per_second   =      0.404
+3
+1.2e-06
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.48s/it]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f3272d-73ac9cbe71cba1a96b4a098f;62b2b4ac-20e0-430f-a798-959dc73c63b4)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.0333
+  train_runtime            = 0:00:07.45
+  train_samples            =         50
+  train_samples_per_second =      3.217
+  train_steps_per_second   =      0.402
+3
+1.2e-06
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.48s/it]
+{'train_runtime': 7.4494, 'train_samples_per_second': 3.222, 'train_steps_per_second': 0.403, 'train_loss': 4.053670247395833, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     4.0537
+  train_runtime            = 0:00:07.44
+  train_samples            =         50
+  train_samples_per_second =      3.222
+  train_steps_per_second   =      0.403
+3
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f32735-63044ca816789ab10485307d;8dc99f20-9256-47eb-a8b2-4a35d643c3e9)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.48s/it]
+{'train_runtime': 7.4588, 'train_samples_per_second': 3.218, 'train_steps_per_second': 0.402, 'train_loss': 3.6668904622395835, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.6669
+  train_runtime            = 0:00:07.45
+  train_samples            =         50
+  train_samples_per_second =      3.218
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f3273e-13490157648bda3278ec774e;31ba461e-8b66-4cb8-9b18-23b3f68822e5)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+ 93%|████████████████████████████████████████████████████████████████████████████████████████████▍      | 14/15 [00:09<00:00,  1.41it/s]
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.2672
+  eval_loss               =     3.5183
+  eval_runtime            = 0:00:10.39
+  eval_samples            =        116
+  eval_samples_per_second =     11.155
+  eval_steps_per_second   =      1.442
+  perplexity              =     33.727
+This round clients: [5, 6, 7, 8, 9]
+3
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:09<00:00,  1.65it/s]
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.42s/it]
+{'train_runtime': 7.2806, 'train_samples_per_second': 3.296, 'train_steps_per_second': 0.412, 'train_loss': 3.55938720703125, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.5594
+  train_runtime            = 0:00:07.28
+  train_samples            =         50
+  train_samples_per_second =      3.296
+  train_steps_per_second   =      0.412
+3
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f32751-5b0ce58f1f9c7ef451dc63c2;6c4e42fd-7478-4e2d-b026-428a693e8b5f)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.42s/it]
+{'train_runtime': 7.2823, 'train_samples_per_second': 3.296, 'train_steps_per_second': 0.412, 'train_loss': 3.8827107747395835, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.8827
+  train_runtime            = 0:00:07.28
+  train_samples            =         50
+  train_samples_per_second =      3.296
+  train_steps_per_second   =      0.412
+3
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f3275a-66f482937f0bb50c4f92ad52;dde27ff9-c636-4d66-b0aa-bc236b19d4d3)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.42s/it]
+{'train_runtime': 7.2858, 'train_samples_per_second': 3.294, 'train_steps_per_second': 0.412, 'train_loss': 3.8059895833333335, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =      3.806
+  train_runtime            = 0:00:07.28
+  train_samples            =         50
+  train_samples_per_second =      3.294
+  train_steps_per_second   =      0.412
+3
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f32762-047eb14025b770a341503d60;3fa21961-3d0a-41db-bf32-58491f02e820)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.43s/it]
+{'train_runtime': 7.2973, 'train_samples_per_second': 3.289, 'train_steps_per_second': 0.411, 'train_loss': 3.535120646158854, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.5351
+  train_runtime            = 0:00:07.29
+  train_samples            =         50
+  train_samples_per_second =      3.289
+  train_steps_per_second   =      0.411
+3
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f3276a-0b160bf172e1a2cf458722db;5785c751-9316-456f-85e5-0a864cde04d6)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.43s/it]
+{'train_runtime': 7.3044, 'train_samples_per_second': 3.286, 'train_steps_per_second': 0.411, 'train_loss': 3.5703328450520835, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.5703
+  train_runtime            = 0:00:07.30
+  train_samples            =         50
+  train_samples_per_second =      3.286
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f32772-5f184fee5c2347ef3a166195;d27b2aaa-3b7e-4d26-bb6f-ac21bef12f74)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:09<00:00,  1.63it/s]
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.2672
+  eval_loss               =     3.5076
+  eval_runtime            = 0:00:10.49
+  eval_samples            =        116
+  eval_samples_per_second =     11.053
+  eval_steps_per_second   =      1.429
+  perplexity              =    33.3681
+This round clients: [5, 6, 7, 8, 9]
+3
+2.4e-06
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:05<00:02,  2.50s/it]
+{'train_runtime': 7.5166, 'train_samples_per_second': 3.193, 'train_steps_per_second': 0.399, 'train_loss': 3.5955403645833335, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.5955
+  train_runtime            = 0:00:07.51
+  train_samples            =         50
+  train_samples_per_second =      3.193
+  train_steps_per_second   =      0.399
+3
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f32786-49ceabe50b82357e73c69d9c;4fa604ff-1e3e-4220-a659-d9e816840ee8)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:05<00:02,  2.50s/it]
+{'train_runtime': 7.5237, 'train_samples_per_second': 3.19, 'train_steps_per_second': 0.399, 'train_loss': 2.9734090169270835, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     2.9734
+  train_runtime            = 0:00:07.52
+  train_samples            =         50
+  train_samples_per_second =       3.19
+  train_steps_per_second   =      0.399
+3
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f3278f-5a71fa205bf4edd82eb11233;63831c33-c62b-406f-a238-43f03319e06b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:07<00:00,  2.49s/it]
+{'train_runtime': 7.5075, 'train_samples_per_second': 3.197, 'train_steps_per_second': 0.4, 'train_loss': 3.3441569010416665, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.3442
+  train_runtime            = 0:00:07.50
+  train_samples            =         50
+  train_samples_per_second =      3.197
+  train_steps_per_second   =        0.4
+3
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f32797-2f71d5752fc778ed5b6af64e;944d337e-0fe2-4beb-bd7a-35e5966cda70)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+ 33%|█████████████████████████████████▋                                                                   | 1/3 [00:02<00:05,  2.54s/it]
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:05<00:02,  2.50s/it]
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:05<00:02,  2.50s/it]
+{'train_runtime': 7.5032, 'train_samples_per_second': 3.199, 'train_steps_per_second': 0.4, 'train_loss': 3.83837890625, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.8384
+  train_runtime            = 0:00:07.50
+  train_samples            =         50
+  train_samples_per_second =      3.199
+  train_steps_per_second   =        0.4
+3
+  0%|                                                                                                             | 0/3 [00:00<?, ?it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a0-39fdec773ad34b611e3802c4;74b5c7d5-8f60-4799-8d2d-21a8a081180f)
+ 33%|█████████████████████████████████▋                                                                   | 1/3 [00:02<00:05,  2.52s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a0-39fdec773ad34b611e3802c4;74b5c7d5-8f60-4799-8d2d-21a8a081180f)
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.50s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a0-39fdec773ad34b611e3802c4;74b5c7d5-8f60-4799-8d2d-21a8a081180f)
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 2/3 [00:04<00:02,  2.50s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a0-39fdec773ad34b611e3802c4;74b5c7d5-8f60-4799-8d2d-21a8a081180f)
+{'train_runtime': 7.4979, 'train_samples_per_second': 3.201, 'train_steps_per_second': 0.4, 'train_loss': 4.106892903645833, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     4.1069
+  train_runtime            = 0:00:07.49
+  train_samples            =         50
+  train_samples_per_second =      3.201
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+ 13%|█████████████▎                                                                                      | 2/15 [00:00<00:04,  2.74it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+ 33%|█████████████████████████████████▎                                                                  | 5/15 [00:02<00:06,  1.56it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+ 53%|█████████████████████████████████████████████████████▎                                              | 8/15 [00:05<00:04,  1.43it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+ 73%|████████████████████████████████████████████████████████████████████████▌                          | 11/15 [00:07<00:02,  1.40it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+ 87%|█████████████████████████████████████████████████████████████████████████████████████▊             | 13/15 [00:08<00:01,  1.39it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+ 87%|█████████████████████████████████████████████████████████████████████████████████████▊             | 13/15 [00:08<00:01,  1.39it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.2672
+  eval_loss               =     3.4657
+  eval_runtime            = 0:00:10.55
+  eval_samples            =        116
+  eval_samples_per_second =     10.988
+  eval_steps_per_second   =      1.421
+  perplexity              =    32.0004
+This round clients: [5, 6, 7, 8, 9]
+3
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:09<00:00,  1.62it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:09<00:00,  1.62it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:09<00:00,  1.62it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:09<00:00,  1.62it/s]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.3393, 'train_samples_per_second': 3.27, 'train_steps_per_second': 0.409, 'train_loss': 3.0774943033854165, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.0775
+  train_runtime            = 0:00:07.33
+  train_samples            =         50
+  train_samples_per_second =       3.27
+  train_steps_per_second   =      0.409
+3
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.5027, 'train_samples_per_second': 3.199, 'train_steps_per_second': 0.4, 'train_loss': 3.1710205078125, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =      3.171
+  train_runtime            = 0:00:07.50
+  train_samples            =         50
+  train_samples_per_second =      3.199
+  train_steps_per_second   =        0.4
+3
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.5012, 'train_samples_per_second': 3.199, 'train_steps_per_second': 0.4, 'train_loss': 3.4119059244791665, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.4119
+  train_runtime            = 0:00:07.50
+  train_samples            =         50
+  train_samples_per_second =      3.199
+  train_steps_per_second   =        0.4
+3
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.4891, 'train_samples_per_second': 3.205, 'train_steps_per_second': 0.401, 'train_loss': 3.013397216796875, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.0134
+  train_runtime            = 0:00:07.48
+  train_samples            =         50
+  train_samples_per_second =      3.205
+  train_steps_per_second   =      0.401
+3
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.5139, 'train_samples_per_second': 3.194, 'train_steps_per_second': 0.399, 'train_loss': 3.3470052083333335, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =      3.347
+  train_runtime            = 0:00:07.51
+  train_samples            =         50
+  train_samples_per_second =      3.194
+  train_steps_per_second   =      0.399
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.2672
+  eval_loss               =     3.4184
+  eval_runtime            = 0:00:10.56
+  eval_samples            =        116
+  eval_samples_per_second =     10.977
+  eval_steps_per_second   =      1.419
+  perplexity              =    30.5219
+This round clients: [5, 6, 7, 8, 9]
+3
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.3406, 'train_samples_per_second': 3.269, 'train_steps_per_second': 0.409, 'train_loss': 3.7007242838541665, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.7007
+  train_runtime            = 0:00:07.34
+  train_samples            =         50
+  train_samples_per_second =      3.269
+  train_steps_per_second   =      0.409
+3
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.3386, 'train_samples_per_second': 3.27, 'train_steps_per_second': 0.409, 'train_loss': 4.072062174479167, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     4.0721
+  train_runtime            = 0:00:07.33
+  train_samples            =         50
+  train_samples_per_second =       3.27
+  train_steps_per_second   =      0.409
+3
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.3392, 'train_samples_per_second': 3.27, 'train_steps_per_second': 0.409, 'train_loss': 3.2383626302083335, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.2384
+  train_runtime            = 0:00:07.33
+  train_samples            =         50
+  train_samples_per_second =       3.27
+  train_steps_per_second   =      0.409
+3
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.3531, 'train_samples_per_second': 3.264, 'train_steps_per_second': 0.408, 'train_loss': 3.8610026041666665, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =      3.861
+  train_runtime            = 0:00:07.35
+  train_samples            =         50
+  train_samples_per_second =      3.264
+  train_steps_per_second   =      0.408
+3
+3e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.4204, 'train_samples_per_second': 3.234, 'train_steps_per_second': 0.404, 'train_loss': 4.245442708333333, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     4.2454
+  train_runtime            = 0:00:07.42
+  train_samples            =         50
+  train_samples_per_second =      3.234
+  train_steps_per_second   =      0.404
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.2672
+  eval_loss               =     3.3617
+  eval_runtime            = 0:00:10.58
+  eval_samples            =        116
+  eval_samples_per_second =      10.96
+  eval_steps_per_second   =      1.417
+  perplexity              =    28.8381
+This round clients: [5, 6, 7, 8, 9]
+3
+2.9795419551040837e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.5537, 'train_samples_per_second': 3.177, 'train_steps_per_second': 0.397, 'train_loss': 3.1271565755208335, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.1272
+  train_runtime            = 0:00:07.55
+  train_samples            =         50
+  train_samples_per_second =      3.177
+  train_steps_per_second   =      0.397
+3
+2.9795419551040837e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.4964, 'train_samples_per_second': 3.202, 'train_steps_per_second': 0.4, 'train_loss': 3.5406087239583335, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.5406
+  train_runtime            = 0:00:07.49
+  train_samples            =         50
+  train_samples_per_second =      3.202
+  train_steps_per_second   =        0.4
+3
+2.9795419551040837e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.5194, 'train_samples_per_second': 3.192, 'train_steps_per_second': 0.399, 'train_loss': 3.3148600260416665, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.3149
+  train_runtime            = 0:00:07.51
+  train_samples            =         50
+  train_samples_per_second =      3.192
+  train_steps_per_second   =      0.399
+3
+2.9795419551040837e-06
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.█| 3/3 [00:07<00:00,  2.44s/it]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+{'train_runtime': 7.522, 'train_samples_per_second': 3.191, 'train_steps_per_second': 0.399, 'train_loss': 3.2378641764322915, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   393776GF
+  train_loss               =     3.2379
+  train_runtime            = 0:00:07.52
+  train_samples            =         50
+  train_samples_per_second =      3.191
+  train_steps_per_second   =      0.399
+3
+2.9795419551040837e-06
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backwardining_loopit]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backwardining_loopit]o the following error 403 Client Error. (Request ID: Root=1-67f327a9-3ba102116a98a15902debd0e;a666218f-21b0-4f23-9db4-633b98fd312b)

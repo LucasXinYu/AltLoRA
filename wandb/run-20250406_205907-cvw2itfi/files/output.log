@@ -1,0 +1,176 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f32384-4e8e20157ff6aa712f90daff;dbcc6029-b9c3-46b7-a144-b6c0faa093e4)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 42.1015, 'train_samples_per_second': 2.66, 'train_steps_per_second': 0.333, 'train_loss': 3.595851353236607, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1837622GF
+  train_loss               =     3.5959
+  train_runtime            = 0:00:42.10
+  train_samples            =        200
+  train_samples_per_second =       2.66
+  train_steps_per_second   =      0.333
+14
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f323a8-25615194436da48c1756f109;9063f29d-ed57-4d9b-a7ef-b31c28f7e4c9)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 34.5455, 'train_samples_per_second': 3.242, 'train_steps_per_second': 0.405, 'train_loss': 3.541782924107143, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1837622GF
+  train_loss               =     3.5418
+  train_runtime            = 0:00:34.54
+  train_samples            =        200
+  train_samples_per_second =      3.242
+  train_steps_per_second   =      0.405
+14
+1.2e-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f323cb-25b1b5c12ca4a94a2215e865;c06f2aba-8f30-41d8-940b-399c623e47b2)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                            | 0/14 [00:00<?, ?it/s]
+{'train_runtime': 34.626, 'train_samples_per_second': 3.235, 'train_steps_per_second': 0.404, 'train_loss': 3.5848911830357144, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1837622GF
+  train_loss               =     3.5849
+  train_runtime            = 0:00:34.62
+  train_samples            =        200
+  train_samples_per_second =      3.235
+  train_steps_per_second   =      0.404
+14
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 93%|███████████████████████████████████████████████████████████████████████████████████████████▉       | 13/14 [00:32<00:02,  2.48s/it]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f323ef-5d767bc4131ec9595eb60be5;86dd0f3f-480c-451c-8317-a5b6b82a285c)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                            | 0/14 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1837622GF
+  train_loss               =     3.7902
+  train_runtime            = 0:00:34.71
+  train_samples            =        200
+  train_samples_per_second =      3.227
+  train_steps_per_second   =      0.403
+14
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 93%|███████████████████████████████████████████████████████████████████████████████████████████▉       | 13/14 [00:32<00:02,  2.47s/it]
+{'train_runtime': 34.6779, 'train_samples_per_second': 3.23, 'train_steps_per_second': 0.404, 'train_loss': 3.5567757742745534, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1837622GF
+  train_loss               =     3.5568
+  train_runtime            = 0:00:34.67
+  train_samples            =        200
+  train_samples_per_second =       3.23
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f32413-36327034350dd33656a0b682;8203b4bc-0d67-497c-882c-94cd591bd9e6)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+
+
+
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 869, in <module>████████████████████████████| 15/15 [00:09<00:00,  1.62it/s]
+    main()
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 786, in main
+    metrics = trainer.evaluate()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3868, in evaluate
+    output = eval_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4160, in evaluation_loop
+    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 652, in compute_metrics
+    labels = labels[:, 1:].reshape(-1)
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 869, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 786, in main
+    metrics = trainer.evaluate()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 3868, in evaluate
+    output = eval_loop(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/transformers/trainer.py", line 4160, in evaluation_loop
+    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
+  File "/data/home/yjw5427/translora/fed_lora_cls.py", line 652, in compute_metrics
+    labels = labels[:, 1:].reshape(-1)
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed

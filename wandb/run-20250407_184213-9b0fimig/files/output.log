@@ -1,0 +1,260 @@
+
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f454ce-2f1208981ff233c426f64d9c;098138e5-4683-481b-8356-4ac3bc1a2e42)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 9.4954, 'train_samples_per_second': 1.158, 'train_steps_per_second': 0.105, 'train_loss': 1.5743874311447144, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5744
+  train_runtime            = 0:00:09.49
+  train_samples            =         11
+  train_samples_per_second =      1.158
+  train_steps_per_second   =      0.105
+0
+1.2e-06
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 2.152, 'train_samples_per_second': 5.576, 'train_steps_per_second': 0.465, 'train_loss': 1.5378797054290771, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5379
+  train_runtime            = 0:00:02.15
+  train_samples            =         12
+  train_samples_per_second =      5.576
+  train_steps_per_second   =      0.465
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f454d1-56315170065b1d7f45dfb61f;efdd37cc-14bd-44ae-999b-16387dc63e7a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f454d5-68c49760650802bc3c21e577;d47fd477-2d53-4313-9d7a-d38a963a1a12)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.1579, 'train_samples_per_second': 5.098, 'train_steps_per_second': 0.463, 'train_loss': 1.6281187534332275, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6281
+  train_runtime            = 0:00:02.15
+  train_samples            =         11
+  train_samples_per_second =      5.098
+  train_steps_per_second   =      0.463
+0
+1.2e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f454d8-5e5697b3763309ea56910c8a;54e56299-0a8b-493b-9638-041c0d07f51a)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.172, 'train_samples_per_second': 5.064, 'train_steps_per_second': 0.46, 'train_loss': 1.603328824043274, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6033
+  train_runtime            = 0:00:02.17
+  train_samples            =         11
+  train_samples_per_second =      5.064
+  train_steps_per_second   =       0.46
+0
+1.2e-06
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f454db-68b51bee5220d9c2339dccb0;fa283190-6223-418d-8d3a-01404bf1fa00)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+  0%|                                                                                                                   | 0/32 [00:00<?, ?it/s]
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5724
+  train_runtime            = 0:00:02.14
+  train_samples            =         11
+  train_samples_per_second =      5.117
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:23<00:00,  1.60it/s]
+***** eval metrics *****
+  epoch                   =     0.6667
+  eval_accuracy           =     0.0348
+  eval_invalid_labels     =     244731
+  eval_invalid_preds      =     242211
+  eval_loss               =     1.5434
+  eval_runtime            = 0:00:28.26
+  eval_samples            =        251
+  eval_samples_per_second =      8.881
+  eval_steps_per_second   =      1.132
+  eval_total              =     256773
+  perplexity              =     4.6803
+This round clients: [5, 6, 7, 8, 9]
+0
+1.8000000000000001e-06
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+{'train_runtime': 2.1656, 'train_samples_per_second': 5.08, 'train_steps_per_second': 0.462, 'train_loss': 1.5745720863342285, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5746
+  train_runtime            = 0:00:02.16
+  train_samples            =         11
+  train_samples_per_second =       5.08
+  train_steps_per_second   =      0.462
+0
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f454fb-5fb690e201f664f65205253c;26a75c6d-15a3-4077-89cc-cd73c3ec3167)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f454fe-01e9b13441973ea70cc6b814;6cdcdf0d-771a-48e7-9d5c-6b63aae2d6a2)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.1494, 'train_samples_per_second': 5.583, 'train_steps_per_second': 0.465, 'train_loss': 1.5377795696258545, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.5378
+  train_runtime            = 0:00:02.14
+  train_samples            =         12
+  train_samples_per_second =      5.583
+  train_steps_per_second   =      0.465
+0
+1.8000000000000001e-06
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error 403 Client Error. (Request ID: Root=1-67f45502-140f4ede468d175804cc6651;a76233be-ccf4-4db0-90f4-e0199573cf30)
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-3B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-3B to ask for access. - silently ignoring the lookup for the file config.json in meta-llama/Llama-3.2-3B.
+  warnings.warn(
+/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in meta-llama/Llama-3.2-3B - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'train_runtime': 2.1396, 'train_samples_per_second': 5.141, 'train_steps_per_second': 0.467, 'train_loss': 1.628903865814209, 'epoch': 0.67}
+***** train metrics *****
+  epoch                    =     0.6667
+  total_flos               =   131258GF
+  train_loss               =     1.6289
+  train_runtime            = 0:00:02.13
+  train_samples            =         11
+  train_samples_per_second =      5.141
+  train_steps_per_second   =      0.467
+0
+1.8000000000000001e-06
+  0%|                                                                                                                    | 0/1 [00:00<?, ?it/s]
+Traceback (most recent call last):███████████████████████████████████████████████████████████████████████████████| 1/1 [00:02<00:00,  2.11s/it]
+  File "/data/home/yjw5427/translora/fed_lora.py", line 934, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 797, in main
+    for name, param in get_peft_model_state_dict(model).items()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py", line 192, in get_peft_model_state_dict
+    exists = check_file_exists_on_hf_hub(model_id, "config.json")
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py", line 606, in check_file_exists_on_hf_hub
+    exists = file_exists(repo_id, filename, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 2885, in file_exists
+    get_hf_file_metadata(url, token=token)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1296, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 280, in _request_wrapper
+    response = _request_wrapper(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 303, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_lora.py", line 934, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_lora.py", line 797, in main
+    for name, param in get_peft_model_state_dict(model).items()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/save_and_load.py", line 192, in get_peft_model_state_dict
+    exists = check_file_exists_on_hf_hub(model_id, "config.json")
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/peft/utils/other.py", line 606, in check_file_exists_on_hf_hub
+    exists = file_exists(repo_id, filename, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 2885, in file_exists
+    get_hf_file_metadata(url, token=token)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1296, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 280, in _request_wrapper
+    response = _request_wrapper(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 303, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/yjw5427/miniconda3/envs/trans/lib/python3.10/ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt

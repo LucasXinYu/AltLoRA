@@ -1,0 +1,59 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traceback (most recent call last):██████████████████████████████████████████████████████████████████████| 38/38 [02:23<00:00,  3.78s/it]
+  File "/data/home/yjw5427/translora/fed_distill.py", line 984, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_distill.py", line 948, in main
+    with open(outfolder + file_name, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yjw5427/translora/results/distill_llama3_yyyjwang/my_mental_health_fedavg_rounds[1]_llr[3e-07]_li[1.0]_iid[iid]_nuser[1]_suser[1]_clora.pkl'
+Traceback (most recent call last):
+  File "/data/home/yjw5427/translora/fed_distill.py", line 984, in <module>
+    main()
+  File "/data/home/yjw5427/translora/fed_distill.py", line 948, in main
+    with open(outfolder + file_name, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yjw5427/translora/results/distill_llama3_yyyjwang/my_mental_health_fedavg_rounds[1]_llr[3e-07]_li[1.0]_iid[iid]_nuser[1]_suser[1]_clora.pkl'
+{'train_runtime': 149.3495, 'train_samples_per_second': 1.038, 'train_steps_per_second': 0.254, 'train_loss': 395.23758737664474, 'epoch': 0.98}
+***** train metrics *****
+  epoch                    =     0.9806
+  total_flos               =  6600375GF
+  train_loss               =   395.2376
+  train_runtime            = 0:02:29.34
+  train_samples            =          5
+  train_samples_per_second =      1.038
+  train_steps_per_second   =      0.254
