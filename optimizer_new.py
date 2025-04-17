@@ -239,6 +239,7 @@ class AdamWr(Optimizer):
 
 #####################################################################################
 
+#
 
 class AdamWr_full(Optimizer):
     def __init__(self, model, lr=1e-3, betas=(0.9, 0.98), eps=1e-6, weight_decay=1e-5, correct_bias=True, rank=2, reg=1e-6):
@@ -398,9 +399,9 @@ class AdamWr_full(Optimizer):
 
 #####################################################################################
 
+#alora-fm2: the momentum is projected to the current full graidnet but the stored on don't do that.
 
-
-class AdamWr_fm(Optimizer):
+class AdamWr_fm2(Optimizer):
     def __init__(self, model, lr=1e-3, betas=(0.999, 0.98), eps=1e-6, weight_decay=1e-5, correct_bias=True, rank=2, reg=1e-3):
         if lr < 0.0:
             raise ValueError("Invalid learning rate: {} - should be >= 0.0".format(lr))
@@ -414,7 +415,7 @@ class AdamWr_fm(Optimizer):
         # Collect all parameters from the model
         params = list(model.parameters())
         defaults = dict(lr=lr, betas=betas, eps=eps, weight_decay=weight_decay, correct_bias=correct_bias)
-        super(AdamWr_fm, self).__init__(params, defaults)
+        super(AdamWr_fm2, self).__init__(params, defaults)
 
         self.model = model
         self.rank = rank
@@ -472,7 +473,154 @@ class AdamWr_fm(Optimizer):
                             except:
                                 b_precon = torch.eye((p2.data.T @ p2.data).shape[0]).to(p2.data.device)
                                 P_at = b_precon  @ p2.data.T @ p2_old 
-                                # print('no inversep2')
+                                print('no inversep2')
+
+                            grad1_scaled = b_precon @ p1.grad.data
+                            assert grad1_scaled.shape == p1.grad.data.shape
+
+                            #### exp_avg = beta1 * P_at @ exp_avg + (1-beta1) * grad1_scaled
+                            
+                            # it is necessay to note that the first momentum is compression to the current gradient
+                            # but it's unneceesary for the next round
+                            #exp_avg = beta1 * exp_avg + (1-beta1) * grad1_scaled
+                            step_size = self.defaults["lr"]
+                            if self.defaults["correct_bias"]:
+                                bias_correction1 = 1.0 - beta1 ** state["step"]
+                                step_size = step_size / bias_correction1
+                            
+                            p1.data = p1.data - step_size * (beta1 * P_at @ exp_avg + (1-beta1) * grad1_scaled) # rk kr rd ->rd
+
+                            if self.defaults["weight_decay"] > 0.0:
+                                p1.data.add_(p1.data, alpha=-self.defaults["lr"] * self.defaults["weight_decay"])
+                            exp_avg = beta1 * exp_avg + (1-beta1) * grad1_scaled
+                            state["exp_avg"] = exp_avg.detach().clone()
+                            state['p2old'] = p2.data.detach().clone()
+
+
+                        # Update p2
+                        if p2.grad is not None:
+                            state = self.state[p2]
+                            if len(state) == 0:
+                                state["step"] = 0
+                                state["exp_avg"] = torch.zeros(k, r)
+                                state['p1old'] = torch.zeros(r, d)
+
+                            exp_avg= state["exp_avg"].to(p2.device)
+                            p1_old = state['p1old'].to(p2.device)
+                            beta1, beta2 = self.defaults["betas"]
+                            state["step"] += 1
+                            
+                           
+                            try:
+                                a_precon = torch.inverse(p1.data @ p1.data.T + self.reg * torch.eye(self.rank).to(p1.data.device))
+                                P_bt = p1_old @ p1.data.T @ a_precon
+                            except:
+                                a_precon = torch.eye((p1.data @ p1.data.T).shape[0]).to(p1.data.device) 
+                                P_bt = p1_old @ p1.data.T @ a_precon
+                                print('no inverse')
+                             
+                 
+                            grad2_scaled = p2.grad.data @ a_precon 
+                            assert grad2_scaled.shape == p2.grad.data.shape
+
+                            ### exp_avg = beta1 * exp_avg @ P_bt + (1-beta1) * grad2_scaled
+                            
+
+                            step_size = self.defaults["lr"]
+                            if self.defaults["correct_bias"]:
+                                bias_correction1 = 1.0 - beta1 ** state["step"]
+                                step_size = step_size / bias_correction1
+                            
+                            p2.data = p2.data - step_size * (beta1 * exp_avg @ P_bt + (1-beta1) * grad2_scaled)  # kr rd dr  # O(r^2d + r^2k)
+
+                            if self.defaults["weight_decay"] > 0.0:
+                                p2.data.add_(p2.data, alpha=-self.defaults["lr"] * self.defaults["weight_decay"])
+                            exp_avg = beta1 * exp_avg  + (1-beta1) * grad2_scaled
+                            state["exp_avg"] = exp_avg.detach().clone()
+                            state['p1old'] = p1.data.detach().clone()
+                            
+
+            i += 1
+
+        return loss
+#####################################################################################
+
+#alora-fm1: the momentum is projected to the current full graidnet and the stored one do that as well.
+
+
+class AdamWr_fm1(Optimizer):
+    def __init__(self, model, lr=1e-3, betas=(0.999, 0.98), eps=1e-6, weight_decay=1e-5, correct_bias=True, rank=2, reg=1e-3):
+        if lr < 0.0:
+            raise ValueError("Invalid learning rate: {} - should be >= 0.0".format(lr))
+        if not 0.0 <= betas[0] < 1.0:
+            raise ValueError("Invalid beta parameter: {} - should be in [0.0, 1.0[".format(betas[0]))
+        if not 0.0 <= betas[1] < 1.0:
+            raise ValueError("Invalid beta parameter: {} - should be in [0.0, 1.0[".format(betas[1]))
+        if not 0.0 <= eps:
+            raise ValueError("Invalid epsilon value: {} - should be >= 0.0".format(eps))
+
+        # Collect all parameters from the model
+        params = list(model.parameters())
+        defaults = dict(lr=lr, betas=betas, eps=eps, weight_decay=weight_decay, correct_bias=correct_bias)
+        super(AdamWr_fm1, self).__init__(params, defaults)
+
+        self.model = model
+        self.rank = rank
+        self.reg = reg
+
+       
+
+    def reset_state(self):
+        for group in self.param_groups:
+            for p in group['params']:
+                state = self.state[p]
+                state['step'] = 0
+                state["exp_avg"] = torch.zeros_like(p.data)
+                state["exp_avg_sq"] = torch.zeros_like(p.data)
+
+    def step(self, closure=None):
+        loss = None
+        if closure is not None:
+            loss = closure()
+
+        named_params = list(self.model.named_parameters())
+        i = 0
+        while i < len(named_params):
+            name1, p1 = named_params[i]
+            if name1.endswith("lora_A.default.weight"):  # Check if the parameter name matches
+                if i + 1 < len(named_params):
+                    name2, p2 = named_params[i + 1]
+                    i += 1  # Move to the next pair
+
+                    # Only proceed if gradients are not None
+                    if p1.grad is not None or p2.grad is not None:
+                        k = p2.data.shape[0]
+                        d = p1.data.shape[1]
+                        r = p2.data.shape[1]
+                        # Update p1
+                        if p1.grad is not None:
+                            state = self.state[p1]
+                            if len(state) == 0:
+                                state["step"] = 0
+                                state["exp_avg"] = torch.zeros(r, d)   
+                                #state["exp_avg_sq"] = torch.empty(k, r)   
+                                state['p2old'] = torch.zeros(k, r)
+
+                            exp_avg = state["exp_avg"].to(p1.device)
+                            p2_old = state['p2old'].to(p1.device)
+                            beta1, beta2 = self.defaults["betas"]
+                            state["step"] += 1
+
+                            #dim_1 = p2.data.shape[0] // 2
+                            ###
+                             
+                            try:
+                                b_precon = torch.inverse(p2.data.T @ p2.data + self.reg * torch.eye(self.rank).to(p2.data.device))
+                                P_at = b_precon  @ p2.data.T @ p2_old 
+                            except:
+                                b_precon = torch.eye((p2.data.T @ p2.data).shape[0]).to(p2.data.device)
+                                P_at = b_precon  @ p2.data.T @ p2_old 
+                                print('no inversep2')
 
                             grad1_scaled = b_precon @ p1.grad.data
                             assert grad1_scaled.shape == p1.grad.data.shape
@@ -536,7 +684,166 @@ class AdamWr_fm(Optimizer):
             i += 1
 
         return loss
+#####################################################################################
+#####################################################################################
 
+#alora-fm2: the momentum is projected to the current full graidnet but the stored on don't do that.
+
+class AdamWr_sm_idea1(Optimizer):
+    def __init__(self, model, lr=1e-3, betas=(0.999, 0.98), eps=1e-6, weight_decay=1e-5, correct_bias=True, rank=2, reg=1e-3):
+        if lr < 0.0:
+            raise ValueError("Invalid learning rate: {} - should be >= 0.0".format(lr))
+        if not 0.0 <= betas[0] < 1.0:
+            raise ValueError("Invalid beta parameter: {} - should be in [0.0, 1.0[".format(betas[0]))
+        if not 0.0 <= betas[1] < 1.0:
+            raise ValueError("Invalid beta parameter: {} - should be in [0.0, 1.0[".format(betas[1]))
+        if not 0.0 <= eps:
+            raise ValueError("Invalid epsilon value: {} - should be >= 0.0".format(eps))
+
+        # Collect all parameters from the model
+        params = list(model.parameters())
+        defaults = dict(lr=lr, betas=betas, eps=eps, weight_decay=weight_decay, correct_bias=correct_bias)
+        super(AdamWr_sm_idea1, self).__init__(params, defaults)
+
+        self.model = model
+        self.rank = rank
+        self.reg = reg
+
+       
+
+    def reset_state(self):
+        for group in self.param_groups:
+            for p in group['params']:
+                state = self.state[p]
+                state['step'] = 0
+                state["exp_avg"] = torch.zeros_like(p.data)
+                state["exp_avg_sq"] = torch.zeros_like(p.data)
+
+    def step(self, closure=None):
+        loss = None
+        if closure is not None:
+            loss = closure()
+
+        named_params = list(self.model.named_parameters())
+        i = 0
+        while i < len(named_params):
+            name1, p1 = named_params[i]
+            if name1.endswith("lora_A.default.weight"):  # Check if the parameter name matches
+                if i + 1 < len(named_params):
+                    name2, p2 = named_params[i + 1]
+                    i += 1  # Move to the next pair
+
+                    # Only proceed if gradients are not None
+                    if p1.grad is not None or p2.grad is not None:
+                        k = p2.data.shape[0]
+                        d = p1.data.shape[1]
+                        r = p2.data.shape[1]
+                        # Update p1
+                        if p1.grad is not None:
+                            state = self.state[p1]
+                            if len(state) == 0:
+                                state["step"] = 0
+                                state["exp_avg"] = torch.zeros(r, d) 
+                                state["exp_avg_sq"] = torch.zeros(r, d)  
+                                state['p2old'] = torch.zeros(k, r)
+
+                            exp_avg = state["exp_avg"].to(p1.device)
+                            p2_old = state['p2old'].to(p1.device)
+                            exp_avg_sq = state["exp_avg_sq"].to(p1.device)
+                            beta1, beta2 = self.defaults["betas"]
+                            state["step"] += 1
+
+                            try:
+                                b_precon = torch.inverse(p2.data.T @ p2.data + self.reg * torch.eye(self.rank).to(p2.data.device))
+                                P_at = b_precon  @ p2.data.T @ p2_old 
+                            except:
+                                b_precon = torch.eye((p2.data.T @ p2.data).shape[0]).to(p2.data.device)
+                                P_at = b_precon  @ p2.data.T @ p2_old 
+                                print('no inversep2')
+
+                            grad1_scaled = b_precon @ p1.grad.data
+                            assert grad1_scaled.shape == p1.grad.data.shape
+                            
+                            step_size = self.defaults["lr"]
+                            if self.defaults["correct_bias"]:
+                                bias_correction1 = 1.0 - beta1 ** state["step"]
+                                step_size = step_size / bias_correction1
+           
+                            ##
+                            #exp_avg_sq_use = beta2 * P_at @ exp_avg_sq  + (1 - beta2) * (grad1_scaled ** 2)
+                            exp_avg_sq.mul_(beta2).addcmul_(grad1_scaled, grad1_scaled, value=1.0 - beta2)
+                            denom = exp_avg_sq.sqrt().add_(self.defaults["eps"])
+
+                            p1.data.addcdiv_(-step_size, beta1 * P_at @ exp_avg + (1-beta1) * grad1_scaled,denom)
+
+                            if self.defaults["weight_decay"] > 0.0:
+                                p1.data.add_(p1.data, alpha=-self.defaults["lr"] * self.defaults["weight_decay"])
+                            exp_avg = beta1 * exp_avg + (1-beta1) * grad1_scaled
+                            #exp_avg_sq = beta2 * exp_avg_sq + (1 - beta2) * (grad1_scaled ** 2)
+                            state["exp_avg"] = exp_avg.detach().clone()
+                            state['p2old'] = p2.data.detach().clone()
+                            state['exp_avg_sq'] =  exp_avg_sq.detach().clone()
+
+
+                        # Update p2
+                        if p2.grad is not None:
+                            state = self.state[p2]
+                            if len(state) == 0:
+                                state["step"] = 0
+                                state["exp_avg"] = torch.zeros(k, r)
+                                state["exp_avg_sq"] = torch.zeros(k, r)  
+                                state['p1old'] = torch.zeros(r, d)
+
+                            exp_avg= state["exp_avg"].to(p2.device)
+                            exp_avg_sq = state['exp_avg_sq'].to(p2.device)
+                            p1_old = state['p1old'].to(p2.device)
+                            beta1, beta2 = self.defaults["betas"]
+                            state["step"] += 1
+                            
+                           
+                            try:
+                                a_precon = torch.inverse(p1.data @ p1.data.T + self.reg * torch.eye(self.rank).to(p1.data.device))
+                                P_bt = p1_old @ p1.data.T @ a_precon
+                            except:
+                                a_precon = torch.eye((p1.data @ p1.data.T).shape[0]).to(p1.data.device) 
+                                P_bt = p1_old @ p1.data.T @ a_precon
+                                print('no inverse')
+                             
+                 
+                            grad2_scaled = p2.grad.data @ a_precon 
+                            assert grad2_scaled.shape == p2.grad.data.shape
+
+       
+                            step_size = self.defaults["lr"]
+                            if self.defaults["correct_bias"]:
+                                bias_correction1 = 1.0 - beta1 ** state["step"]
+                                step_size = step_size / bias_correction1
+
+
+                            #new
+                            #exp_avg_sq_use = beta2 * exp_avg_sq  @ P_bt + (1 - beta2) * (grad2_scaled ** 2)
+                            ##standard
+                            exp_avg_sq.mul_(beta2).addcmul_(grad2_scaled, grad2_scaled, value=1.0 - beta2)
+                            denom = exp_avg_sq.sqrt().add_(self.defaults["eps"])
+
+
+                            p2.data.addcdiv_(-step_size, beta1 * exp_avg @ P_bt + (1-beta1) * grad2_scaled,denom)
+
+                            if self.defaults["weight_decay"] > 0.0:
+                                p2.data.add_(p2.data, alpha=-self.defaults["lr"] * self.defaults["weight_decay"])
+                            exp_avg = beta1 * exp_avg  + (1-beta1) * grad2_scaled
+                            #exp_avg_sq = beta2 *  exp_avg_sq  + (1 - beta2) * (grad2_scaled ** 2)
+                            state["exp_avg"] = exp_avg.detach().clone()
+                            state['exp_avg_sq'] =  exp_avg_sq.detach().clone()
+                            state['p1old'] = p1.data.detach().clone()
+
+            i += 1
+
+        return loss
+
+ 
+
+#####################################################################################
 #####################################################################################
 
 
@@ -657,7 +964,7 @@ class adamw_scale(Optimizer):
                             except:
                                 a_precon = torch.eye((p1.data @ p1.data.T).shape[0]).to(p1.data.device) 
                                 P_bt = p1_old @ p1.data.T @ a_precon
-                                # print('no inverse')
+                                print('no inverse')
                              
                  
                             grad2_scaled = p2.grad.data @ a_precon 
@@ -667,7 +974,7 @@ class adamw_scale(Optimizer):
 
                             U, S, V = torch.linalg.svd(exp_avg_sq)
                             sqrt_inv_S = torch.diag(1.0 / torch.sqrt(S)) + self.reg * torch.eye(self.rank).to(p1.device)
-                            exp_avg_sq_root = V @ sqrt_inv_S @ U # r r
+                            exp_avg_sq_root = V @ sqrt_inv_S @ U
 
                             S =  grad2_scaled @ exp_avg_sq_root 
                             exp_avg =  beta1 * exp_avg.to(p1.device) @ P_bt.to(p1.device) + (1-beta1) * S.to(p1.device)

@@ -15,7 +15,7 @@ from transformers.trainer import (
 import torch
 import torch.optim as optim
 from peft.tuners.lora.layer import Linear as LoraLinear
-from optimizer_new import SGDr, AdamWr, adamw_scale, adamw_scale_old, AdamWr_full, AdamWr_fm
+from optimizer_new import *
 # include_keywords = ["block.0", "block.4"]
 include_keywords = ["encoder.block.2", "encoder.block.3", "encoder.block.4"]  # for T5
 # include_keywords = ["layers.27", "layers.6"]  # for Llama
@@ -95,6 +95,8 @@ class LogTrainer(Trainer):
     
         print('=================================================================================')
         print(optim_name)
+        print(self.rank)
+        print(self.alt)
         print('=================================================================================')
         print('=================================================================================')
         print(self.args.lr_scheduler_type)
@@ -172,7 +174,7 @@ class LogTrainer(Trainer):
             )
 
         elif self.optim_name == "adamwr":
-            optimizer = AdamWr_fm(
+            optimizer = AdamWr_fm1(
                 self.model,
                 lr=self.lr,
                 betas=(0.9, 0.999),
@@ -207,10 +209,10 @@ class LogTrainer(Trainer):
         if not do_log:
             #print(self.args.gradient_accumulation_steps)
         
-            if self.alt == "true":
+            if self.alt is True:
                 #print(self.args.gradient_accumulation_steps)  128
                 self.gradient_accumulation_counter += 1
-                if ( self.gradient_accumulation_counter % (20 *self.args.gradient_accumulation_steps) == 0 ):
+                if ( self.gradient_accumulation_counter % (10 *self.args.gradient_accumulation_steps) == 0 ):
                     if self.update_A :
                         print("update_A")
                         self.freeze_B(model)  # 冻结 B

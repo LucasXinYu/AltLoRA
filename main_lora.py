@@ -13,6 +13,11 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+
+
+
+
 """
 Fine-tuning the library models for causal language modeling (GPT, GPT-2, CTRL, ...) on a text file or a dataset.
 
@@ -25,8 +30,10 @@ import logging
 import math
 import os
 import sys
+from accelerate import Accelerator
 
-sys.path.insert(0, '/home/yjw5427/aslora_new/peft')
+#/root/autodl-tmp/aslora_new/peft
+sys.path.insert(0, '/root/autodl-tmp/aslora_new/peft')
 # pwd = '' # You should provice the work directory. 
 # sys.path = [os.path.abspath(os.path.join(os.getcwd(), " "))] + sys.path
 
@@ -35,7 +42,9 @@ from itertools import chain
 from typing import Optional
 
 import datasets
-from datasets import load_dataset,load_from_disk, load_metric
+#from datasets import load_dataset,load_from_disk, load_metric
+from datasets import load_dataset, load_from_disk
+import evaluate
 from peft import LoraConfig, TaskType, get_peft_model, get_peft_model_state_dict, set_peft_model_state_dict, PeftModel
 
 import evaluate
@@ -50,7 +59,6 @@ from transformers import (
     Trainer,
     TrainingArguments,
     default_data_collator,
-    is_torch_tpu_available,
     set_seed,
 )
 from transformers.testing_utils import CaptureLogger
@@ -72,6 +80,11 @@ import pickle
 import re
 from logtrainer import LogTrainer
 
+
+from huggingface_hub import login, HfApi, create_repo
+import wandb
+
+
 # Will error if the minimal version of moe_transformers is not installed. Remove at your own risks.
 # check_min_version("4.26.0.dev0")
 sys.setrecursionlimit(30000)
@@ -84,6 +97,11 @@ MODEL_TYPES = tuple(conf.model_type for conf in MODEL_CONFIG_CLASSES)
 
 LLAMA3_CHAT_TEMPLATE = "{% set loop_messages = messages %}{% for message in loop_messages %}{% set content = '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' %}{% if loop.index0 == 0 %}{% set content = bos_token + content %}{% endif %}{{ content }}{% endfor %}{% if add_generation_prompt %}{{ '<|start_header_id|>assistant<|end_header_id|>\n\n' }}{% endif %}"
 LLAMA32_CHAT_TEMPLATE = "{{- bos_token }}\n{%- if custom_tools is defined %}\n    {%- set tools = custom_tools %}\n{%- endif %}\n{%- if not tools_in_user_message is defined %}\n    {%- set tools_in_user_message = true %}\n{%- endif %}\n{%- if not date_string is defined %}\n    {%- if strftime_now is defined %}\n        {%- set date_string = strftime_now(\"%d %b %Y\") %}\n    {%- else %}\n        {%- set date_string = \"26 Jul 2024\" %}\n    {%- endif %}\n{%- endif %}\n{%- if not tools is defined %}\n    {%- set tools = none %}\n{%- endif %}\n\n{#- This block extracts the system message, so we can slot it into the right place. #}\n{%- if messages[0]['role'] == 'system' %}\n    {%- set system_message = messages[0]['content']|trim %}\n    {%- set messages = messages[1:] %}\n{%- else %}\n    {%- set system_message = \"\" %}\n{%- endif %}\n\n{#- System message #}\n{{- \"<|start_header_id|>system<|end_header_id|>\\n\\n\" }}\n{%- if tools is not none %}\n    {{- \"Environment: ipython\\n\" }}\n{%- endif %}\n{{- \"Cutting Knowledge Date: December 2023\\n\" }}\n{{- \"Today Date: \" + date_string + \"\\n\\n\" }}\n{%- if tools is not none and not tools_in_user_message %}\n    {{- \"You have access to the following functions. To call a function, please respond with JSON for a function call.\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n{%- endif %}\n{{- system_message }}\n{{- \"<|eot_id|>\" }}\n\n{#- Custom tools are passed in a user message with some extra guidance #}\n{%- if tools_in_user_message and not tools is none %}\n    {#- Extract the first user message so we can plug it in here #}\n    {%- if messages | length != 0 %}\n        {%- set first_user_message = messages[0]['content']|trim %}\n        {%- set messages = messages[1:] %}\n    {%- else %}\n        {{- raise_exception(\"Cannot put tools in the first user message when there's no first user message!\") }}\n{%- endif %}\n    {{- '<|start_header_id|>user<|end_header_id|>\\n\\n' -}}\n    {{- \"Given the following functions, please respond with a JSON for a function call \" }}\n    {{- \"with its proper arguments that best answers the given prompt.\\n\\n\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n    {{- first_user_message + \"<|eot_id|>\"}}\n{%- endif %}\n\n{%- for message in messages %}\n    {%- if not (message.role == 'ipython' or message.role == 'tool' or 'tool_calls' in message) %}\n        {{- '<|start_header_id|>' + message['role'] + '<|end_header_id|>\\n\\n'+ message['content'] | trim + '<|eot_id|>' }}\n    {%- elif 'tool_calls' in message %}\n        {%- if not message.tool_calls|length == 1 %}\n            {{- raise_exception(\"This model only supports single tool-calls at once!\") }}\n        {%- endif %}\n        {%- set tool_call = message.tool_calls[0].function %}\n        {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' -}}\n        {{- '{\"name\": \"' + tool_call.name + '\", ' }}\n        {{- '\"parameters\": ' }}\n        {{- tool_call.arguments | tojson }}\n        {{- \"}\" }}\n        {{- \"<|eot_id|>\" }}\n    {%- elif message.role == \"tool\" or message.role == \"ipython\" %}\n        {{- \"<|start_header_id|>ipython<|end_header_id|>\\n\\n\" }}\n        {%- if message.content is mapping or message.content is iterable %}\n            {{- message.content | tojson }}\n        {%- else %}\n            {{- message.content }}\n        {%- endif %}\n        {{- \"<|eot_id|>\" }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' }}\n{%- endif %}\n",
+
+
+
+
+
 
 @dataclass
 class ModelArguments:
@@ -249,12 +267,9 @@ class FedArguments:
     save_model_freq: Optional[int] = field(default=50, metadata={"help": "the frequency to save the model. 50 means save every 50 rounds"})
     optim_notes: Optional[str] = field(default="optim_notes", metadata={"help": "the optim_notes of the experiment"})
 
-
+#####################################################################
+#####################################################################
 def main():
-    # See all possible arguments in src/moe_transformers/training_args.py
-    # or by passing the --help flag to this script.
-    # We now keep distinct sets of args, for a cleaner separation of concerns.
-
     parser = HfArgumentParser((ModelArguments, DataTrainingArguments, TrainingArguments, FedArguments))
     if len(sys.argv) == 2 and sys.argv[1].endswith(".json"):
         # If we pass only one argument to the script and it's the path to a json file,
@@ -263,6 +278,56 @@ def main():
     else:
         model_args, data_args, training_args, fed_args = parser.parse_args_into_dataclasses()
 
+
+
+
+    f_read_token = "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"
+    hf_write_token = "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"
+    hf_repo_id = "lucas1026/aslora"
+    
+    # 1. 登录 Hugging Face Hub 读取权限（用于下载模型、数据集等）
+    if f_read_token:
+        from huggingface_hub import login
+        login(token=f_read_token)
+        os.environ["HUGGINGFACE_HUB_TOKEN"] = f_read_token  # 有些库会用这个环境变量
+
+    # 2. 登录 WandB
+    wandb.login(key="4103935e0eb3f62d9b7be7d002fb27a4180e8399")
+    accelerator = Accelerator()
+    
+    lora_alpha = 8
+    lora_rank = 8
+    batchsize = 1
+    lora_alt = True 
+
+
+    print(fed_args.optim_notes)
+    config = dict(
+        model="meta-llama/Meta-Llama-3-8B",
+        d="meta_math",
+        a=lora_alpha,
+        r=lora_rank,
+        s=batchsize,#real batch size?
+        sd=42,
+        optim_name=fed_args.optim_notes,
+        alt=lora_alt,
+        lr=training_args.learning_rate,
+    )
+    print(config)
+    
+    
+    wandb_name = "_".join([f"{k}={v}" for k, v in config.items()])
+    if accelerator.is_local_main_process:
+        wandb.init(
+            name=wandb_name,
+            mode="online",
+            group="train",
+            project="ALoRA",
+        )
+
+    
+   
+    
     # Sending telemetry. Tracking the example usage helps us better allocate resources to maintain them. The
     # information sent is the one passed as arguments along with your Python/PyTorch versions.
 
@@ -280,7 +345,7 @@ def main():
     transformers.utils.logging.enable_default_handler()
     transformers.utils.logging.enable_explicit_format()
 
-    # Log on each process the small summary:
+   
     logger.warning(
         f"Process rank: {training_args.local_rank}, device: {training_args.device}, n_gpu: {training_args.n_gpu}"
         + f"distributed training: {bool(training_args.local_rank != -1)}, 16-bits training: {training_args.fp16}"
@@ -291,6 +356,7 @@ def main():
     last_checkpoint = None
     if os.path.isdir(training_args.output_dir) and training_args.do_train and not training_args.overwrite_output_dir:
         last_checkpoint = get_last_checkpoint(training_args.output_dir)
+        print('fdasfdasfdafaffsadfdasfdsafasdfdasfdsafasdf')
         if last_checkpoint is None and len(os.listdir(training_args.output_dir)) > 0:
             raise ValueError(
                 f"Output directory ({training_args.output_dir}) already exists and is not empty. "
@@ -384,7 +450,7 @@ def main():
     # See more about loading any type of standard or custom dataset (from files, python dict, pandas DataFrame, etc) at
     # https://huggingface.co/docs/datasets/loading_datasets.html.
 
-    # Load pretrained model and tokenizer
+    ## Load pretrained model and tokenizer ##
     #
     # Distributed training:
     # The .from_pretrained methods guarantee that only one local process can concurrently
@@ -451,6 +517,8 @@ def main():
             use_auth_token=True if model_args.use_auth_token else None,
         )
         model.config.attn_implementation = attn_implementation
+        
+                
 
     else:
         model = AutoModelForCausalLM.from_config(config)
@@ -463,10 +531,15 @@ def main():
     print(f"Number of layers (parameter sets) in the model: {num_layers}")
 
     print(f'max_gate_samples is {data_args.max_gate_samples}')
-    lora_config = LoraConfig(r=8, lora_alpha=16, task_type=TaskType.CAUSAL_LM, lora_dropout=0.05,
+    lora_config = LoraConfig(r=lora_rank, lora_alpha=lora_alpha, task_type=TaskType.CAUSAL_LM, lora_dropout=0.05,
                              target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],) ## further to revise
-
+    
+    
+    
     model = get_peft_model(model, lora_config)
+    model.enable_input_require_grads()
+    model.gradient_checkpointing_enable()
+
     model.print_trainable_parameters()
 
     # We resize the embeddings only when necessary to avoid index errors. If you are creating a model from scratch
@@ -659,10 +732,14 @@ def main():
                 optim_name=fed_args.optim_notes,
                 # Data collator will default to DataCollatorWithPadding, so we change it.
                 data_collator=default_data_collator,
-                compute_metrics=compute_metrics if training_args.do_eval and not is_torch_tpu_available() else None,
+                compute_metrics=compute_metrics if training_args.do_eval else None,
                 preprocess_logits_for_metrics=preprocess_logits_for_metrics
-                if training_args.do_eval and not is_torch_tpu_available()
+                if training_args.do_eval 
                 else None,
+                rank = lora_rank,
+                alt = lora_alt,
+                
+                
             )
 
         # Training
@@ -672,7 +749,9 @@ def main():
                 checkpoint = training_args.resume_from_checkpoint
             elif last_checkpoint is not None:
                 checkpoint = last_checkpoint
-            train_result = trainer.train(resume_from_checkpoint=checkpoint)
+            print('checkpoint')
+            print(checkpoint)
+            train_result = trainer.train()#trainer.train(resume_from_checkpoint=checkpoint)
             training_loss.append(train_result.training_loss)
 
             metrics = train_result.metrics
@@ -725,12 +804,10 @@ def main():
             else:
                 kwargs["dataset"] = data_args.dataset_name
         
+    
+    model.push_to_hub(hf_repo_id, use_auth_token=hf_write_token)
 
-    if training_args.push_to_hub:
-        trainer.push_to_hub(**kwargs)
-    else:
-        trainer.create_model_card(**kwargs)
-
+    
     trainer.create_model_card(**kwargs)
     # Restore k,v cache for fast inference
     trainer.model.config.use_cache = True

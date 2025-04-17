@@ -1,11 +1,16 @@
 #!/bin/bash
-export CUDA_VISIBLE_DEVICES=1
+#export CUDA_VISIBLE_DEVICES=0
 
-optim_notes=Adamw # this indicates which optim we use
+optim_notes=adamwr # this indicates which optim we use
 split_strategy=iid
 num_rounds=1
 num_clients=1
 sample_clients=1
+block_size=512
+local_rank=8
+fp16=True
+lr_scheduler_type="cosine" #("cosine_with_restarts" "linear")
+
 
 max_gate_samples=50
 max_train_samples=100000
@@ -14,13 +19,15 @@ model_name_or_path="meta-llama/Meta-Llama-3-8B"
 # "meta-llama/Llama-3.2-3B"
 dataset_name=meta-math/MetaMathQA
 dataset_config_name=default
-per_device_train_batch_size=2
-per_device_eval_batch_size=8
-gradient_accumulation_steps=4
+per_device_train_batch_size=4
+per_device_eval_batch_size=1
+gradient_accumulation_steps=8
+gradient_checkpointing=True
+
 
 
 # num_train_epochs=1
-max_steps=1000
+max_steps=3000
 dataloader_num_workers=16
 evaluation_strategy=epoch
 save_strategy=no
@@ -29,11 +36,11 @@ seed=42
 
 log_out=log.out
 # learning_rate=3e-6
-learning_rates=(1e-4 3e-5 1e-5 3e-6)
+learning_rates=(5e-1) #(1e-4 3e-5 1e-5 3e-6)
 # Loop over each learning rate
 for learning_rate in "${learning_rates[@]}"
-do
-      output_dir=/home/yjw5427/aslora_new/checkpoints/${model_name_or_path##*/}/${dataset_name}/${learning_rate}_${optim_notes}
+do    #/root/autodl-tmp/aslora_new
+      output_dir=/root/autodl-tmp/aslora_new/checkpoints/${model_name_or_path##*/}/${dataset_name}/${learning_rate}_${optim_notes}
 
 
       echo "${output_dir}"
@@ -49,7 +56,12 @@ do
             --overwrite_output_dir \
             --do_train ${do_train} \
             --do_eval \
+            --lr_scheduler_type ${lr_scheduler_type}\
+            --block_size ${block_size} \
             --seed ${seed} \
+            --fp16 ${fp16} \
+            --gradient_checkpointing ${gradient_checkpointing} \
+            --local_rank ${local_rank} \
             --dataloader_num_workers ${dataloader_num_workers} --disable_tqdm False \
             --save_strategy ${save_strategy} --evaluation_strategy ${evaluation_strategy} \
             --load_best_model_at_end True \
@@ -83,7 +95,12 @@ do
             --overwrite_output_dir \
             --do_train ${do_train} \
             --do_eval \
+            --lr_scheduler_type ${lr_scheduler_type}\
             --seed ${seed} \
+            --fp16 ${fp16} \
+            --gradient_checkpointing ${gradient_checkpointing} \
+            --local_rank ${local_rank} \
+            --block_size ${block_size} \
             --dataloader_num_workers ${dataloader_num_workers} --disable_tqdm False \
             --save_strategy ${save_strategy} --evaluation_strategy ${evaluation_strategy} \
             --learning_rate ${learning_rate} \
