@@ -1,0 +1,37 @@
+05/09/2025 23:39:02 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: True
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[WARNING|logging.py:314] 2025-05-09 23:39:13,455 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+flash_attention_2
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.18it/s]
+Model dtype: torch.bfloat16
+Number of layers (parameter sets) in the model: 291
+max_gate_samples is 50
+trainable params: 6,815,744 || all params: 8,037,076,992 || trainable%: 0.0848
+['query', 'response', 'type', 'original_question']
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/aslora_new/main_lora.py", line 852, in <module>
+    main()
+  File "/root/autodl-tmp/aslora_new/main_lora.py", line 724, in main
+    trainer = LogTrainer(
+  File "/root/autodl-tmp/aslora_new/logtrainer.py", line 64, in __init__
+    super().__init__(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 459, in __init__
+    self._move_model_to_device(model, args.device)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 693, in _move_model_to_device
+    model = model.to(device)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1160, in to
+    return self._apply(convert)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 810, in _apply
+    module._apply(fn)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 810, in _apply
+    module._apply(fn)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 810, in _apply
+    module._apply(fn)
+  [Previous line repeated 4 more times]
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 833, in _apply
+    param_applied = fn(param)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1158, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacty of 23.55 GiB of which 87.38 MiB is free. Process 12599 has 0 bytes memory in use. Including non-PyTorch memory, this process has 0 bytes memory in use. Of the allocated memory 3.12 GiB is allocated by PyTorch, and 1.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

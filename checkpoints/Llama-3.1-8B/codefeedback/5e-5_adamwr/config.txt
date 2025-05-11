@@ -1,0 +1,23 @@
+adamwr
+{'model': 'meta-llama/Llama-3.1-8B', 'd': 'codefeedback', 'a': 32, 'r': 8, 's': 1, 'sd': 42, 'optim_name': 'adamwr', 'alt': False, 'lr': 5e-05}
+04/24/2025 07:27:27 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: True
+flash_attention_2
+Model dtype: torch.bfloat16
+Number of layers (parameter sets) in the model: 291
+max_gate_samples is 50
+trainable params: 6,815,744 || all params: 8,037,076,992 || trainable%: 0.0848
+['id', 'messages']
+==========================================
+True
+==========================================
+=================================================================================
+adamwr
+8
+False
+=================================================================================
+=================================================================================
+SchedulerType.COSINE
+=================================================================================
+create_optimizer
+checkpoint
+None

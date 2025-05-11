@@ -1,0 +1,80 @@
+04/23/2025 01:48:26 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: True
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[WARNING|logging.py:314] 2025-04-23 01:48:33,868 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+flash_attention_2
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:02<00:00,  1.68it/s]
+Model dtype: torch.bfloat16
+Number of layers (parameter sets) in the model: 291
+max_gate_samples is 50
+trainable params: 6,815,744 || all params: 8,037,076,992 || trainable%: 0.0848
+['id', 'messages']
+  0%|                                                                                                                                                                                                               | 0/1 [00:00<?, ?it/s][WARNING|logging.py:329] 2025-04-23 01:48:42,485 >> `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+==========================================
+True
+==========================================
+=================================================================================
+Adamw
+8
+False
+=================================================================================
+=================================================================================
+SchedulerType.COSINE
+=================================================================================
+checkpoint
+None
+/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+                                                                                                                                                                                                                                          
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 150/150 [15:48<00:00,  6.32s/it]
+{'loss': 1.5834, 'learning_rate': 3.125e-05, 'epoch': 0.0}
+{'loss': 1.5829, 'learning_rate': 4.9975530662999344e-05, 'epoch': 0.0}
+{'loss': 1.5058, 'learning_rate': 4.97008004257841e-05, 'epoch': 0.0}
+{'loss': 1.5077, 'learning_rate': 4.9124122863070255e-05, 'epoch': 0.0}
+{'loss': 1.3959, 'learning_rate': 4.825254739207241e-05, 'epoch': 0.01}
+{'loss': 1.3402, 'learning_rate': 4.7096728318639025e-05, 'epoch': 0.01}
+{'loss': 1.368, 'learning_rate': 4.567079459697272e-05, 'epoch': 0.01}
+{'loss': 1.3237, 'learning_rate': 4.3992177114582124e-05, 'epoch': 0.01}
+{'loss': 1.2608, 'learning_rate': 4.208139561376734e-05, 'epoch': 0.01}
+{'loss': 1.3341, 'learning_rate': 3.996180785435144e-05, 'epoch': 0.01}
+{'loss': 1.2586, 'learning_rate': 3.76593240839411e-05, 'epoch': 0.01}
+{'loss': 1.2606, 'learning_rate': 3.520209030608662e-05, 'epoch': 0.01}
+{'loss': 128.2745, 'learning_rate': 3.262014421813216e-05, 'epoch': 0.01}
+{'loss': 0.0, 'learning_rate': 2.9945048024637935e-05, 'epoch': 0.02}
+{'loss': 0.0, 'learning_rate': 2.7209502614933563e-05, 'epoch': 0.02}
+{'loss': 0.0, 'learning_rate': 2.444694782117033e-05, 'epoch': 0.02}
+{'loss': 0.0, 'learning_rate': 2.169115364339444e-05, 'epoch': 0.02}
+{'loss': 0.0, 'learning_rate': 1.8975807438584642e-05, 'epoch': 0.02}
+{'loss': 0.0, 'learning_rate': 1.633410211993452e-05, 'epoch': 0.02}
+{'loss': 0.0, 'learning_rate': 1.3798330400310539e-05, 'epoch': 0.02}
+{'loss': 0.0, 'learning_rate': 1.1399490039931692e-05, 'epoch': 0.02}
+{'loss': 0.0, 'learning_rate': 9.166904923798821e-06, 'epoch': 0.02}
+{'loss': 0.0, 'learning_rate': 7.127866600895941e-06, 'epoch': 0.03}
+{'loss': 0.0, 'learning_rate': 5.307300667057049e-06, 'epoch': 0.03}
+{'loss': 0.0, 'learning_rate': 3.7274620696984454e-06, 'epoch': 0.03}
+{'loss': 0.0, 'learning_rate': 2.4076630590699062e-06, 'epoch': 0.03}
+{'loss': 0.0, 'learning_rate': 1.364037111600744e-06, 'epoch': 0.03}
+{'loss': 0.0, 'learning_rate': 6.093417111873306e-07, 'epoch': 0.03}
+{'loss': 0.0, 'learning_rate': 1.528023992612315e-07, 'epoch': 0.03}
+{'loss': 0.0, 'learning_rate': 0.0, 'epoch': 0.03}
+{'train_runtime': 948.7451, 'train_samples_per_second': 5.059, 'train_steps_per_second': 0.158, 'train_loss': 4.833210000991821, 'epoch': 0.03}
+***** train metrics *****
+  epoch                    =       0.03
+  train_loss               =     4.8332
+  train_runtime            = 0:15:48.74
+  train_samples            =     100000
+  train_samples_per_second =      5.059
+  train_steps_per_second   =      0.158
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [38:00<00:00, 2280.35s/it]
+***** eval metrics *****
+  epoch                   =       0.03
+  eval_loss               =        nan
+  eval_runtime            = 0:22:08.25
+  eval_samples            =      15658
+  eval_samples_per_second =     11.788
+  eval_simple_accuracy    =     0.0005
+  eval_steps_per_second   =     11.788
+  perplexity              =        nan
+/root/miniconda3/lib/python3.10/site-packages/transformers/utils/hub.py:821: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+adapter_model.safetensors: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 27.3M/27.3M [05:05<00:00, 89.3kB/s]

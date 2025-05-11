@@ -24,7 +24,6 @@ def get_training_args(script_args, new_lr):
         per_device_eval_batch_size=script_args.per_device_eval_batch_size,
         gradient_accumulation_steps=script_args.gradient_accumulation_steps,
         learning_rate=new_lr,
-        # logging_steps=script_args.logging_steps,
         logging_steps=5,
         num_train_epochs=script_args.num_train_epochs,
         max_steps=script_args.max_steps,
@@ -36,18 +35,14 @@ def get_training_args(script_args, new_lr):
         gradient_checkpointing=script_args.gradient_checkpointing,
         lr_scheduler_type=script_args.lr_scheduler_type,
         warmup_ratio=0.05,
-        # warmup_ratio=script_args.warmup_ratio,
         bf16=True,
         report_to="wandb",
-        # report_to=script_args.report_to,
     )
     return training_args
 
 def cosine_learning_rate(total_rounds, initial_lr=0.001):
     
     optimizer_setup = torch.optim.SGD([torch.randn(1, requires_grad=True)], lr=initial_lr)
-
-    # lr schedule
     from lr_schedulers import CosineLR
     scheduler_setup = CosineLR(optimizer_setup, warmup_length=5, end_epoch=total_rounds*1.2)
     lrs = []
@@ -60,7 +55,6 @@ def cosine_learning_rate(total_rounds, initial_lr=0.001):
 def get_dataset_this_round(dataset, round, script_args, num_layers):
     print(int(len(dataset) /num_layers))
     num2sample = script_args.per_device_train_batch_size * script_args.gradient_accumulation_steps * int(len(dataset) /num_layers)
-        # num2sample = script_args.per_device_train_batch_size * script_args.gradient_accumulation_steps * int(len(dataset) /16)
     num2sample = min(max(1,num2sample), len(dataset))
     random.seed(round)
     random_idx = random.sample(range(0, len(dataset)), num2sample)

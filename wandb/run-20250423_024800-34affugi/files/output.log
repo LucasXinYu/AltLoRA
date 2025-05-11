@@ -1,0 +1,27 @@
+04/23/2025 02:48:02 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: True
+2
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/utils/hub.py", line 385, in cached_file
+    resolved_file = hf_hub_download(
+  File "/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 160, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: './llama3_8b_config'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/aslora_new/main_lora_31_8b.py", line 844, in <module>
+    main()
+  File "/root/autodl-tmp/aslora_new/main_lora_31_8b.py", line 479, in main
+    config = AutoConfig.from_pretrained("./llama3_8b_config",trust_remote_code=True)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1100, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/configuration_utils.py", line 634, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/utils/hub.py", line 450, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: './llama3_8b_config'. Please provide either the path to a local folder or the repo_id of a model on the Hub.

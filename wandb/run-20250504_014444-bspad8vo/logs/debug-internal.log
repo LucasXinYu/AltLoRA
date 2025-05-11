@@ -1,0 +1,7 @@
+{"time":"2025-05-04T01:44:44.161495172+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250504_014444-bspad8vo/logs/debug-core.log"}
+{"time":"2025-05-04T01:44:45.145820935+08:00","level":"INFO","msg":"created new stream","id":"bspad8vo"}
+{"time":"2025-05-04T01:44:45.145912546+08:00","level":"INFO","msg":"stream: started","id":"bspad8vo"}
+{"time":"2025-05-04T01:44:45.145936388+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"bspad8vo"}
+{"time":"2025-05-04T01:44:45.145979224+08:00","level":"INFO","msg":"sender: started","stream_id":"bspad8vo"}
+{"time":"2025-05-04T01:44:45.145974623+08:00","level":"INFO","msg":"handler: started","stream_id":"bspad8vo"}
+{"time":"2025-05-04T01:44:45.62747466+08:00","level":"INFO","msg":"Starting system monitor"}

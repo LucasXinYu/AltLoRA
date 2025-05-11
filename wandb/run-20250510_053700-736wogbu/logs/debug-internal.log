@@ -1,0 +1,15 @@
+{"time":"2025-05-10T05:37:00.570623823+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250510_053700-736wogbu/logs/debug-core.log"}
+{"time":"2025-05-10T05:37:01.546432279+08:00","level":"INFO","msg":"created new stream","id":"736wogbu"}
+{"time":"2025-05-10T05:37:01.546640853+08:00","level":"INFO","msg":"stream: started","id":"736wogbu"}
+{"time":"2025-05-10T05:37:01.546713725+08:00","level":"INFO","msg":"handler: started","stream_id":"736wogbu"}
+{"time":"2025-05-10T05:37:01.546841711+08:00","level":"INFO","msg":"sender: started","stream_id":"736wogbu"}
+{"time":"2025-05-10T05:37:01.54690195+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"736wogbu"}
+{"time":"2025-05-10T05:37:02.052205204+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T05:37:29.243114268+08:00","level":"INFO","msg":"stream: closing","id":"736wogbu"}
+{"time":"2025-05-10T05:37:29.243166984+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T05:37:29.243218642+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T05:37:30.393300174+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T05:37:31.271025552+08:00","level":"INFO","msg":"handler: closed","stream_id":"736wogbu"}
+{"time":"2025-05-10T05:37:31.27108359+08:00","level":"INFO","msg":"sender: closed","stream_id":"736wogbu"}
+{"time":"2025-05-10T05:37:31.271077392+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"736wogbu"}
+{"time":"2025-05-10T05:37:31.271182586+08:00","level":"INFO","msg":"stream: closed","id":"736wogbu"}

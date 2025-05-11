@@ -19,8 +19,6 @@
 
 
 """
-Fine-tuning the library models for causal language modeling (GPT, GPT-2, CTRL, ...) on a text file or a dataset.
-
 Here is the full list of checkpoints on the hub that can be fine-tuned by this script:
 https://huggingface.co/models?filter=text-generation
 """
@@ -32,7 +30,6 @@ import os
 import sys
 from accelerate import Accelerator
 
-#/root/autodl-tmp/aslora_new/peft
 sys.path.insert(0, '/root/autodl-tmp/aslora_new/peft')
 # pwd = '' # You should provice the work directory. 
 # sys.path = [os.path.abspath(os.path.join(os.getcwd(), " "))] + sys.path
@@ -40,12 +37,11 @@ sys.path.insert(0, '/root/autodl-tmp/aslora_new/peft')
 from dataclasses import dataclass, field
 from itertools import chain
 from typing import Optional
-
 import datasets
 #from datasets import load_dataset,load_from_disk, load_metric
 from datasets import load_dataset, load_from_disk
 import evaluate
-from peft import LoraConfig, TaskType, get_peft_model, get_peft_model_state_dict, set_peft_model_state_dict, PeftModel
+from peft import LoraConfig, TaskType, PeftType, get_peft_model, get_peft_model_state_dict, set_peft_model_state_dict, PeftModel
 
 import evaluate
 import transformers
@@ -295,10 +291,10 @@ def main():
     wandb.login(key="4103935e0eb3f62d9b7be7d002fb27a4180e8399")
     accelerator = Accelerator()
     
-    lora_alpha = 8
+    lora_alpha = 16
     lora_rank = 8
     batchsize = 1
-    lora_alt = True 
+    lora_alt = False 
 
 
     print(fed_args.optim_notes)
@@ -307,7 +303,7 @@ def main():
         d="meta_math",
         a=lora_alpha,
         r=lora_rank,
-        s=batchsize,#real batch size?
+        s=batchsize,
         sd=42,
         optim_name=fed_args.optim_notes,
         alt=lora_alt,
@@ -531,7 +527,7 @@ def main():
     print(f"Number of layers (parameter sets) in the model: {num_layers}")
 
     print(f'max_gate_samples is {data_args.max_gate_samples}')
-    lora_config = LoraConfig(r=lora_rank, lora_alpha=lora_alpha, task_type=TaskType.CAUSAL_LM, lora_dropout=0.05,
+    lora_config = LoraConfig(peft_type=PeftType.LORA, r=lora_rank, lora_alpha=lora_alpha, task_type=TaskType.CAUSAL_LM, lora_dropout=0.05,
                              target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],) ## further to revise
     
     
@@ -793,6 +789,31 @@ def main():
                 trainer.save_metrics("eval", metrics)
 
                 val_loss.append(metrics["eval_loss"])
+        ##########################################################################################
+    ##########################################################################################
+    ##########################################################################################
+    
+        
+        print("\n========== MODEL STRUCTURE ==========")
+        print(model)
+
+        print("\n========== TRAINABLE PARAMETERS ==========")
+        trainable_params = []
+        total_params = 0
+        trainable_count = 0
+        for name, param in model.named_parameters():
+            total_params += param.numel()
+            if param.requires_grad:
+                trainable_params.append((name, param.shape, param.numel()))
+                trainable_count += param.numel()
+
+        for name, shape, num in trainable_params[:50]:  
+            print(f"{name}: shape={shape}, numel={num}")
+
+        print(f"\nTotal trainable parameters: {trainable_count:,} / {total_params:,} ({100 * trainable_count / total_params:.2f}%)")
+        
+        
+    
         model.to(training_args.device)
 
         kwargs = {"finetuned_from": model_args.model_name_or_path, "tasks": "text-generation"}
@@ -804,7 +825,9 @@ def main():
             else:
                 kwargs["dataset"] = data_args.dataset_name
         
-    
+    config_suffix = f"lr-{training_args.learning_rate}_r-{lora_rank}_alpha-{lora_alpha}"
+    hf_repo_id = f"{hf_repo_id}_{config_suffix}"
+
     model.push_to_hub(hf_repo_id, use_auth_token=hf_write_token)
 
     

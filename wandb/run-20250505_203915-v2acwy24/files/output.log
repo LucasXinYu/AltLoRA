@@ -1,0 +1,9 @@
+05/05/2025 20:39:17 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: True
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[WARNING|logging.py:314] 2025-05-05 20:39:28,302 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Traceback (most recent call last):
+  File "/root/autodl-tmp/aslora_new/main_lora_math_3_8b_moelora.py", line 958, in <module>
+  File "/root/autodl-tmp/aslora_new/main_lora_math_3_8b_moelora.py", line 504, in main
+    if torch.cuda.get_device_capability()[0] >= 8:
+UnboundLocalError: local variable 'torch' referenced before assignment

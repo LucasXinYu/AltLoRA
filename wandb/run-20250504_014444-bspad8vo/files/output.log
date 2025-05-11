@@ -1,0 +1,84 @@
+05/04/2025 01:44:45 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: True
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[WARNING|logging.py:314] 2025-05-04 01:44:55,509 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+flash_attention_2
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.11it/s]
+Model dtype: torch.bfloat16
+Number of layers (parameter sets) in the model: 291
+max_gate_samples is 50
+trainable params: 29,360,128 || all params: 8,059,621,376 || trainable%: 0.3643
+['query', 'response', 'type', 'original_question']
+Running tokenizer on dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100000/100000 [00:22<00:00, 4376.91 examples/s]
+Running tokenizer on dataset: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 39500/39500 [00:08<00:00, 4512.42 examples/s]
+Grouping texts in chunks of 512: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100000/100000 [00:34<00:00, 2894.87 examples/s]
+Grouping texts in chunks of 512: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 39500/39500 [00:13<00:00, 2887.24 examples/s]
+Downloading builder script: 4.20kB [00:00, 1.18MB/s]                                                                                                                                                         
+  0%|                                                                                                                                                                                  | 0/1 [00:00<?, ?it/s][WARNING|logging.py:329] 2025-05-04 01:46:45,512 >> `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+==========================================
+True
+==========================================
+=================================================================================
+Adamw
+8
+False
+=================================================================================
+=================================================================================
+SchedulerType.COSINE
+=================================================================================
+checkpoint
+None
+/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+{'loss': 1.2739, 'learning_rate': 1.6666666666666667e-06, 'epoch': 0.0}
+{'loss': 1.2748, 'learning_rate': 3.3333333333333333e-06, 'epoch': 0.01}
+{'loss': 1.2724, 'learning_rate': 5e-06, 'epoch': 0.01}
+{'loss': 1.2705, 'learning_rate': 6.666666666666667e-06, 'epoch': 0.01}
+{'loss': 1.2378, 'learning_rate': 8.333333333333334e-06, 'epoch': 0.02}
+{'loss': 1.2313, 'learning_rate': 1e-05, 'epoch': 0.02}
+{'loss': 1.246, 'learning_rate': 1.1666666666666668e-05, 'epoch': 0.03}
+{'loss': 1.2593, 'learning_rate': 1.3333333333333333e-05, 'epoch': 0.03}
+{'loss': 1.2326, 'learning_rate': 1.5e-05, 'epoch': 0.03}
+{'loss': 1.2283, 'learning_rate': 1.6666666666666667e-05, 'epoch': 0.04}
+{'loss': 1.2099, 'learning_rate': 1.8333333333333333e-05, 'epoch': 0.04}
+{'loss': 1.1603, 'learning_rate': 2e-05, 'epoch': 0.04}
+{'loss': 1.1623, 'learning_rate': 2.1666666666666667e-05, 'epoch': 0.05}
+{'loss': 1.1227, 'learning_rate': 2.3333333333333336e-05, 'epoch': 0.05}
+{'loss': 1.1038, 'learning_rate': 2.5e-05, 'epoch': 0.05}
+{'loss': 1.0586, 'learning_rate': 2.6666666666666667e-05, 'epoch': 0.06}
+{'loss': 1.0048, 'learning_rate': 2.8333333333333335e-05, 'epoch': 0.06}
+{'loss': 0.9538, 'learning_rate': 3e-05, 'epoch': 0.07}
+{'loss': 0.8985, 'learning_rate': 3.1666666666666666e-05, 'epoch': 0.07}
+{'loss': 0.8474, 'learning_rate': 3.3333333333333335e-05, 'epoch': 0.07}
+{'loss': 0.8203, 'learning_rate': 3.5e-05, 'epoch': 0.08}
+{'loss': 0.8181, 'learning_rate': 3.6666666666666666e-05, 'epoch': 0.08}
+{'loss': 0.7726, 'learning_rate': 3.8333333333333334e-05, 'epoch': 0.08}
+{'loss': 0.7637, 'learning_rate': 4e-05, 'epoch': 0.09}
+{'loss': 0.7703, 'learning_rate': 4.166666666666667e-05, 'epoch': 0.09}
+{'loss': 0.76, 'learning_rate': 4.3333333333333334e-05, 'epoch': 0.09}
+{'loss': 0.7579, 'learning_rate': 4.5e-05, 'epoch': 0.1}
+{'loss': 0.7517, 'learning_rate': 4.666666666666667e-05, 'epoch': 0.1}
+{'loss': 0.7354, 'learning_rate': 4.8333333333333334e-05, 'epoch': 0.11}
+{'loss': 0.7338, 'learning_rate': 5e-05, 'epoch': 0.11}
+{'loss': 0.7206, 'learning_rate': 4.999962028395596e-05, 'epoch': 0.11}
+{'loss': 0.7395, 'learning_rate': 4.999848114735858e-05, 'epoch': 0.12}
+{'loss': 0.7428, 'learning_rate': 4.9996582624811725e-05, 'epoch': 0.12}
+{'loss': 0.715, 'learning_rate': 4.999392477398737e-05, 'epoch': 0.12}
+{'loss': 0.7204, 'learning_rate': 4.999050767562379e-05, 'epoch': 0.13}
+{'loss': 0.7273, 'learning_rate': 4.9986331433523156e-05, 'epoch': 0.13}
+{'loss': 0.7149, 'learning_rate': 4.9981396174548355e-05, 'epoch': 0.13}
+{'loss': 0.7271, 'learning_rate': 4.997570204861915e-05, 'epoch': 0.14}
+{'loss': 0.6986, 'learning_rate': 4.996924922870762e-05, 'epoch': 0.14}
+{'loss': 0.7072, 'learning_rate': 4.996203791083291e-05, 'epoch': 0.15}
+{'loss': 0.7176, 'learning_rate': 4.9954068314055255e-05, 'epoch': 0.15}
+{'loss': 0.692, 'learning_rate': 4.994534068046937e-05, 'epoch': 0.15}
+{'loss': 0.699, 'learning_rate': 4.993585527519704e-05, 'epoch': 0.16}
+{'loss': 0.6998, 'learning_rate': 4.992561238637912e-05, 'epoch': 0.16}
+{'loss': 0.6983, 'learning_rate': 4.991461232516675e-05, 'epoch': 0.16}
+{'loss': 0.6815, 'learning_rate': 4.9902855425711905e-05, 'epoch': 0.17}
+{'loss': 0.6882, 'learning_rate': 4.9890342045157245e-05, 'epoch': 0.17}
+{'loss': 0.6782, 'learning_rate': 4.9877072563625285e-05, 'epoch': 0.17}
+{'loss': 0.6919, 'learning_rate': 4.9863047384206835e-05, 'epoch': 0.18}
+{'loss': 0.6979, 'learning_rate': 4.984826693294874e-05, 'epoch': 0.18}

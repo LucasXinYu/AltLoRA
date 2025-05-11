@@ -1,0 +1,9 @@
+{"time":"2025-04-22T07:12:42.516331097+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250422_071242-f4x416ac/logs/debug-core.log"}
+{"time":"2025-04-22T07:12:43.451683153+08:00","level":"INFO","msg":"created new stream","id":"f4x416ac"}
+{"time":"2025-04-22T07:12:43.451799961+08:00","level":"INFO","msg":"stream: started","id":"f4x416ac"}
+{"time":"2025-04-22T07:12:43.451827367+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"f4x416ac"}
+{"time":"2025-04-22T07:12:43.451873902+08:00","level":"INFO","msg":"sender: started","stream_id":"f4x416ac"}
+{"time":"2025-04-22T07:12:43.451843498+08:00","level":"INFO","msg":"handler: started","stream_id":"f4x416ac"}
+{"time":"2025-04-22T07:12:43.911590407+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T07:35:15.48156867+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/xmy5152-psu/ALoRA/f4x416ac/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-04-22T07:37:29.652172724+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/xmy5152-psu/ALoRA/f4x416ac/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}

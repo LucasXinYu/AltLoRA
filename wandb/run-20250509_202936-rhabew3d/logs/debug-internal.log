@@ -1,0 +1,15 @@
+{"time":"2025-05-09T20:29:36.291912807+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250509_202936-rhabew3d/logs/debug-core.log"}
+{"time":"2025-05-09T20:29:39.00684928+08:00","level":"INFO","msg":"created new stream","id":"rhabew3d"}
+{"time":"2025-05-09T20:29:39.00693165+08:00","level":"INFO","msg":"stream: started","id":"rhabew3d"}
+{"time":"2025-05-09T20:29:39.006981407+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rhabew3d"}
+{"time":"2025-05-09T20:29:39.007000091+08:00","level":"INFO","msg":"handler: started","stream_id":"rhabew3d"}
+{"time":"2025-05-09T20:29:39.007003082+08:00","level":"INFO","msg":"sender: started","stream_id":"rhabew3d"}
+{"time":"2025-05-09T20:29:39.528783654+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T20:40:57.203387173+08:00","level":"INFO","msg":"stream: closing","id":"rhabew3d"}
+{"time":"2025-05-09T20:40:57.203443971+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-09T20:40:57.203481767+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-09T20:40:59.060290899+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-09T20:41:00.259697889+08:00","level":"INFO","msg":"handler: closed","stream_id":"rhabew3d"}
+{"time":"2025-05-09T20:41:00.259796115+08:00","level":"INFO","msg":"sender: closed","stream_id":"rhabew3d"}
+{"time":"2025-05-09T20:41:00.259776396+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rhabew3d"}
+{"time":"2025-05-09T20:41:00.260084119+08:00","level":"INFO","msg":"stream: closed","id":"rhabew3d"}

@@ -1,0 +1,100 @@
+{
+  "os": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.8",
+  "startedAt": "2025-05-03T17:44:44.156559Z",
+  "args": [
+    "--model_name_or_path",
+    "meta-llama/Meta-Llama-3-8B",
+    "--output_dir",
+    "/root/autodl-tmp/aslora_new/checkpoints/Meta-Llama-3-8B/codefeedback/5e-5_Adamw",
+    "--dataset_name",
+    "meta-math/MetaMathQA",
+    "--dataset_config_name",
+    "default",
+    "--per_device_train_batch_size",
+    "4",
+    "--per_device_eval_batch_size",
+    "1",
+    "--max_steps",
+    "3000",
+    "--overwrite_output_dir",
+    "--do_train",
+    "True",
+    "--do_eval",
+    "--lr_scheduler_type",
+    "cosine",
+    "--seed",
+    "42",
+    "--fp16",
+    "True",
+    "--gradient_checkpointing",
+    "True",
+    "--local_rank",
+    "8",
+    "--block_size",
+    "512",
+    "--dataloader_num_workers",
+    "16",
+    "--disable_tqdm",
+    "False",
+    "--save_strategy",
+    "no",
+    "--evaluation_strategy",
+    "epoch",
+    "--learning_rate",
+    "5e-5",
+    "--optim_notes",
+    "Adamw",
+    "--split_strategy",
+    "iid",
+    "--num_rounds",
+    "1",
+    "--num_clients",
+    "1",
+    "--sample_clients",
+    "1",
+    "--max_gate_samples",
+    "50",
+    "--max_train_samples",
+    "100000",
+    "--gradient_accumulation_steps",
+    "8"
+  ],
+  "program": "/root/autodl-tmp/aslora_new/main_lora_math_3_8b_moelora.py",
+  "codePath": "main_lora_math_3_8b_moelora.py",
+  "git": {
+    "remote": "git@github.com:LucasXinYu/alora_new.git",
+    "commit": "4de092695180489cb9eddb676eae6765c9087e23"
+  },
+  "email": "xmy5152@psu.edu",
+  "root": "/root/autodl-tmp/aslora_new",
+  "host": "autodl-container-7e2f4f8c67-b2dbb097",
+  "executable": "/root/miniconda3/bin/python",
+  "codePathLocal": "main_lora_math_3_8b_moelora.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "32212254720",
+      "used": "20837216256"
+    }
+  },
+  "memory": {
+    "total": "1081810812928"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memoryTotal": "25757220864",
+      "cudaCores": 16384,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

@@ -1,0 +1,7 @@
+{"time":"2025-05-05T21:39:10.667835348+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250505_213910-afb1f2yp/logs/debug-core.log"}
+{"time":"2025-05-05T21:39:11.663029196+08:00","level":"INFO","msg":"created new stream","id":"afb1f2yp"}
+{"time":"2025-05-05T21:39:11.663117494+08:00","level":"INFO","msg":"stream: started","id":"afb1f2yp"}
+{"time":"2025-05-05T21:39:11.663147537+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"afb1f2yp"}
+{"time":"2025-05-05T21:39:11.663179146+08:00","level":"INFO","msg":"handler: started","stream_id":"afb1f2yp"}
+{"time":"2025-05-05T21:39:11.663184804+08:00","level":"INFO","msg":"sender: started","stream_id":"afb1f2yp"}
+{"time":"2025-05-05T21:39:12.105646809+08:00","level":"INFO","msg":"Starting system monitor"}

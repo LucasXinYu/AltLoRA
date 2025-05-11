@@ -1,0 +1,38 @@
+04/23/2025 02:56:36 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: True
+2
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+tokenizer_config.json: 50.5kB [00:00, 43.4MB/s]                                                                                                                                                                         
+tokenizer.json: 9.09MB [00:13, 696kB/s] 
+special_tokens_map.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 73.0/73.0 [00:00<00:00, 388kB/s]
+[WARNING|logging.py:314] 2025-04-23 02:57:03,804 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+flash_attention_2
+model.safetensors.index.json: 23.9kB [00:00, 31.4MB/s]                                                                                                                                                                  
+Downloading shards:   0%|                                                                                                                                                                         | 0/4 [00:00<?, ?it/s]/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 4976.70 MB. The target location /root/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B/blobs only has 3888.60 MB free disk space.
+  warnings.warn(
+model-00001-of-00004.safetensors:  78%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                              | 3.89G/4.98G [04:22<01:13, 14.8MB/s]
+Downloading shards:   0%|                                                                                                                                                                         | 0/4 [04:23<?, ?it/s]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/aslora_new/main_lora_31_8b.py", line 845, in <module>
+    main()
+  File "/root/autodl-tmp/aslora_new/main_lora_31_8b.py", line 527, in main
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 566, in from_pretrained
+    return model_class.from_pretrained(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3483, in from_pretrained
+    resolved_archive_file, sharded_metadata = get_checkpoint_shard_files(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/utils/hub.py", line 1025, in get_checkpoint_shard_files
+    cached_filename = cached_file(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/utils/hub.py", line 385, in cached_file
+    resolved_file = hf_hub_download(
+  File "/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 961, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1112, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1675, in _download_to_tmp_and_move
+    http_get(
+  File "/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 452, in http_get
+    temp_file.write(chunk)
+OSError: [Errno 28] No space left on device

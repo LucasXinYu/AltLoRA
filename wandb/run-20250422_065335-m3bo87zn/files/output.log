@@ -1,0 +1,32 @@
+04/22/2025 06:53:37 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: True
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[WARNING|logging.py:314] 2025-04-22 06:53:47,612 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+flash_attention_2
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:02<00:00,  1.69it/s]
+Model dtype: torch.bfloat16
+Number of layers (parameter sets) in the model: 291
+max_gate_samples is 50
+trainable params: 6,815,744 || all params: 8,037,076,992 || trainable%: 0.0848
+['id', 'messages']
+Running tokenizer on dataset:   0%|                                                                                                                                                    | 0/58844 [00:00<?, ? examples/s][WARNING|tokenization_utils_base.py:2697] 2025-04-22 06:53:51,104 >> Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset:   0%|                                                                                                                                                    | 0/58844 [00:01<?, ? examples/s]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/aslora_new/main_lora_codefeedback.py", line 826, in <module>
+    main()
+  File "/root/autodl-tmp/aslora_new/main_lora_codefeedback.py", line 626, in main
+    tokenized_datasets = raw_datasets.map(
+  File "/root/miniconda3/lib/python3.10/site-packages/datasets/dataset_dict.py", line 941, in map
+    dataset_dict[split] = dataset.map(
+  File "/root/miniconda3/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 557, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 3074, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "/root/miniconda3/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 3531, in _map_single
+    writer.write_batch(batch)
+  File "/root/miniconda3/lib/python3.10/site-packages/datasets/arrow_writer.py", line 609, in write_batch
+    pa_table = pa.Table.from_arrays(arrays, schema=schema)
+  File "pyarrow/table.pxi", line 4868, in pyarrow.lib.Table.from_arrays
+  File "pyarrow/table.pxi", line 4214, in pyarrow.lib.Table.validate
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: Column 2 named labels expected length 1000 but got length 1001

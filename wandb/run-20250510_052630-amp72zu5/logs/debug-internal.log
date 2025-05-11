@@ -1,0 +1,15 @@
+{"time":"2025-05-10T05:26:30.357669767+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250510_052630-amp72zu5/logs/debug-core.log"}
+{"time":"2025-05-10T05:26:31.342700283+08:00","level":"INFO","msg":"created new stream","id":"amp72zu5"}
+{"time":"2025-05-10T05:26:31.342803975+08:00","level":"INFO","msg":"stream: started","id":"amp72zu5"}
+{"time":"2025-05-10T05:26:31.342837502+08:00","level":"INFO","msg":"sender: started","stream_id":"amp72zu5"}
+{"time":"2025-05-10T05:26:31.342852929+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"amp72zu5"}
+{"time":"2025-05-10T05:26:31.342896892+08:00","level":"INFO","msg":"handler: started","stream_id":"amp72zu5"}
+{"time":"2025-05-10T05:26:31.828232269+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T05:26:56.01765633+08:00","level":"INFO","msg":"stream: closing","id":"amp72zu5"}
+{"time":"2025-05-10T05:26:56.017709111+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T05:26:56.017804688+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T05:26:57.205986896+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T05:26:58.128654526+08:00","level":"INFO","msg":"handler: closed","stream_id":"amp72zu5"}
+{"time":"2025-05-10T05:26:58.128820059+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"amp72zu5"}
+{"time":"2025-05-10T05:26:58.12893251+08:00","level":"INFO","msg":"sender: closed","stream_id":"amp72zu5"}
+{"time":"2025-05-10T05:26:58.129262777+08:00","level":"INFO","msg":"stream: closed","id":"amp72zu5"}

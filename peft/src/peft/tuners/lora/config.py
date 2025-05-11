@@ -279,6 +279,7 @@ class LoraConfig(PeftConfig):
             )
         },
     )
+    # baseline methods would be implement with argument
     use_dora: bool = field(
         default=False,
         metadata={
@@ -314,6 +315,24 @@ class LoraConfig(PeftConfig):
     runtime_config: LoraRuntimeConfig = field(
         default_factory=LoraRuntimeConfig, metadata={"help": "Runtime configurations"}
     )
+    
+    # === Add the following fields for MoE LoRA ===
+    lora_nums: int = field(
+        default=2,
+        metadata={"help": "Number of LoRA experts (branches) for MoE-LoRA"}
+    )
+
+    blc_alpha: float = field(
+        default=0.0,
+        metadata={"help": "Coefficient for load balancing adjustment on routing"}
+    )
+
+    blc_weight: float = field(
+        default=0.0,
+        metadata={"help": "Loss weight for BLC regularization term during training"}
+    )
+    
+    
 
     def to_dict(self):
         """
@@ -324,35 +343,36 @@ class LoraConfig(PeftConfig):
         return rv
 
     def __post_init__(self):
-        self.peft_type = PeftType.LORA
-        self.target_modules = (
-            set(self.target_modules) if isinstance(self.target_modules, list) else self.target_modules
-        )
-        # if target_modules is a regex expression, then layers_to_transform should be None
+       # super().__post_init__()
+
+        # Validation for MoE params
+        if self.lora_nums < 1:
+            raise ValueError("`lora_nums` must be >= 1 for MoE-LoRA")
+
+        if not isinstance(self.blc_alpha, float) or not isinstance(self.blc_weight, float):
+            raise TypeError("`blc_alpha` and `blc_weight` must be float values")
+
+        # Other existing checks
         if isinstance(self.target_modules, str) and self.layers_to_transform is not None:
             raise ValueError("`layers_to_transform` cannot be used when `target_modules` is a str.")
 
-        # if target_modules is a regex expression, then layers_pattern should be None
         if isinstance(self.target_modules, str) and self.layers_pattern is not None:
             raise ValueError("`layers_pattern` cannot be used when `target_modules` is a str.")
 
         if self.use_dora and self.megatron_config:
             raise ValueError("DoRA does not support megatron_core, please set `use_dora=False`.")
 
-        # handle init_lora_weights and loftq_config
         if self.init_lora_weights == "loftq":
             import importlib
-
             if not importlib.util.find_spec("scipy"):
                 raise ImportError("The required package 'scipy' is not installed. Please install it to continue.")
             if self.loftq_config is None:
                 raise ValueError("`loftq_config` must be specified when `init_lora_weights` is 'loftq'.")
 
-        # convert loftq_config to dict
         if self.loftq_config and not isinstance(self.loftq_config, dict):
             self.loftq_config = vars(self.loftq_config)
 
-        self._custom_modules: Optional[dict[type[nn.Mmodule], type[nn.Module]]] = None
+        self._custom_modules: Optional[dict[type[nn.Module], type[nn.Module]]] = None
 
     def _register_custom_module(self, mapping: dict[type[nn.Mmodule], type[nn.Module]]) -> None:
         """

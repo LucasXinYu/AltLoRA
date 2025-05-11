@@ -25,6 +25,11 @@ from itertools import chain
 from typing import Literal, Optional
 
 import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+
+import torch
 from torch import nn
 from tqdm import tqdm
 
@@ -910,6 +915,174 @@ class LoraModel(BaseTuner):
         return tensors_lora
 
 
+
+
+def transpose(weight, fan_in_fan_out):
+    return weight.T if fan_in_fan_out else weight
+
+class MoELinear(nn.Linear):
+    def __init__(
+        self,
+        in_features: int,
+        out_features: int,
+        r: int = 4,
+        lora_alpha: int = 16,
+        lora_nums: int = 2,
+        blc_alpha: float = 0.0,
+        blc_weight: float = 0.0,
+        lora_dropout: float = 0.0,
+        fan_in_fan_out: bool = False,
+        merge_weights: bool = False,
+        bias: bool = True,
+    ):
+        super().__init__(in_features, out_features, bias=bias)
+        self.r = r
+        self.lora_alpha = lora_alpha
+        self.lora_num = lora_nums
+        self.blc_alpha = blc_alpha
+        self.blc_weight = blc_weight
+        self.fan_in_fan_out = fan_in_fan_out
+        self.merged = False
+        self.merge_weights = merge_weights
+        self.disable_adapters = False
+
+        if lora_dropout > 0.0:
+            self.lora_dropout = nn.Dropout(p=lora_dropout)
+        else:
+            self.lora_dropout = lambda x: x
+
+        self.scaling = self.lora_alpha / self.r
+
+        if r > 0:
+            self.lora_route = nn.Linear(in_features, self.lora_num, bias=False)
+            self.lora_As = nn.ModuleList([
+                nn.Linear(in_features, r, bias=False) for _ in range(self.lora_num)
+            ])
+            self.lora_Bs = nn.ModuleList([
+                nn.Linear(r, out_features, bias=False) for _ in range(self.lora_num)
+            ])
+            self.weight.requires_grad = False
+            self.reset_parameters()
+
+        if self.fan_in_fan_out:
+            self.weight.data = self.weight.data.T
+
+    def reset_parameters(self):
+        super().reset_parameters()
+        if hasattr(self, "lora_As"):
+            for A, B in zip(self.lora_As, self.lora_Bs):
+                nn.init.kaiming_uniform_(A.weight, a=math.sqrt(5))
+                nn.init.zeros_(B.weight)
+            nn.init.kaiming_uniform_(self.lora_route.weight, a=math.sqrt(5))
+
+    def cv_squared(self, x):
+        eps = 1e-10
+        if x.shape[0] == 1:
+            return torch.tensor([0], device=x.device, dtype=x.dtype)[0]
+        return x.float().var() / (x.float().mean()**2 + eps)
+
+    def forward(self, x: torch.Tensor, task_types=None):
+        result = F.linear(x, transpose(self.weight, self.fan_in_fan_out), bias=self.bias)
+
+        if self.disable_adapters or self.r <= 0 or self.merged:
+            self.last_blc_loss = None
+            return result
+
+        route_weight = F.softmax(self.lora_route(x), dim=-1).to(x.dtype)
+
+        for i in range(self.lora_num):
+            A = self.lora_As[i](self.lora_dropout(x))
+            B = self.lora_Bs[i](A)
+            result += route_weight[:, :, i].unsqueeze(-1) * B * self.scaling
+
+        if self.training and task_types is not None and self.blc_weight != 0:
+            task_types = task_types.view(-1, 1)
+            scale = torch.where(
+                torch.cat([
+                    (task_types == 1).repeat(1, self.lora_num // 2),
+                    (task_types == 0).repeat(1, self.lora_num // 2)
+                ], dim=-1),
+                1.0 + self.blc_alpha,
+                1.0 - self.blc_alpha,
+            )
+            blcls = self.cv_squared((route_weight.sum(dim=1) * scale).flatten()) * self.blc_weight
+            self.last_blc_loss = blcls
+        else:
+            self.last_blc_loss = None
+
+        return result
+
+
+    @staticmethod
+    def from_linear(
+        base_layer: nn.Linear,
+        adapter_name: str,
+        r: int,
+        lora_alpha: int,
+        lora_nums: int = 8,
+        blc_alpha: float = 0.0,
+        blc_weight: float = 0.0,
+        lora_dropout: float = 0.0,
+        fan_in_fan_out: bool = False,
+        **kwargs,
+    ):
+        moe_linear = MoELinear(
+            in_features=base_layer.in_features,
+            out_features=base_layer.out_features,
+            r=r,
+            lora_alpha=lora_alpha,
+            lora_nums=lora_nums,
+            blc_alpha=blc_alpha,
+            blc_weight=blc_weight,
+            lora_dropout=lora_dropout,
+            fan_in_fan_out=fan_in_fan_out,
+            merge_weights=False,
+            bias=base_layer.bias is not None,
+        )
+        moe_linear.weight.data = base_layer.weight.data.clone()
+        if base_layer.bias is not None:
+            moe_linear.bias.data = base_layer.bias.data.clone()
+
+        # ✅ Add this line so conversion to LoRALinear works
+        moe_linear.base_layer = base_layer
+
+        return moe_linear.to(base_layer.weight.dtype)
+
+
+
+class MoELoraModel(LoraModel):
+    def _create_new_module(self, lora_config, adapter_name, target, **kwargs):
+        new_module = super()._create_new_module(lora_config, adapter_name, target, **kwargs)
+        if isinstance(target, torch.nn.Linear):
+            return MoELinear.from_linear(
+                target,
+                adapter_name=adapter_name,
+                r=lora_config.r,
+                lora_alpha=lora_config.lora_alpha,
+                lora_nums=lora_config.lora_nums,
+                blc_alpha=lora_config.blc_alpha,
+                blc_weight=lora_config.blc_weight,
+                lora_dropout=lora_config.lora_dropout,
+                fan_in_fan_out=lora_config.fan_in_fan_out,
+            )
+        return new_module
+
+    def forward(self, *args, **kwargs):
+        outputs = super().forward(*args, **kwargs)
+
+        blc_losses = []
+        for module in self.modules():
+            if isinstance(module, MoELinear) and hasattr(module, "last_blc_loss") and module.last_blc_loss is not None:
+                blc_losses.append(module.last_blc_loss)
+
+        if blc_losses:
+            self.blc_loss = torch.stack(blc_losses).sum()
+        else:
+            self.blc_loss = None
+
+        return outputs
+
+
 class LoraGAModel(LoraModel):
     """
     Creates Low Rank Adapter (LoRA) with Gradient Approximation  model (LoRA-GA) from a pretrained transformers model.
@@ -997,3 +1170,6 @@ class LoraGAModel(LoraModel):
                 # adding an additional adapter: it is not automatically trainable
                 new_module.requires_grad_(False)
             self._replace_module(parent, target_name, new_module, target)
+
+
+

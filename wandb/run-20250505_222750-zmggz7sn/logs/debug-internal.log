@@ -1,0 +1,15 @@
+{"time":"2025-05-05T22:27:50.879925091+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250505_222750-zmggz7sn/logs/debug-core.log"}
+{"time":"2025-05-05T22:27:51.818052968+08:00","level":"INFO","msg":"created new stream","id":"zmggz7sn"}
+{"time":"2025-05-05T22:27:51.818164426+08:00","level":"INFO","msg":"stream: started","id":"zmggz7sn"}
+{"time":"2025-05-05T22:27:51.818202581+08:00","level":"INFO","msg":"sender: started","stream_id":"zmggz7sn"}
+{"time":"2025-05-05T22:27:51.818209142+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"zmggz7sn"}
+{"time":"2025-05-05T22:27:51.818251981+08:00","level":"INFO","msg":"handler: started","stream_id":"zmggz7sn"}
+{"time":"2025-05-05T22:27:52.243407073+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-05T22:29:10.844674517+08:00","level":"INFO","msg":"stream: closing","id":"zmggz7sn"}
+{"time":"2025-05-05T22:29:10.844718782+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-05T22:29:10.844782976+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-05T22:29:12.867045474+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-05T22:29:13.732744821+08:00","level":"INFO","msg":"handler: closed","stream_id":"zmggz7sn"}
+{"time":"2025-05-05T22:29:13.732824506+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zmggz7sn"}
+{"time":"2025-05-05T22:29:13.732838716+08:00","level":"INFO","msg":"sender: closed","stream_id":"zmggz7sn"}
+{"time":"2025-05-05T22:29:13.732982921+08:00","level":"INFO","msg":"stream: closed","id":"zmggz7sn"}

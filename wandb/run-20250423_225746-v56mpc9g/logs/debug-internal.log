@@ -1,0 +1,15 @@
+{"time":"2025-04-23T22:57:46.138348951+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250423_225746-v56mpc9g/logs/debug-core.log"}
+{"time":"2025-04-23T22:57:47.032152071+08:00","level":"INFO","msg":"created new stream","id":"v56mpc9g"}
+{"time":"2025-04-23T22:57:47.032224728+08:00","level":"INFO","msg":"stream: started","id":"v56mpc9g"}
+{"time":"2025-04-23T22:57:47.032254043+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"v56mpc9g"}
+{"time":"2025-04-23T22:57:47.03232654+08:00","level":"INFO","msg":"sender: started","stream_id":"v56mpc9g"}
+{"time":"2025-04-23T22:57:47.032342241+08:00","level":"INFO","msg":"handler: started","stream_id":"v56mpc9g"}
+{"time":"2025-04-23T22:57:47.482398094+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-24T05:03:26.377564497+08:00","level":"INFO","msg":"stream: closing","id":"v56mpc9g"}
+{"time":"2025-04-24T05:03:26.377595526+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-24T05:03:26.377642598+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-24T05:03:28.459830008+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-24T05:03:29.422010849+08:00","level":"INFO","msg":"handler: closed","stream_id":"v56mpc9g"}
+{"time":"2025-04-24T05:03:29.422079178+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v56mpc9g"}
+{"time":"2025-04-24T05:03:29.422111792+08:00","level":"INFO","msg":"sender: closed","stream_id":"v56mpc9g"}
+{"time":"2025-04-24T05:03:29.4222723+08:00","level":"INFO","msg":"stream: closed","id":"v56mpc9g"}

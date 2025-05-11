@@ -1,0 +1,202 @@
+05/09/2025 20:29:39 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: True
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[WARNING|logging.py:314] 2025-05-09 20:29:54,377 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+flash_attention_2
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.18it/s]
+Model dtype: torch.bfloat16
+Number of layers (parameter sets) in the model: 291
+max_gate_samples is 50
+trainable params: 6,815,744 || all params: 8,037,076,992 || trainable%: 0.0848
+['query', 'response', 'type', 'original_question']
+  0%|                                                                                                                                                    | 0/1 [00:00<?, ?it/s][WARNING|logging.py:329] 2025-05-09 20:30:04,343 >> `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+==========================================
+True
+==========================================
+=================================================================================
+Adamw
+8
+False
+=================================================================================
+=================================================================================
+SchedulerType.COSINE
+=================================================================================
+checkpoint
+None
+/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [10:36<00:00,  6.37s/it]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [10:36<00:00,  6.38s/it]
+{'loss': 1.2731, 'learning_rate': 5e-05, 'epoch': 0.0}
+{'loss': 1.2527, 'learning_rate': 4.965903258506806e-05, 'epoch': 0.01}
+{'loss': 1.2057, 'learning_rate': 4.864543104251587e-05, 'epoch': 0.01}
+{'loss': 1.162, 'learning_rate': 4.698684378016222e-05, 'epoch': 0.01}
+{'loss': 1.0847, 'learning_rate': 4.4728512734909844e-05, 'epoch': 0.02}
+{'loss': 1.0258, 'learning_rate': 4.193203929064353e-05, 'epoch': 0.02}
+{'loss': 0.9781, 'learning_rate': 3.867370395306068e-05, 'epoch': 0.03}
+{'loss': 0.9403, 'learning_rate': 3.504238561632424e-05, 'epoch': 0.03}
+{'loss': 0.8712, 'learning_rate': 3.1137137178519985e-05, 'epoch': 0.03}
+{'loss': 0.8421, 'learning_rate': 2.7064483636808313e-05, 'epoch': 0.04}
+{'loss': 0.8211, 'learning_rate': 2.2935516363191693e-05, 'epoch': 0.04}
+{'loss': 0.7878, 'learning_rate': 1.8862862821480025e-05, 'epoch': 0.04}
+{'loss': 0.7954, 'learning_rate': 1.495761438367577e-05, 'epoch': 0.05}
+{'loss': 0.7825, 'learning_rate': 1.1326296046939333e-05, 'epoch': 0.05}
+{'loss': 0.8038, 'learning_rate': 8.067960709356478e-06, 'epoch': 0.05}
+{'loss': 0.7921, 'learning_rate': 5.271487265090163e-06, 'epoch': 0.06}
+{'loss': 0.7859, 'learning_rate': 3.013156219837776e-06, 'epoch': 0.06}
+{'loss': 0.7957, 'learning_rate': 1.3545689574841342e-06, 'epoch': 0.07}
+{'loss': 0.7927, 'learning_rate': 3.4096741493194197e-07, 'epoch': 0.07}
+{'loss': 0.7828, 'learning_rate': 0.0, 'epoch': 0.07}
+{'train_runtime': 636.5062, 'train_samples_per_second': 5.027, 'train_steps_per_second': 0.157, 'train_loss': 0.9287710404396057, 'epoch': 0.07}
+***** train metrics *****
+  epoch                    =       0.07
+  train_loss               =     0.9288
+  train_runtime            = 0:10:36.50
+  train_samples            =      44056
+  train_samples_per_second =      5.027
+  train_steps_per_second   =      0.157
+
+========== MODEL STRUCTURE ==========
+PeftModelForCausalLM(
+  (base_model): LoraModel(
+    (model): LlamaForCausalLM(
+      (model): LlamaModel(
+        (embed_tokens): Embedding(128256, 4096)
+        (layers): ModuleList(
+          (0-31): 32 x LlamaDecoderLayer(
+            (self_attn): LlamaSdpaAttention(
+              (q_proj): lora.Linear(
+                (base_layer): Linear(in_features=4096, out_features=4096, bias=False)
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.05, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=8, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=8, out_features=4096, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (lora_magnitude_vector): ModuleDict()
+              )
+              (k_proj): lora.Linear(
+                (base_layer): Linear(in_features=4096, out_features=1024, bias=False)
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.05, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=8, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=8, out_features=1024, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (lora_magnitude_vector): ModuleDict()
+              )
+              (v_proj): lora.Linear(
+                (base_layer): Linear(in_features=4096, out_features=1024, bias=False)
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.05, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=8, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=8, out_features=1024, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (lora_magnitude_vector): ModuleDict()
+              )
+              (o_proj): lora.Linear(
+                (base_layer): Linear(in_features=4096, out_features=4096, bias=False)
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.05, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=8, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=8, out_features=4096, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (lora_magnitude_vector): ModuleDict()
+              )
+              (rotary_emb): LlamaRotaryEmbedding()
+            )
+            (mlp): LlamaMLP(
+              (gate_proj): Linear(in_features=4096, out_features=14336, bias=False)
+              (up_proj): Linear(in_features=4096, out_features=14336, bias=False)
+              (down_proj): Linear(in_features=14336, out_features=4096, bias=False)
+              (act_fn): SiLU()
+            )
+            (input_layernorm): LlamaRMSNorm()
+            (post_attention_layernorm): LlamaRMSNorm()
+          )
+        )
+        (norm): LlamaRMSNorm()
+      )
+      (lm_head): Linear(in_features=4096, out_features=128256, bias=False)
+    )
+  )
+)
+
+========== TRAINABLE PARAMETERS ==========
+base_model.model.model.layers.0.self_attn.q_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.0.self_attn.q_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.0.self_attn.k_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.0.self_attn.k_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.0.self_attn.v_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.0.self_attn.v_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.0.self_attn.o_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.0.self_attn.o_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.1.self_attn.q_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.1.self_attn.q_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.1.self_attn.k_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.1.self_attn.k_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.1.self_attn.v_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.1.self_attn.v_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.1.self_attn.o_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.1.self_attn.o_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.2.self_attn.q_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.2.self_attn.q_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.2.self_attn.k_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.2.self_attn.k_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.2.self_attn.v_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.2.self_attn.v_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.2.self_attn.o_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.2.self_attn.o_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.3.self_attn.q_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.3.self_attn.q_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.3.self_attn.k_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.3.self_attn.k_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.3.self_attn.v_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.3.self_attn.v_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.3.self_attn.o_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.3.self_attn.o_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.4.self_attn.q_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.4.self_attn.q_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.4.self_attn.k_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.4.self_attn.k_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.4.self_attn.v_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.4.self_attn.v_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.4.self_attn.o_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.4.self_attn.o_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.5.self_attn.q_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.5.self_attn.q_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.5.self_attn.k_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.5.self_attn.k_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.5.self_attn.v_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.5.self_attn.v_proj.lora_B.default.weight: shape=torch.Size([1024, 8]), numel=8192
+base_model.model.model.layers.5.self_attn.o_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.5.self_attn.o_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+base_model.model.model.layers.6.self_attn.q_proj.lora_A.default.weight: shape=torch.Size([8, 4096]), numel=32768
+base_model.model.model.layers.6.self_attn.q_proj.lora_B.default.weight: shape=torch.Size([4096, 8]), numel=32768
+
+Total trainable parameters: 6,815,744 / 8,037,076,992 (0.08%)
+/root/miniconda3/lib/python3.10/site-packages/transformers/utils/hub.py:821: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+adapter_model.safetensors: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 27.3M/27.3M [00:05<00:00, 4.94MB/s]
