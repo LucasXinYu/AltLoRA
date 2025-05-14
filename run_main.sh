@@ -19,7 +19,7 @@ do_train=True
 model_name_or_path="meta-llama/Meta-Llama-3-8B"
 dataset_name=meta-math/MetaMathQA
 dataset_config_name=default 
-# ===============
+
 
 per_device_train_batch_size=4
 per_device_eval_batch_size=1
@@ -37,7 +37,7 @@ learning_rates=(5e-5)
 
 for learning_rate in "${learning_rates[@]}"
 do
-    output_dir=/root/autodl-tmp/aslora_new/checkpoints/${model_name_or_path##*/}/codefeedback/${learning_rate}_${optim_notes}
+    output_dir=/root/aslora/checkpoints/${model_name_or_path##*/}/codefeedback/${learning_rate}_${optim_notes}
     echo "${output_dir}"
     mkdir -p ${output_dir}
 
