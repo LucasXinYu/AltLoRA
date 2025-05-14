@@ -277,8 +277,8 @@ def main():
 
 
 
-    f_read_token = "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"
-    hf_write_token = "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"
+    #f_read_token = "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"
+    #hf_write_token = "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"
     hf_repo_id = "lucas1026/aslora"
     
     # 1. 登录 Hugging Face Hub 读取权限（用于下载模型、数据集等）
@@ -288,7 +288,7 @@ def main():
         os.environ["HUGGINGFACE_HUB_TOKEN"] = f_read_token  # 有些库会用这个环境变量
 
     # 2. 登录 WandB
-    wandb.login(key="4103935e0eb3f62d9b7be7d002fb27a4180e8399")
+    #wandb.login(key="4103935e0eb3f62d9b7be7d002fb27a4180e8399")
     accelerator = Accelerator()
     
     lora_alpha = 16
