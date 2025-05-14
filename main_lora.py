@@ -277,18 +277,18 @@ def main():
 
 
 
-    #f_read_token = "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"
-    #hf_write_token = "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"
-    hf_repo_id = "lucas1026/aslora"
+    f_read_token = None
+    hf_write_token = None
+    wanda_key = None
+    hf_repo_id = "your_project/model_name"
     
-    # 1. 登录 Hugging Face Hub 读取权限（用于下载模型、数据集等）
+    
     if f_read_token:
         from huggingface_hub import login
         login(token=f_read_token)
-        os.environ["HUGGINGFACE_HUB_TOKEN"] = f_read_token  # 有些库会用这个环境变量
+        os.environ["HUGGINGFACE_HUB_TOKEN"] = f_read_token 
 
-    # 2. 登录 WandB
-    #wandb.login(key="4103935e0eb3f62d9b7be7d002fb27a4180e8399")
+    wandb.login(key=wanda_key)
     accelerator = Accelerator()
     
     lora_alpha = 16
@@ -322,12 +322,7 @@ def main():
         )
 
     
-   
-    
-    # Sending telemetry. Tracking the example usage helps us better allocate resources to maintain them. The
-    # information sent is the one passed as arguments along with your Python/PyTorch versions.
 
-    # Setup logging
     logging.basicConfig(
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
         datefmt="%m/%d/%Y %H:%M:%S",
