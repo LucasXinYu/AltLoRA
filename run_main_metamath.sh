@@ -23,6 +23,7 @@ per_device_train_batch_size=4
 per_device_eval_batch_size=1
 gradient_accumulation_steps=8
 gradient_checkpointing=True
+root_dir = your_dir
 
 
 
@@ -39,8 +40,8 @@ log_out=log.out
 learning_rates=(5e-5) #(1e-4 3e-5 1e-5 3e-6)
 # Loop over each learning rate
 for learning_rate in "${learning_rates[@]}"
-do    #/root/autodl-tmp/aslora_new
-      output_dir=/root/autodl-tmp/aslora_new/checkpoints/${model_name_or_path##*/}/${dataset_name}/${learning_rate}_${optim_notes}
+do   
+      output_dir=/root_dir/${model_name_or_path##*/}/${dataset_name}/${learning_rate}_${optim_notes}
 
 
       echo "${output_dir}"
@@ -114,44 +115,3 @@ do    #/root/autodl-tmp/aslora_new
             --gradient_accumulation_steps ${gradient_accumulation_steps} \
 
 done
-# cd gpt_moe
-# bash run_main_metamath.sh > logm2.txt 
-
-# cp -r /home/yjw5427/Hyper_MoE/gpt-2-moe/transformers/models/bert /home/yjw5427/fedmoe/gpt_moe/transformers/models/bert
-
-
-
-# /home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/sentence_transformers/SentenceTransformer.py
-
-# /home/yjw5427/miniconda3/lib/python3.8/site-packages/transformers/models/bert/
-
-
-# /home/yjw5427/Hyper_MoE/gpt-2-moe/transformers
-
-# mv ./leaf-master /data/yujia/leaf-master
-
-# rm -rf /tmp/tmux-10282/default      very very important
-
-# old transformer 4.31.0
-
-# cd gpt_moe
-# bash run_main_moe.sh 
-
-# cp -r /home/yjw5427/Hyper_MoE/gpt-2-moe/transformers/models/bert /home/yjw5427/fedmoe/gpt_moe/transformers/models/bert
-
-
-
-# /home/yjw5427/miniconda3/envs/fedmoe/lib/python3.10/site-packages/sentence_transformers/SentenceTransformer.py
-
-# /home/yjw5427/miniconda3/lib/python3.8/site-packages/transformers/models/bert/
-
-
-# /home/yjw5427/Hyper_MoE/gpt-2-moe/transformers
-
-# mv ./leaf-master /data/yujia/leaf-master
-
-# rm -rf /tmp/tmux-10282/default      very very important
-
-# old transformer 4.31.0
-
-# scp ./Downloads/aasyncFL_nlu.zip yujia_wang@64.181.237.178:~/
