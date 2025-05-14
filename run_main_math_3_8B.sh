@@ -1,7 +1,7 @@
 #!/bin/bash
 #export CUDA_VISIBLE_DEVICES=0
 
-optim_notes=Adamw # this indicates which optim we use
+optim_notes=altlora # this indicates which optim we use
 split_strategy=iid
 num_rounds=1
 num_clients=1

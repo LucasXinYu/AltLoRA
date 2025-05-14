@@ -569,6 +569,11 @@ class altlora(Optimizer):
                                 p1.data.add_(p1.data, alpha=-self.defaults["lr"] * self.defaults["weight_decay"])
                             state["exp_avg"] = exp_avg.detach().clone()
                             state['p2old'] = p2.data.detach().clone()
+                            
+                            # Eigenvalues of p1 p1^T
+                            p1_cov = p1.data @ p1.data.T
+                            eigvals_p1 = torch.linalg.eigvalsh(p1_cov).cpu()
+                            print(f"[Eig] Eigenvalues of p1 p1^T at step {state['step']}: {eigvals_p1}")
 
                         if p2.grad is not None:
                             state = self.state[p2]
@@ -606,6 +611,10 @@ class altlora(Optimizer):
                                 p2.data.add_(p2.data, alpha=-self.defaults["lr"] * self.defaults["weight_decay"])
                             state["exp_avg"] = exp_avg.detach().clone()
                             state['p1old'] = p1.data.detach().clone()
+                            
+                            p2_cov = -p2.data.T @ p2.data
+                            eigvals_p2 = torch.linalg.eigvalsh(p2_cov).cpu()
+                            print(f"[Eig] Eigenvalues of -p2^T p2 at step {state['step']}: {eigvals_p2}")
 
             i += 1
 
