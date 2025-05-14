@@ -1,7 +1,0 @@
-{"time":"2025-05-09T23:36:40.392746564+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250509_233640-nvnjh9t6/logs/debug-core.log"}
-{"time":"2025-05-09T23:36:41.391693697+08:00","level":"INFO","msg":"created new stream","id":"nvnjh9t6"}
-{"time":"2025-05-09T23:36:41.39179583+08:00","level":"INFO","msg":"stream: started","id":"nvnjh9t6"}
-{"time":"2025-05-09T23:36:41.391824904+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"nvnjh9t6"}
-{"time":"2025-05-09T23:36:41.39184816+08:00","level":"INFO","msg":"sender: started","stream_id":"nvnjh9t6"}
-{"time":"2025-05-09T23:36:41.391908103+08:00","level":"INFO","msg":"handler: started","stream_id":"nvnjh9t6"}
-{"time":"2025-05-09T23:36:41.964417349+08:00","level":"INFO","msg":"Starting system monitor"}

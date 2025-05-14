@@ -1,7 +1,0 @@
-{"time":"2025-05-10T05:42:25.817527848+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/root/autodl-tmp/aslora_new/wandb/run-20250510_054225-dpq2brrc/logs/debug-core.log"}
-{"time":"2025-05-10T05:42:26.842640898+08:00","level":"INFO","msg":"created new stream","id":"dpq2brrc"}
-{"time":"2025-05-10T05:42:26.842725031+08:00","level":"INFO","msg":"stream: started","id":"dpq2brrc"}
-{"time":"2025-05-10T05:42:26.842759241+08:00","level":"INFO","msg":"handler: started","stream_id":"dpq2brrc"}
-{"time":"2025-05-10T05:42:26.842757123+08:00","level":"INFO","msg":"sender: started","stream_id":"dpq2brrc"}
-{"time":"2025-05-10T05:42:26.842800184+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"dpq2brrc"}
-{"time":"2025-05-10T05:42:27.368251639+08:00","level":"INFO","msg":"Starting system monitor"}
