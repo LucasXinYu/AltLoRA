@@ -12,7 +12,7 @@ Low-Rank Adaptation (LoRA) has emerged as an effective technique for reducing me
 Create a conda environment and install dependencies:
 
 ```bash
-[git clone https://github.com/[your-username]/[your-repo-name].git](https://anonymous.4open.science/r/AltLoRA-DB7C/)
+# download project from [link](https://anonymous.4open.science/r/AltLoRA-DB7C)
 cd AltLoRA-DB7C
 
 conda create -n altlora  python=3.9
