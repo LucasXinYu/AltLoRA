@@ -11,14 +11,17 @@
 Create a conda environment and install dependencies:
 
 ```bash
-# download project from https://anonymous.4open.science/r/AltLoRA-DB7C
-cd AltLoRA-DB7C
+cd AltLoRA
 
-conda create -n altlora  python=3.9
-conda activate altlora
+# Create a conda environment
+conda create -n prunedlora python=3.9 -y
+conda activate prunedlora
 
-# install required packages
+# Install dependencies
 pip install -r requirements.txt
+
+# Install PEFT in editable mode
 pip install -e peft
 
-
+# Log in to Hugging Face for model and dataset access:
+huggingface-cli login
