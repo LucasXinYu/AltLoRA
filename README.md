@@ -42,8 +42,17 @@ It determines whether the model runs standard full fine-tuning or one of the LoR
 | **`altlora`** | *Alternating project gradient * | Algorithm 1 in our paper. |
 | **`altlora_plus`** | *AltLoRA+ * | Algorithm 2 in our paper. |
 
+
+
+
 #### Usage Example
 
 In `run_train.sh`, set the optimizer strategy:
 ```bash
 optim_notes=altlora
+
+#### Coming Soon
+
+More optimization strategies and LoRA variants (e.g., DoRA, AdaLoRA, PrunedLoRA, and federated-aware adapters)  
+will be integrated into this framework in future releases — stay tuned!
+
