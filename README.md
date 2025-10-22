@@ -25,3 +25,25 @@ pip install -e peft
 
 # Log in to Hugging Face for model and dataset access:
 huggingface-cli login
+
+
+
+### ⚙️ `optim_notes` Argument
+
+The `--optim_notes` flag controls **which optimization or fine-tuning algorithm** is used during training.  
+It determines whether the model runs standard full fine-tuning or one of the LoRA-based efficient variants.
+
+#### Available Options
+
+| Value | Algorithm | Description | Recommended Use |
+|:------|:-----------|:-------------|:----------------|
+| **`adamw`** | *Full Fine-Tuning (AdamW)* | Uses the standard AdamW optimizer to update **all model parameters** (no LoRA modules). Highest memory cost, serves as a baseline. | For small models or full fine-tuning benchmarks. |
+| **`lora_rite`** | *LoRA-Rite (Rescaled / Reinitialized LoRA)* | A stable LoRA variant that applies adaptive re-scaling and re-initialization of A/B matrices to improve convergence and training robustness. | Use as a strong, stable LoRA baseline. |
+| **`altlora`** | *Alternating LoRA (AltLoRA)* | Alternates updates between the low-rank A/B matrices and frozen backbone parameters. Includes Riemannian projection to preserve low-rank structure. | Default choice — balanced performance and efficiency. |
+| **`altlora_plus`** | *AltLoRA+ (Dynamic Rank & Adaptive Scaling)* | Extends AltLoRA with **dynamic rank allocation** and **adaptive scaling** (μ-projection) for better generalization and faster convergence. | Recommended for large models, instruction tuning, or multi-round/federated training. |
+
+#### Usage Example
+
+In `run_train.sh`, set the optimizer strategy:
+```bash
+optim_notes=altlora
