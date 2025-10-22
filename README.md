@@ -25,10 +25,10 @@ pip install -e peft
 
 # Log in to Hugging Face for model and dataset access:
 huggingface-cli login
+```
 
 
-
-### ⚙️ `optim_notes` Argument
+### `optim_notes` Argument
 
 The `--optim_notes` flag controls **which optimization or fine-tuning algorithm** is used during training.  
 It determines whether the model runs standard full fine-tuning or one of the LoRA-based efficient variants.
