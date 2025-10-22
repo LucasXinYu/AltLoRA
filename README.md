@@ -35,12 +35,12 @@ It determines whether the model runs standard full fine-tuning or one of the LoR
 
 #### Available Options
 
-| Value | Algorithm | Description | Recommended Use |
-|:------|:-----------|:-------------|:----------------|
-| **`adamw`** | *Full Fine-Tuning (AdamW)* | Uses the standard AdamW optimizer to update **all model parameters** (no LoRA modules). Highest memory cost, serves as a baseline. | For small models or full fine-tuning benchmarks. |
-| **`lora_rite`** | *LoRA-Rite (Rescaled / Reinitialized LoRA)* | A stable LoRA variant that applies adaptive re-scaling and re-initialization of A/B matrices to improve convergence and training robustness. | Use as a strong, stable LoRA baseline. |
-| **`altlora`** | *Alternating LoRA (AltLoRA)* | Alternates updates between the low-rank A/B matrices and frozen backbone parameters. Includes Riemannian projection to preserve low-rank structure. | Default choice — balanced performance and efficiency. |
-| **`altlora_plus`** | *AltLoRA+ (Dynamic Rank & Adaptive Scaling)* | Extends AltLoRA with **dynamic rank allocation** and **adaptive scaling** (μ-projection) for better generalization and faster convergence. | Recommended for large models, instruction tuning, or multi-round/federated training. |
+| Value | Algorithm | Description  |
+|:------|:-----------|:-------------|
+| **`adamw`** | *adam with weight decay * | Uses the standard AdamW optimizer. 
+| **`lora_rite`** | *[paper link](https://openreview.net/forum?id=VpWki1v2P8) * | a novel adaptive matrix preconditioning method for LoRA optimization. |
+| **`altlora`** | *Alternating project gradient * | Algorithm 1 in our paper. |
+| **`altlora_plus`** | *AltLoRA+ * | Algorithm 2 in our paper. |
 
 #### Usage Example
 
