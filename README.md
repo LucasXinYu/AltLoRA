@@ -50,6 +50,7 @@ It determines whether the model runs standard full fine-tuning or one of the LoR
 In `run_train.sh`, set the optimizer strategy:
 ```bash
 optim_notes=altlora
+```
 
 #### Coming Soon
 
